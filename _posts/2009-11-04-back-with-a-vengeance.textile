@@ -1,0 +1,125 @@
+---
+layout:post
+title: Back with a Vengeance
+---
+
+h1. {{ page.title }}
+It's been more than a couple of months since my last blog post, but I'm back, and I'm back with a vengeance.
+I apologize in advance, but this blog post is going to have all sorts of personal life, rants, and then some, so if you're here just for the technology stuff, then you will probably want to mark-as-read and move on.
+
+So what's been eating all of my time for the last several months?  Everything.
+books<>, video games<>, Netflix<>, movies<>, TV shows<>, Internet<>, blogs<>, programming<>, travel<>, family, wife :), church<>, life<>.
+
+Books
+Over the last several months, I've finally sat down and read a few books that have been on my bookshelf for a while now.  I've also read a few that weren't on my list.
+-Small Time Business Operator<>
+--This is probably one of the best book that I've read about business.  It's not just another inspirational book.  Rather, its a book that deals with the real incatracies(sp) of forming a business, whether it's a sole-proprietorship, partnership, LLC, or corporation.  It goes into details of tax law, book keeping, home businesses, and more.  If you don't know what's going on with business or you just want to find out a bit more specifics to business, then you should definitely pick up this book.
+-Four Hour Work Week (second time through)<>
+--This was the second time through that I read the Four Hour Work Week.  It's an excellent book with both broad generalizations and very specific details that an individual can implement.
+-Secrets of the JavaScript Ninja (MEAP)<>
+--As far as JavaScript is concerned, I would consider myself half-way decent.  But John Resig takes JavaScript to a whole new level.  A definite read for anyone who wants to expand there JavaScript skills.
+-The Ruby Programming Language<>
+--I've been reading this book for a good while.  I didn't want to rush through it.  It's definitely a Ruby Bible, and I'll be using it regularly.
+-Django book<>
+--Django is something that I had been meaning to check out for quite some time.  I read this book so I could learn the difference between Rails and Django.  I think Django is an excellent framework and I plan on using it on my next project.  Django Book is a great free way to check out the framework without having to look through a bunch of blogs.
+-Whiteout Graphic Novel</a>
+--I bought the graphic novel about four years back.  I didn't see the movie, but the graphic novel was actually pretty good.
+-Husband After God's Own Heart<>
+--This was a pretty good book.  It reiterated a lot of things that I've read in other books, but it's always a good reminder to read them again.  
+-Hacker's Diet<>
+--While technically not a "book", this e-book/website was very good.  I'm personally not overweight, but I really liked reading this and I thought that it did an excellent job in conveying why/how people get to be overweight and why they stay that way.  It also had excellent charts/graphs/equations that were equally useful in tracking the important stuff.  Definitely worth the read.
+
+
+Video Games
+-Metroid Prime 2<>
+--I think that I've owned Metroid Prime 1, 2, and 3 for close to four years (well before Metroid Prime Trilogy was a thought).  I played through Metroid Prime 1 about a year ago and absolutely loved it.  This summer I finally played through the sequel and I thought it was equally as good.  I look forward to when I have time to play through Metroid Prime 3.
+-Boom Blox 2<>
+--Tyler and I never did own the original Boom Blox, but I borrowed it from friends a few times and it was a lot of fun to play.  My mom bought this and Rock Band 2 for me for my birthday and they have been a lot of fun to play.  My mom is really into Boom Blox... and she's not bad at it either!  I really enjoy playing games with people who would otherwise not want to play.
+-Rock Band 2<>
+--Rock Band games are pretty fun.  I didn't own the first one, but I've been having a lot of fun playing the second.  I don't plan on picking up The Beatles or Lego Rock Band.  Good times.
+-Guitar Hero: Metallica<>
+--I'd say 90% of the time when I play a rhythm game, I end up playing it alone (sad, I know).  Anyway, if I just want to work on my GH chops, then Metallica is the way to go.  It's a lot harder than RB2, GH3, etc, and it's a lot of fun.
+-Paper Mario Wii<>
+--This was a fun game that I got last year (for Christmas?).  I finally had time to sit down and play through it though.  Overall it was pretty fun.  A guy at my old work thought it was too hard... I can't really say that.  I thought it was too easy actually.
+
+-mini rant
+--Guitar Hero versus Rock Band
+----I don't know what it is, and maybe I need to stop reading certain blogs, but these "Rock Band is better than Guitar Hero" people get pretty annoying.  For me, it all boils down to what song I'm playing and who I'm playing with.  Yes, I know Harmonix made Guitar Hero 1 and 2, and that Activision took over starting at GH3 when Harmonix went to work on Rock Band.  But Harmonix is under EA, which is just as "bad" as Activision.  Either way, if I want some awesome Guitar action, then I'll be hitting up GH:Metallica, as nothing even comes close on RB.  If I want to play with my friends, I'm more inclined to play RB.
+--Hardcore gamers
+
+Netflix
+Tyler and I decided that we weren't going to join Netflix when she was in grad school because we knew that we would be too distracted to really use it as much as we would like to use it.  Well, since she graduated in May, once we moved and found our apartment, we decided that we could join it.  Since then, it has been both excellent as well as a huge time sink.
+
+Movies
+-30+ movies via Netflix
+--So far, Tyler and I have watched between 30 and 40 movies via Netflix (streaming and DVDs).
+
+TV Shows
+Additionally, we've watched a ton of TV episodes/series.  I have a running list of ~50 TV shows that I have watched, am watching, or want to watch, and Netflix has provided a pretty affordable way to watch them.
+So far, we've watched:
+-Jeremiah
+--Started and finished the series (two seasons).  Of all the apocalyptic-type TV shows, this one has the best premise.  Ultimately, I really enjoyed the series, but I think it flopped for a few reasons: 1) it was on Showtime.  It had cussing/nudity that wasn't really necessary and it would have done better on network TV.  2) Luke Perry needs to learn to act.  It was a pretty good series, but I'll probably never watch it again.
+-Jericho
+--Started and finished the series (two seasons).  I can't believe that this series didn't stay around longer.  This show had an excellent premise, a great plot, good actors, and good writing.  This was one of those shows that should have done a lot better.  At times I like it better than Lost (almost blasphemy, I know).  Definitely worth watching if you get a chance.
+-Ugly Betty
+--Watched the first four disks of season 1 so far.  This was one of my wife's picks, but I've enjoyed watching it with her.
+-The Office (S01-S04) 
+--So far, we've watched seasons 1, 2, 3, and 4, and just started season 5.  First season was "meh" but after that it exploded with awesomeness.  It really did hit me by surprise.  I thought it would be good, but I didn't expect it to be as great as it is.  I think it passed up Lost as my second favorite TV show of all time (after Arrested Development<>)
+-Lost (S04)
+--I owned the first three seasons on DVD already, and I've been using Netflix to catch up by watching season 4.  Maybe it was overhyped by my friends, but I'm just not feeling it like I did in the other seasons... I only have the three-part finale episodes left in the season though, so hopefully it'll finish well.  I'm sure I just passed into blasphemy for some people though.  Lost is probably one of the best written TV series' out there though, so I still have hope.  It was my second favorite TV show (after Arrested Development), but it recently got passed up by The Office.  As far as dramas go, it's number one.
+-Entourage 
+--I Borrowed seasons 1-3 from friends.  The first season was okay, and it's just gotten better and better.  I used Netflix to watch seasons 4 and 5.  Jeremy Piven's character is pure Gold (pun intended).  Looking forward to getting season 6 via Netflix when it's out.  It's an excellent Dramedy.
+via Hulu:
+-Heroes (S04)
+--I know a lot of people have given up on Heroes, and for certain episodes I can totally agree.  But the overall plot and enjoyment of the characters and actors keeps it going for me.  I mean, there are some absolutely terrible episodes of Lost, but people still love it (I know I do).  Same goes for Heroes.  Either way, it's fun to watch completely obscure scenarios and just 'enjoy it'.
+-Dollhouse (S02)
+--I think Dollhouse is finally coming into its own, but of course, Fox isn't showing anymore episodes until December.  I enjoy it a good bit though.
+
+Internet
+-Paul Graham Essays<>
+
+Blogs
+-Chris Wansrath(sp) Ruby Hoedown '08 Speech<>
+--Google reader
+
+Programming
+-Microapps
+-Django Book
+-Sinatra
+-jQuery
+-automated server installation
+sprinkle
+http://benschwarz.github.com/passenger-stack/
+http://www.vimeo.com/2888665
+puppet
+chef
+scripts
+http://github.com/jnstq/rails-nginx-passenger-ubuntu/tree/master
+
+Networking
+-Derailed<>
+After Tyler and 
+-Broomfield Gamers<>
+Even though Tyler and I didn't game regularly in Alabama, we gamed pretty often at Michael Weston's place.  When we moved here, I wanted to make sure that I found a pretty good gaming group that we could go to continue to learn new games and play.  I found the Broomfield Gamers, which is organized by Dave Jones <timewellspent>.  He's a great guy, the people are nice, and he even sells game for super cheap.  Win.
+
+Board Gaming
+I finally broke down and got a boardgamegeek account.<>
+-Dominion<>
+--Seaside<>
+--Intrigue<>
+-Power Grid<>
+-Puerto Rico<>
+-Long Shot<>
+-Race for the Galaxy<>
+
+Working Out
+-P90X<>
+Tyler and I had been going to our apartment's gym for most of the summer.  We tend to work out either 5 or 6 days a week.  I recently picked up P90X on Craigslist<> new for $45.  What a deal!  I'm loving it so far.  If you have the chance to pick this up, then I'd go for it.  Personally, I wouldn't pick it up for the list price ($100+), but I'd probably pay up to $70 for it.
+
+Family, Wife, Travel, and Life
+-Grandfather passed away
+-In-laws helped us move
+-Aspen, Winter Park
+
+
+
