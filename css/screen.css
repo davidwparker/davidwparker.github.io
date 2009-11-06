@@ -27,11 +27,11 @@ h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
 h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
 h6 {font-size:1em;font-weight:bold;}
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
-p {margin:0 0 1.5em;}
+p {margin:0 0 1em;}
 p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
 p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
 a:focus, a:hover {color:#000;}
-a {color:#009;text-decoration:none;}
+a {color:#3E97D1;text-decoration:none;}
 blockquote {margin:1.5em;color:#666;font-style:italic;}
 strong {font-weight:bold;}
 em, dfn {font-style:italic;}
@@ -251,16 +251,18 @@ textarea {width:300px;height:200px;padding:5px;}
 .success a {color:#264409;}
 
 /* application.css */
-#content{margin-bottom:25px;padding:5px 15px;border-left:1px solid #f0f0f0;border-right:1px solid #f0f0f0;}
+#content{margin-bottom:25px;padding:5px 15px;}
 .nav{display:block;position:fixed;right:0;top:40%;width:150px;}
+.nav ul{margin-right:0;}
 .nav ul li{border-bottom:1px solid #024c68;}
 .nav ul li a{background-color:#3c9dd0;color:#fff;display:block;padding:2px 0 2px 3px;}
-.nav ul li a:focus, .fnav ul li a:hover{background-color:#c3d9ff;color:#024c68;}
+.nav ul li a:focus, .nav ul li a:hover{background-color:#c3d9ff;color:#024c68;}
 .footer{bottom:0px;color:#fff;display:block;height:25px;right:0px;position:fixed;width:100%;text-align:center;}
 .footer-content{background-color:#3c9dd0;height:100%;padding-top:3px;width:950px;margin:0 auto;overflow:visible !important;}
 .footer-content a,.footer-content span{color:#fff;padding:0 3px;}
 .footer-content a:focus, .footer-content a:hover{background-color:#c3d9ff;color:#024c68;}
-.rockies-pic{background-image:url(images/rockiesFull.jpg);height:190px;margin-top:25px;width:950px;}
+.rockies-pic{background-image:url(images/rockiesFull.jpg);height:190px;width:950px;}
 
 /* typography */
-.header{font-size:4em;line-height:1em;}
+#content a:focus, #content a:hover{text-decoration:underline;}
+h1.header,h2.header,h3.header,h4.header,h5.header,h6.header{margin-bottom:auto;}
