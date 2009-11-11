@@ -2,11 +2,9 @@
 layout: post
 title: Back with a Vengeance
 ---
+h1. "{{ page.title }}":{{ page.url }}
 
-h1. {{ page.title }}
-
-Back with a Vengeance
-It's been more than a couple of months since my last blog post, but I'm back, and I'm back with a vengeance.
+It's been more than a couple of months since my last real blog post, but I'm back, and I'm back with a vengeance.
 I apologize in advance, but this blog post is going to have all sorts of personal life, rants, and then some, so if you're here just for the technology stuff, then you will probably want to mark-as-read and move on.
 
 So what's been eating all of my time for the last several months?  Everything.
@@ -16,11 +14,9 @@ Warning to those who care: Amazon affiliate links ahead.
 
 h2(header#books). Books
 
-Over the last several months, I've finally sat down and read a few books that have been on my bookshelf for a while now.  I've also read a few that weren't on my list.
-
 h4(header). "Small Time Business Operator":http://www.amazon.com/gp/product/0917510283?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0917510283
 
-This is probably one of the best book that I've read about business.  It's not just another inspirational book.  Rather, its a book that deals with the real incatracies(sp) of forming a business, whether it's a sole-proprietorship, partnership, LLC, or corporation.  It goes into details of tax law, book keeping, home businesses, and more.  If you don't know what's going on with business or you just want to find out a bit more specifics to business, then you should definitely pick up this book.
+This is probably one of the best book that I've read about business.  It's not just another inspirational book.  Rather, its a book that deals with the real intricacies of forming a business, whether it's a sole-proprietorship, partnership, LLC, or corporation.  It goes into details of tax law, book keeping, home businesses, and more.  If you don't know what's going on with business or you just want to find out a bit more specifics to business, then you should definitely pick up this book.
 
 h4(header). "Four Hour Work Week":http://www.amazon.com/gp/product/0307353133?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0307353133 (second time through)
 
@@ -28,7 +24,7 @@ This was the second time through that I read the Four Hour Work Week.  It's an e
 
 h4(header). "Secrets of the JavaScript Ninja":http://www.amazon.com/gp/product/193398869X?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=193398869X (MEAP)
 
-As far as JavaScript is concerned, I would consider myself half-way decent.  But John Resig takes JavaScript to a whole new level.  A definite read for anyone who wants to expand there JavaScript skills.
+As far as JavaScript is concerned, I would consider myself half-way decent.  But John Resig takes JavaScript to a whole new level.  A definite read for anyone who wants to expand their JavaScript skills.
 
 h4(header). "The Ruby Programming Language":http://www.amazon.com/gp/product/0596516177?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596516177
 
@@ -103,7 +99,7 @@ Started and finished the series (two seasons).  I can't believe that this series
 
 h4(header). "Ugly Betty":http://www.amazon.com/gp/product/B0021L8FLC?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0021L8FLC (S01)
 
-Watched the first four disks of season 1 so far.  This was one of my wife's picks, but I've enjoyed watching it with her.
+Watched the first five disks of season 1 so far.  This was one of my wife's picks, but I've enjoyed watching it with her.
 
 h4(header). "The Office":http://www.amazon.com/gp/product/B002BFBB1E?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002BFBB1E (S01-S05) 
 
@@ -111,7 +107,7 @@ So far, we've watched seasons 1, 2, 3, and 4, and just started season 5.  First 
 
 h4(header). "Lost":http://www.amazon.com/gp/product/B0021L8FO4?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0021L8FO4 (S04)
 
-I owned the first three seasons on DVD already, and I've been using Netflix to catch up by watching season 4.  Maybe it was overhyped by my friends, but I'm just not feeling it like I did in the other seasons... I only have the three-part finale episodes left in the season though, so hopefully it'll finish well.  I'm sure I just passed into blasphemy for some people though.  Lost is probably one of the best written TV series' out there though, so I still have hope.  As far as dramas go, it's number one.
+I owned the first three seasons on DVD already, and I've been using Netflix to catch up by watching season 4.  Maybe it was overhyped by my friends, but I don't think it was as good as the other seasons...  I'm sure I just passed into blasphemy for some people though.  Lost is probably one of the best written TV series' out there though, so I still have hope for seasons 5 and 6.  As far as dramas go, it's number one.
 
 h4(header). "Entourage":http://www.amazon.com/gp/product/B002ANHH2O?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002ANHH2O
 
@@ -121,11 +117,11 @@ h5(header). via Hulu:
 
 h4(header). "Heroes":http://www.amazon.com/gp/product/B002DPPH6M?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002DPPH6M (S04)
 
---I know a lot of people have given up on Heroes, and for certain episodes I can totally agree.  But the overall plot and enjoyment of the characters and actors keeps it going for me.  I mean, there are some absolutely terrible episodes of Lost, but people still love it (I know I do).  Same goes for Heroes.  Either way, it's fun to watch completely obscure scenarios and just 'enjoy it'.
+I know a lot of people have given up on Heroes (including my wife), and for certain episodes I can totally agree.  But the overall plot and enjoyment of the characters and actors keeps it going for me.  There are some absolutely terrible episodes of Lost, but people still love it (I know I do).  Same goes for Heroes.  Either way, it's fun to watch completely obscure scenarios and just 'enjoy it'.
 
 h4(header). "Dollhouse":http://www.amazon.com/gp/product/B0024FAR66?ie=UTF8&tag=dwparker-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0024FAR66 (S02)
 
---I think Dollhouse is finally coming into its own, but of course, Fox isn't showing anymore episodes until December.  I enjoy it a good bit though.
+I think Dollhouse is finally coming into its own, but Fox isn't showing anymore episodes until December.  I enjoy it a good bit though.
 
 h2(header#internet). Internet
 
@@ -139,9 +135,7 @@ I attended 2008's "Ruby Hoedown":http://rubyhoedown.com/.  I really enjoyed Chri
 
 h2(header#programming). Programming
 
-Surprisingly or not, I've actually been doing a lot of coding too (though my Github commit logs would probably disagree!).  Particularly, I've been playing with "Django":http://www.djangoproject.com/ a lot, as well as "Sinatra":http://www.sinatrarb.com/.  Of course, I'm still quite enamored with "jQuery":http://jquery.com/ so I've been playing there as well.  The main reason I've been doing a lot of Django and Sinatra rather than "Rails":http://rubyonrails.org/ is two-fold: 1) I just started to get into Merb when it was announced that the teams would be joining forces, and 2) I really like the idea of micro-apps.  They're fantastic in Django and they work excellent for Sinatra as well.  It will be nice when Rails picks up the idea behind the Merb "Slices".  Once that's committed, I'll probably get back into Rails.
-
-I'm quite content waiting for Rails 3 to finish and be released before I get back into it.  I do pay attention to some of the changes that have been taking place for Rails 3, but it's a breathe of fresh air to check out something different.
+Surprisingly or not, I've actually been doing a lot of coding too (though my Github commit logs would probably disagree!).  Particularly, I've been playing with "Django":http://www.djangoproject.com/ a lot, as well as "Sinatra":http://www.sinatrarb.com/.  Of course, I'm still quite enamored with "jQuery":http://jquery.com/ so I've been playing there as well.  The main reason I've been doing a lot of Django and Sinatra rather than "Rails":http://rubyonrails.org/ is two-fold: 1) I just started to get into Merb when it was announced that the teams would be joining forces, and 2) I really like the idea of micro-apps.  They're fantastic in Django and they work excellent for Sinatra as well.  It will be nice when Rails picks up the idea behind the Merb "Slices".  Once that's committed, I'll probably get back into Rails.  I pay attention to the changes that have been taking place for Rails 3, but it's a breathe of fresh air to check out something different.
 
 I've also been playing with full server-installation scripts too.  I have my old "slicehost scripts":http://github.com/davidwparker/slicehost_scripts, but I wanted something more.  I ended up checking out "Sprinkle":http://github.com/crafterm/sprinkle, "Puppet":http://github.com/reductivelabs/puppet/, and "Chef":http://github.com/opscode/chef.  Ultimately, I think that I'm going to go with Chef.
 

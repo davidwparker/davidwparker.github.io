@@ -1,12 +1,10 @@
 ---
 layout: default
-title: davidwparker.com | index
+title: index | david parker - software and web development
 ---
-
-Index page
-
+<h2 class="header">Blog Posts</h2>
 <ul>
-  {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} -- <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% for post in site.categories.posts %}
+    <li>{{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>

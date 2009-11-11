@@ -1,0 +1,68 @@
+---
+layout: default
+title: jQuery Editable Fields
+description: make any field editable
+permalink: /examples/editableField-v1.0/jqueryEditableField.html
+---
+see the <a href="/posts/2009/05/11/europe-and-jquery-editable-field.html">blog post</a>
+
+<h2 class="edit">Editable Fields (I'm editable too, with a callback)</h2>
+
+<notextile>
+<table id="items" class="grid">
+  <thead>
+  <tr>
+    <th class="header edit">Editable Header Data 1</th>
+    <th class="header edit">Editable Header Data 2</th>
+    <th class="header edit">Editable Header Data 3</th>
+  </tr>
+  </thead>
+  <tr class="editable">
+    <td>data 1 row 1</td>
+    <td>data 2 row 1</td>
+    <td>data 3 row 1</td>
+  </tr>
+  <tr class="editable">
+    <td>data 1 row 2</td>
+    <td>data 2 row 2</td>
+    <td>data 3 row 2</td>
+  </tr>
+</table>
+<fieldset>
+  <legend class="edit">Editable legend</legend>
+  <label class="edit">Editable label</label>
+  <div class="edit">Editable div</div>
+  <span class="edit">Editable span</span>
+</fieldset>
+<style>
+#content{padding:5px 15px;}
+
+/* common */
+table th.header, table td.fixed{width:300px;}
+table.grid{border:1px solid #ccc;}
+table.grid td, table.grid th{border:1px solid #ccc;}
+
+/* editable table example styles */
+table.editable{border:1px solid #ccc;}
+table.editable td, table.editable th{border:1px solid #ccc;}
+.editPopup{background-color:#F7FE00;border:1px solid #bbb;padding:3px;}
+.prepend-light-1{padding-left:5px;}
+.push-right-light-1{margin-left:5px;}
+.hovering{background-color:#F7FE00;}
+
+</style>
+<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.7.custom.min.js"></script>
+<script type="text/javascript" src="/js/jquery.editableField-1.0.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+$(function(){
+$("#items tr.editable td").editableField();
+
+//first editableField wins... meaning the callback is only applied to the h2 by making sure it is attached first
+$("h2.edit").editableField({onSubmit:function(){alert('Something changed!');}});
+$(".edit").editableField();
+
+});
+/* ]]> */
+</script>

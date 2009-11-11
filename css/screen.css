@@ -1,12 +1,3 @@
-/* -----------------------------------------------------------------------
- Blueprint CSS Framework 0.8
- http://blueprintcss.org
-   * Copyright (c) 2007-Present. See LICENSE for more info.
-   * See README for instructions on how to use Blueprint.
-   * For credits and origins, see AUTHORS.
-   * This is a compressed file. See the sources in the 'src' directory.
------------------------------------------------------------------------ */
-
 /* reset.css */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
 body {line-height:1.5;}
@@ -27,7 +18,7 @@ h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
 h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
 h6 {font-size:1em;font-weight:bold;}
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
-p {margin:0 0 1em;}
+p {margin:0.5em 0 1em;}
 p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
 p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
 a:focus, a:hover {color:#000;}
@@ -40,8 +31,12 @@ sup, sub {line-height:0;}
 abbr, acronym {border-bottom:1px dotted #666;}
 address {margin:0 0 1.5em;font-style:italic;}
 del {color:#666;}
-pre {margin:1.5em 0;white-space:pre;}
-pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+pre {margin:0.5em 0;white-space:pre;border:1px solid #DEDEDE !important;background-color:#F8F8FF !important;padding:0.5em;}
+/*
+overflow:auto;}
+need to find a way to have overflow:auto on without scrolling being weird
+*/
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5em;}
 li ul, li ol {margin:0 1.5em;}
 ul, ol {margin:0 0.5em 1em 0.5em;}
 ul {list-style-type:none;}
@@ -61,7 +56,7 @@ caption {background:#eee;}
 .hide {display:none;}
 .quiet {color:#666;}
 .loud {color:#000;}
-.highlight {background:#ff0;}
+.highlighted {background:#ff0;}
 .added {background:#060;color:#fff;}
 .removed {background:#900;color:#fff;}
 .first {margin-left:0;padding-left:0;}
@@ -251,7 +246,7 @@ textarea {width:300px;height:200px;padding:5px;}
 .success a {color:#264409;}
 
 /* application.css */
-#content{margin-bottom:25px;padding:5px 15px;}
+#content{margin-bottom:25px;padding:5px 125px;}
 .nav{display:block;position:fixed;right:0;top:40%;width:150px;}
 .nav ul{margin-right:0;}
 .nav ul li{border-bottom:1px solid #024c68;}
@@ -265,4 +260,4 @@ textarea {width:300px;height:200px;padding:5px;}
 
 /* typography */
 #content a:focus, #content a:hover{text-decoration:underline;}
-h1.header,h2.header,h3.header,h4.header,h5.header,h6.header{margin-bottom:auto;}
+h1.header,h2.header,h3.header,h4.header,h5.header,h6.header{margin-bottom:2px;}
