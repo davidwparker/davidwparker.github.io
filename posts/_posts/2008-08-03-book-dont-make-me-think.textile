@@ -18,7 +18,7 @@ Chapter 6: Street Signs and Breadcrumbs, I never thought about the total various
 
 Chapter 7: The Home Page is Beyond Your Control was rather informative in regards to pull-down/drop-down menus.  I've worked on and used many applications that utilized drop-down menus and some have worked well and some haven't.  For example, I'm not too fond of the Facebook dropdown for the friends section (more), especially after reading Steve's book:
 
-<img alt="" src="http://davidwparker.com/images/facebook_dropdown.png" title="Facebook Drop-Down" class="aligncenter" width="189" height="295" />
+<img alt="Facebook Drop-Down" src="/media/facebook_dropdown.png" title="Facebook Drop-Down" />
 
 Sorry about the crappy picture: first Ubuntu screenshot ever, no photo editing skills with GiMP /excuse
 

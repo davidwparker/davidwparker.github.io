@@ -8,7 +8,7 @@ h1. "{{ page.title }}":{{ page.url }}
 
 I really like the 'pagination' that Facebook provides on their status tab.  It's not true 'pagination' in that the result set is changed, but it does add additional results to the bottom of the set.
 
-<img src="http://davidwparker.com/wp-content/uploads/2008/09/fb_bottomless_pagination.png" alt="" title="fb_bottomless_pagination" class="alignnone"  />
+<img src="/media/fb_bottomless_pagination.png" alt="Facebook Bottomless Pagination" title="Facebook Bottomless Pagination" />
 
 If you want to just change the result set and not add to it (with will_paginate), then I suggest checking out Chris' solution "here":http://ozmm.org/posts/ajax_will_paginate_jq_style.html, otherwise, read on...
 
