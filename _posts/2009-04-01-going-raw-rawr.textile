@@ -1,6 +1,7 @@
 ---
 layout: post
 title: going raw. Rawr.
+categories: posts
 oldurl: http://davidwparker.com/2009/04/01/going-raw-rawr/
 ---
 h1. "{{ page.title }}":{{ page.url }}

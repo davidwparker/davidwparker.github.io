@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Last WordPress Post
+categories: posts
 oldurl: http://davidwparker.com/2009/10/26/last-wordpress-post/
 ---
 h1. "{{ page.title }}":{{ page.url }}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Back with a Vengeance
+categories: posts
 ---
 h1. "{{ page.title }}":{{ page.url }}
 

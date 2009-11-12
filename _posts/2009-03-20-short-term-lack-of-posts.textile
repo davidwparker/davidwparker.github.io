@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Short-term lack of posts
+categories: posts
 oldurl: http://davidwparker.com/2009/03/20/short-term-lack-of-posts/
 ---
 h1. "{{ page.title }}":{{ page.url }}

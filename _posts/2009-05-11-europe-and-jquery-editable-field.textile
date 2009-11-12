@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Europe and jQuery Editable Field
+categories: posts
 oldurl: http://davidwparker.com/2009/05/11/europe-and-jquery-editable-field/
 ---
 h1. "{{ page.title }}":{{ page.url }}

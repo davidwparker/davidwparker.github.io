@@ -1,6 +1,7 @@
 ---
 layout: post
 title: div float tests
+categories: posts
 oldurl: http://davidwparker.com/2009/04/17/div-float-tests/
 ---
 h1. "{{ page.title }}":{{ page.url }}
