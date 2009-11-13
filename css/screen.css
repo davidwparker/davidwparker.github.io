@@ -31,7 +31,8 @@ sup, sub {line-height:0;}
 abbr, acronym {border-bottom:1px dotted #666;}
 address {margin:0 0 1.5em;font-style:italic;}
 del {color:#666;}
-pre {margin:0.5em 0;white-space:pre;border:1px solid #DEDEDE !important;background-color:#F8F8FF !important;padding:0.5em;}
+pre, code {border:1px solid #DEDEDE !important;background-color:#F8F8FF !important;}
+pre {margin:0.5em 0;white-space:pre;padding:0.5em;}
 /*
 overflow:auto;}
 need to find a way to have overflow:auto on without scrolling being weird
