@@ -5,11 +5,20 @@
   <meta name="author" content="David W Parker" />
   <title>{{ page.title }}</title>
   <link href="http://feeds.feedburner.com/davidwparker" rel="alternate" title="david parker | software and web development" type="application/atom+xml" />
+  {% if site.env == "dev" %}
   <link rel="stylesheet" type="text/css" href="/css/screen.css" />
   <link rel="stylesheet" type="text/css" href="/css/highlight.css" />
   <!--[if IE]>
-   <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" type="text/css" href="/css/ie.css" media="screen, projection" />
   <![endif]-->
+  {% endif %}
+  {% if site.env == "pro" %}
+  <link rel="stylesheet" type="text/css" href="http://static.davidwparker.com/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="http://static.davidwparker.com/css/highlight.css" />
+  <!--[if IE]>
+   <link rel="stylesheet" type="text/css" href="http://static.davidwparker.com/css/ie.css" media="screen, projection" />
+  <![endif]-->
+  {% endif %}
 </head>
 <body>
 <div class="container">
@@ -35,6 +44,7 @@
     <a href="/">davidwparker.com</a> | <span>copyright 2009</span>
   </div>
 </div>
+{% if site.env == "pro" %}
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -44,5 +54,6 @@ try {
 var pageTracker = _gat._getTracker("UA-3039643-2");
 pageTracker._trackPageview();
 } catch(err) {}</script>
+{% endif %}
 </body>
 </html>

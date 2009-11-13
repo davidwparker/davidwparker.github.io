@@ -24,6 +24,7 @@ FileETag None
   ExpiresByType image/png "access plus 1209600 seconds"
   ExpiresByType text/css "access plus 259200 seconds"
   ExpiresByType text/javascript "access plus 259200 seconds"
+  ExpiresByType application/javascript "access plus 259200 seconds"
 </IfModule>
 
 #dreamhost does not use mod_gzip
