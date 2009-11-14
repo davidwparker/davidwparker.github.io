@@ -1,0 +1,9 @@
+---
+layout: post
+title: Facebook style, unobtrusive ajax pagination for will_paginate with jQuery
+categories: posts
+oldurl: http://davidwparker.com/2008/09/30/facebook-style-unobrusive-ajax-pagination-for-will_paginate-with-jquery/
+---
+h1. "{{ page.title }}":{{ page.url }}
+
+Old bad link
