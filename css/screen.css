@@ -259,6 +259,20 @@ textarea {width:300px;height:200px;padding:5px;}
 .footer-content a:focus, .footer-content a:hover{background-color:#c3d9ff;color:#024c68;}
 .rockies-pic{background-image:url(images/rockiesFull.jpg);height:190px;width:950px;}
 
+/* common for examples */
+table.grid{border:1px solid #ccc;}
+table.grid td, table.grid th{border:1px solid #ccc;}
+table.grid tr th {background:#c3d9ff;}
+table.cloned{margin:0;padding:0;border-bottom:0px;}
+table.cloned th{border-bottom:0px;}
+
+/* grid.css */
+.tall-2{height:40px;}
+.tall-3{height:60px;}
+.tall-4{height:80px;}
+.tall-10{height:200px;}
+.overflowed{overflow-y:scroll;}
+
 /* typography */
 #content a, #content a:focus, #content a:hover{text-decoration:underline;}
 #content h1 a, #content h1 a:focus, #content h1 a:hover{text-decoration:none;}
