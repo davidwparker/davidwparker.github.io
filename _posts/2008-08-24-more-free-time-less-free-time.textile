@@ -4,8 +4,6 @@ title: More Free Time, Less Free Time
 categories: posts
 oldurl: http://davidwparker.com/2008/08/24/more-free-time-less-free-time/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 So there's plenty of things that I would love to say, but of course I can't say them all.  So, instead, I'll just play catch up.
 
 I've decided to not take any classes this semester.  For the past three semesters I took five math classes in the thought that I would like to apply for a PhD in Economics.  After really looking over my life, programs, and professions, I really just don't think this is the route that I would like to take.  So, that was that.  No more classes.  These past few semesters have been really busy and I really haven't had time to work on any of my "side projects":http://gist.github.com/6443.  Now, I can finally play catch up.

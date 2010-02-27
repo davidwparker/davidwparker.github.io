@@ -3,8 +3,6 @@ layout: post
 title: Back with a Vengeance
 categories: posts
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 It's been more than a couple of months since my last real blog post, but I'm back, and I'm back with a vengeance.
 I apologize in advance, but this blog post is going to have all sorts of personal life, rants, and then some, so if you're here just for the technology stuff, then you will probably want to mark-as-read and move on.
 

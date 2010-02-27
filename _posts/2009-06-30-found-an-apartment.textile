@@ -4,6 +4,4 @@ title: Found an Apartment
 categories: posts
 oldurl: http://davidwparker.com/2009/06/30/found-an-apartment/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 Tyler and I found an apartment and are in the process of moving in later this week and next weekend.  More nerdiness to follow.

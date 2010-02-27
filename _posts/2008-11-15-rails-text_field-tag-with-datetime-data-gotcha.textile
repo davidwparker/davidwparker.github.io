@@ -4,8 +4,6 @@ title: Rails text_field tag with datetime data gotcha
 categories: posts
 oldurl: http://davidwparker.com/2008/11/15/rails-text_field-tag-with-datetime-data-gotcha/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 Another quick gotcha that I just discovered.  If you have a model that has a time on the backend, be careful which tags you use.  In my case, I have an app that is outside UTC:
 
 {% highlight ruby %}

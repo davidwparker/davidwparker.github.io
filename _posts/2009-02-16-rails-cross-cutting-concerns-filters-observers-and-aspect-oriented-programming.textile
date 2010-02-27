@@ -4,8 +4,6 @@ title: Rails Cross-Cutting Concerns - Filters, Observers, and Aspect-Oriented Pr
 categories: posts
 oldurl: http://davidwparker.com/2009/02/16/rails-cross-cutting-concerns-filters-observers-and-aspect-oriented-programming/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 h2(header). Background
 
 I’m already a little bit late to the party, as "Giles Bowkett":http://gilesbowkett.blogspot.com/2008/02/rails-aspect-oriented-programming-use.html, "Charlie Savage":http://cfis.savagexi.com/2007/09/05/rails-unusual-architecture, and "Matt Ford":http://blog.new-bamboo.co.uk/2007/10/9/aspects-of-aop have discussed AOP in Rails previously.

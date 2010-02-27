@@ -3,8 +3,6 @@ layout: post
 title: Sinatra Base Static File Issue
 categories: posts
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 I'm currently working on a fun project in "Sinatra":http://sinatrarb.com and I came across something that was an issue.
 
 Summary: using <code>sinatra/base</code>, you have to be sure to <code>set :static, true</code> and <code>set :public, 'public'</code> or your CSS and JavaScript files will not be found (404 errors).

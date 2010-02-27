@@ -3,8 +3,6 @@ layout: post
 title: All Sorts of Distractions
 categories: posts
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 I've been rather busy lately with quite a few things:
 # grad school essays
 # family stuff (Thanksgiving, Christmas shopping)

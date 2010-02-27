@@ -1,49 +1,53 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <meta name="author" content="David W Parker" />
+  <meta charset="utf-8">
+  <meta name="description" content="David W Parker: a blog about software, web development, entrepreneurship, ruby, python, javascript and more.">
+  <meta name="keywords" content="ruby, rails, python, django, javascript, jquery, emacs, programming, computer programming, software engineering, business, entrepreneurship, fitness, christianity">
+  <meta name="author" content="David W Parker">
   <title>{{ page.title }}</title>
   <link href="http://feeds.feedburner.com/davidwparker" rel="alternate" title="david parker | software and web development" type="application/atom+xml" />
   {% if site.env == "dev" %}
-  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
-  <link rel="stylesheet" type="text/css" href="/css/highlight.css" />
+  <link rel="stylesheet" href="/css/screen.css" />
+  <link rel="stylesheet" href="/css/highlight.css" />
   <!--[if IE]>
-   <link rel="stylesheet" type="text/css" href="/css/ie.css" media="screen, projection" />
+    <link rel="stylesheet" href="/css/ie.css" media="screen, projection" />
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   {% endif %}
   {% if site.env == "pro" %}
-  <link rel="stylesheet" type="text/css" href="http://static.davidwparker.com/css/screen.css" />
-  <link rel="stylesheet" type="text/css" href="http://static.davidwparker.com/css/highlight.css" />
+  <link rel="stylesheet" href="http://static.davidwparker.com/css/screen.css" />
+  <link rel="stylesheet" href="http://static.davidwparker.com/css/highlight.css" />
   <!--[if IE]>
-   <link rel="stylesheet" type="text/css" href="http://static.davidwparker.com/css/ie.css" media="screen, projection" />
+    <link rel="stylesheet" href="http://static.davidwparker.com/css/ie.css" media="screen, projection" />
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   {% endif %}
 </head>
 <body>
 <div class="container">
-  <div class="header">
-    <div class="rockies-pic" alt="Picture of the Rockies" title="Picture of the Rockies">
-      <h1 class="header"><a href="/">davidwparker.com</a></h1>
-    </div>
-  </div>
+  <header>
+    <hgroup>
+      <h1 class="header rockies-pic" alt="Picture of the Rockies" title="Picture of the Rockies"><a href="/">davidwparker.com</a></h1>
+    </hgroup>
+  </header>
   <div id="content">
     {{ content }}
   </div>
 </div>
-<div class="nav">
+<nav>
   <ul>
     <li><a href="/">index</a></li>
     <li><a href="/projects.html">projects</a></li>
     <li><a href="/examples/">examples</a></li>
     <li><a href="/about.html">about</a></li>
   </ul>
-</div>
-<div class="footer">
+</nav>
+<footer>
   <div class="footer-content">
-    <a href="/">davidwparker.com</a> | <span>copyright 2009</span>
+    <a href="http://github.com/davidwparker">github</a> | <a href="http://twitter.com/davidwparker">twitter</a> | <a href="http://delicious.com/nemo7467">delicious</a> | <a href="/">davidwparker.com</a> | <span>copyright 2009-2010</span>
   </div>
-</div>
+</footer>
 {% if site.env == "pro" %}
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

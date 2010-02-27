@@ -4,8 +4,6 @@ title: Dynamic, Search-based RSS feeds
 categories: posts
 oldurl: http://davidwparker.com/2008/12/10/dynamic-search-based-rss-feeds/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 For the current application I am working on, I needed the ability to generate RSS feeds on the fly.  Users have the ability to search for a lot of different information, and I needed to provide them with a way to save that search via an RSS feed.  To see how I went about performing basic search, see "here":http://davidwparker.com/2008/09/27/simple-multi-form-field-search-with-thinking-sphinx/.
 
 In my controller, I started by adding the ability to respond_to rss:

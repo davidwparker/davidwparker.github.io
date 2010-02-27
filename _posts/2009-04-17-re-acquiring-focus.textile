@@ -4,8 +4,6 @@ title: Re-acquiring Focus
 categories: posts
 oldurl: http://davidwparker.com/2009/04/17/re-acquiring-focus/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 It's been a while since I've had regular technical posts here, and I thought that I'd address my remedy to that really quick.
 
 I recently wanted to become a bit better at JavaScript so I began solving some of the "Project Euler":http://projecteuler.net/index.php?section=problems problems.  Well, that was fine and all, but what I really wanted was to learn the JavaScript language/API.  I didn't necessarily just want to flex my math skills.  Well, that's what I felt like I was doing.  Sure, I didn't get very far and I may go back to it, but until then...

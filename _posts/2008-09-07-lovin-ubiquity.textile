@@ -4,8 +4,6 @@ title: Lovin Ubiquity
 categories: posts
 oldurl: http://davidwparker.com/2008/09/07/lovin-ubiquity/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 So Mozilla's <a href="http://labs.mozilla.com/2008/08/introducing-ubiquity/">Ubiquity</a> project is extremely cool.  If you haven't checked it out yet, do it now.  Ubiquity is an extremely efficient way to get around the web.
 
 I wanted an easy way to search rspec documentation.  Not wanting to work too hard, I just forked Jack Dempsey's code (which searched the Ruby documentation) and changed it to handle rspec instead.

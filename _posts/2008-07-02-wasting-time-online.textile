@@ -4,8 +4,6 @@ title: Wasting Time Online
 categories: posts
 oldurl: http://davidwparker.com/2008/07/02/wasting-time-online/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 So, here's a trivial little poll:
 What is the biggest waste of time on the Internet for you?
 

@@ -248,12 +248,12 @@ textarea {width:300px;height:200px;padding:5px;}
 
 /* application.css */
 #content{margin-bottom:25px;padding:5px 125px;}
-.nav{display:block;position:fixed;right:0;top:40%;width:150px;}
-.nav ul{margin-right:0;}
-.nav ul li{border-bottom:1px solid #024c68;}
-.nav ul li a{background-color:#3c9dd0;color:#fff;display:block;padding:2px 0 2px 3px;}
-.nav ul li a:focus, .nav ul li a:hover{background-color:#c3d9ff;color:#024c68;}
-.footer{bottom:0px;color:#fff;display:block;height:25px;right:0px;position:fixed;width:100%;text-align:center;}
+nav{display:block;position:fixed;right:0;top:40%;width:150px;}
+nav ul{margin-right:0;}
+nav ul li{border-bottom:1px solid #024c68;}
+nav ul li a{background-color:#3c9dd0;color:#fff;display:block;padding:2px 0 2px 3px;}
+nav ul li a:focus, nav ul li a:hover{background-color:#c3d9ff;color:#024c68;}
+footer{bottom:0px;color:#fff;display:block;height:25px;right:0px;position:fixed;width:100%;text-align:center;}
 .footer-content{background-color:#3c9dd0;height:100%;padding-top:3px;width:950px;margin:0 auto;overflow:visible !important;}
 .footer-content a,.footer-content span{color:#fff;padding:0 3px;}
 .footer-content a:focus, .footer-content a:hover{background-color:#c3d9ff;color:#024c68;}
@@ -276,6 +276,6 @@ table.cloned th{border-bottom:0px;}
 /* typography */
 #content a, #content a:focus, #content a:hover{text-decoration:underline;}
 #content h1 a, #content h1 a:focus, #content h1 a:hover{text-decoration:none;}
-#post{font-size:110%;text-align:justify;}
-#posts span{font-family:"Courier New",monospace;}
+article{font-size:110%;text-align:justify;}
+time{font-family:"Courier New",monospace;}
 h1.header,h2.header,h3.header,h4.header,h5.header,h6.header{margin-bottom:2px;}

@@ -4,8 +4,6 @@ title: Simple filterered search using drop downs with Thinking Sphinx
 categories: posts
 oldurl: http://davidwparker.com/2008/09/27/simple-multi-form-field-search-with-thinking-sphinx/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 Sometimes you may need to offer your users the ability to perform a filtered search using drop down selects.  I had already settled on using Thinking Sphinx based on past experience, so I just needed to figure out how to offer 'filters'.
 
 For the sake of this tutorial I'll be using a very basic example.  Let's start with the index that is defined for Thinking Sphinx in the model:

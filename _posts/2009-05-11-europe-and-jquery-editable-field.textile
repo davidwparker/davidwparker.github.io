@@ -4,8 +4,6 @@ title: Europe and jQuery Editable Field
 categories: posts
 oldurl: http://davidwparker.com/2009/05/11/europe-and-jquery-editable-field/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 I'll be in Europe for the next 2.5 weeks, so my awesome blog will continue to be ignored for a while.  Sorry.
 
 In the meantime, check out a plugin I'm working on (of many) for jQuery.  Introducing: jQuery Editable Field.  With this plugin, you can make anything editable.

@@ -4,8 +4,6 @@ title: Simple non-model checkbox in Rails
 categories: posts
 oldurl: http://davidwparker.com/2008/11/12/simple-non-model-checkbox-in-rails/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 I recently needed to do search in Rails with several checkboxes.  The search itself was not model backed, so the check_box tag was out.  I decided to use the check_box_tag instead.  The problem I had with that was that the check_box_tag had no real easy way of maintaining the state as to whether or not the boxes were checked from search to search.
 
 If I had params[:a] and params[:b], they may both be set, but I wouldn't know it based off my GET request.  So I came up with a simple check_box_tag modification to retain the state of the checkboxes based on an identifier (in my case, I use the params)

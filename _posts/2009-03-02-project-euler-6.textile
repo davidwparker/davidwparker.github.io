@@ -4,8 +4,6 @@ title: "Project Euler #6"
 categories: posts
 oldurl: http://davidwparker.com/2009/03/02/project-euler-6/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 In JavaScript:
 
 {% highlight javascript %}

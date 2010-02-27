@@ -4,8 +4,6 @@ title: "Book: Don't Make Me Think"
 categories: posts
 oldurl: http://davidwparker.com/2008/08/03/book-dont-make-me-think/
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 At RubyConf 2007 "Ryan Davis":http://blog.zenspider.com said that we, as developers, should be reading one book a month about software development, etc.  Additionally, while reading Jeff Atwood's "blog":http://www.codinghorror.com/blog/archives/001108.html I only reaffirmed the habit. Although I haven't exactly hit a rate of one technical book per month yet (I read some fiction and other books in there too), I have enjoyed continuing my education, especially beyond school and reading blogs.  I've read quite a few books this year, but this is the first pseudo review that I've ever written.  Actually, it's much less review and much more "things that I really enjoyed" and want to remember.
 
 "Don't Make Me Think":http://www.amazon.com/dp/0321344758?tag=parkonsoft-20 by Steve Krug is an excellent book.  The second edition was published in 2006, which although may seem ancient by technology standards, is still quite up-to-date on everything critical for a website.  Yes, I'm sure there are plenty of things in the book that I should be changing on this site, but at the moment, I rather like this theme (Hemingway).  Anyway, on with the book.  

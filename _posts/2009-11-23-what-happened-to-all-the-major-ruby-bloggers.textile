@@ -3,8 +3,6 @@ layout: post
 title: What happened to all the major Ruby bloggers?
 categories: posts
 ---
-h1. "{{ page.title }}":{{ page.url }}
-
 I first got into Rails several years back, and via Rails, I got into Ruby.  Ruby has been a blast for me to use, but I'm curious to know what happened to all the Ruby bloggers?  More specifically, when was the last time they actually did something technical in a blog post?
 
 "Ezra Zygmuntowicz?":http://brainspl.at
