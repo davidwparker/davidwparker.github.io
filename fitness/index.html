@@ -1,0 +1,11 @@
+---
+layout: default
+title: fitness | david parker
+categories: fitness
+---
+<h2 class="header">Fitness</h2>
+<ul>
+{% for post in site.categories.fitness %}
+  <li><time datetime="{{ post.date | date_to_string_html5 }}">{{ post.date | date_to_string }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
