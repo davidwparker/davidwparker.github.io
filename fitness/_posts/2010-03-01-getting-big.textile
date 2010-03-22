@@ -8,11 +8,11 @@ I have a friend who has done the whole getting big thing before and he did it ex
 
 h2(header#goal). My goal:
 
-145 lbs, body fat %? by August 1st.
+145 lbs, body fat ~5-8% by August 1st.
 
 h2(header). Currently:
 
-141 lbs, body fat %?
+141 lbs, body fat ~15% 
 
 h2(header#weight). Weight Gameplan:
 * End of February - 141 lbs
@@ -39,6 +39,7 @@ Cutting workout: M/F- upper body/back, T/Th- abs/legs, M/T/Th/F/S- cardio.
 * Mid-July - August - cutting, cardio = run 5 miles.
 
 One thing that I haven't gotten yet is some calipers to actually check my body fat percentage.  Once I have those, I'll update this blog post above.
+edit: I've updated my current body fat percentage.
 
 h2(header#so_far). So Far:
 
