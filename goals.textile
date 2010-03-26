@@ -1,0 +1,133 @@
+---
+layout: default
+title: goals | david parker - software and web development
+---
+Below is a list of my goals in my life.  I know that I have way more here than I would actually be able to complete, which I don't think is necessarily a bad thing.  I need something to aim for, if you know what I mean.  Yes, I know this doesn't look super pretty, but I'll be updating that some other time.
+
+h2(header). Goals
+
+Last updated: 03/25/2010
+
+h3(header). Life
+
+* Get Married
+** Completed March 24, 2007
+* Go skydiving
+
+h3(header). Languages
+
+* Portuguese
+* German
+* Japanese
+* Korean
+* Latin
+
+h3(header). Travel
+
+* England
+** Completed June 2002, May 2009
+* Germany
+** Completed July 2002, May 2006
+* Rome
+** Completed May 2006
+* Paris
+** Completed June 2002, May 2009
+* Scotland
+* Egypt
+* Australia
+* New Zealand
+* New York City
+* Brazil
+* Japan
+* Korea
+
+h3(header). Education
+
+h4(header). Master's Degree
+
+* Computer Science
+* MBA
+** Scheduled to begin August 2010
+
+h4(header). Bachelor's Degree
+
+* Accounting
+* Architecture
+* Computer Science
+* Finance
+* Graphic Design
+* Illustration
+* Information Systems
+** Completed May 2006
+* Mathematics
+
+h3(header). Music
+
+h4(header). Learn Instruments
+
+* Piano (Classical)
+* Violin
+* Flute (Jazz)
+* Guitar (Hispanic and slide guitar)
+
+h4(header). Compose/Write
+
+* Techno
+
+h3(header). Physique
+
+h4(header). Events
+
+* Eco-Challenge
+** These competitions are no longer going on :(
+* Iron Man
+* Triathlon
+* Marathon
+* Half Marathon (13 miles)
+** Scheduled to do one in June 2010
+* 10k
+* 5k
+
+h4(header). Abilities
+
+* Do the Splits 
+** Center
+** Left side (left leg forward)
+** Right side (right leg forward)
+* Capoiera
+* Kung Fu
+* Break dancing
+* Parkour
+* Standing backflip
+
+h3(header). Work
+
+* Have published work in the comic book business (at least one of the following)
+** Penciller
+** Inker
+** Colorist
+** Writer
+* Own real estate other than my home
+** Apartment complex(es)
+* Own companies as a major trader in the stock market
+* Start and own my own SUCCESSFUL start-up/web-based business(es)
+
+h3(header). Technology
+
+* Submit and get a patch accepted to an open source project (at least one of the following)
+** Rails
+** Django
+** Nodejs
+** jQuery
+* Create an Open Source project that a lot (how many?) people use
+
+h3(header). Christianity
+
+* Become a Christian
+** Completed January 2003
+* Get Baptized
+** Scheduled for April 9, 2010
+* Go on a mission trip
+** In the U.S.
+** Overseas
+* Personally lead someone to Christ

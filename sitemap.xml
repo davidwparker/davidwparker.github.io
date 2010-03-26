@@ -5,6 +5,8 @@ site_pages:
   - /about.html
   - /projects.html
   - /examples/
+  - /goals.html
+  - /life/
   - /fitness/
 ---
 <?xml version="1.0" encoding="UTF-8"?>
