@@ -1,0 +1,11 @@
+---
+layout: default
+title: Christianity | david parker
+categories: christianity
+---
+<h2 class="header">Christianity</h2>
+<ul>
+  {% for post in site.categories.christianity %}
+    <li><time datetime="{{ post.date | date_to_string_html5 }}">{{ post.date | date_to_string }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
