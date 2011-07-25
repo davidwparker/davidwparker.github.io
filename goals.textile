@@ -6,13 +6,14 @@ Below is a list of my goals in my life.  I know that I have way more here than I
 
 h2(header). Goals
 
-Last updated: 03/25/2010
+Last updated: 07/15/2011
 
 h3(header). Life
 
 * Get Married
 ** Completed March 24, 2007
 * Go skydiving
+** Completed May 28, 2011
 
 h3(header). Languages
 
@@ -46,20 +47,21 @@ h3(header). Education
 h4(header). Master's Degree
 
 * Computer Science
+** Scheduled to graduate May 2013
 * MBA
-** Scheduled to begin August 2010
+** Scheduled to graduate May 2010
 
 h4(header). Bachelor's Degree
 
-* Accounting
-* Architecture
-* Computer Science
-* Finance
-* Graphic Design
-* Illustration
+* -Accounting-
+* -Architecture-
+* -Computer Science-
+* -Finance-
+* -Graphic Design-
+* -Illustration-
 * Information Systems
 ** Completed May 2006
-* Mathematics
+* -Mathematics-
 
 h3(header). Music
 
@@ -83,10 +85,12 @@ h4(header). Events
 * Iron Man
 * Triathlon
 * Marathon
+** Completed May 1, 2011
+** Time: 3:59:48
+** "Colorado Marathon":http://results.active.com/pages/oneResult.jsp?pID=107767346&rsID=107685
 * Half Marathon (13 miles)
-** Scheduled to do one in June 2010
-* 10k
-* 5k
+** Completed June 26, 2010
+** Time: 2:10:36
 
 h4(header). Abilities
 
@@ -126,7 +130,7 @@ h3(header). Christianity
 * Become a Christian
 ** Completed January 2003
 * Get Baptized
-** Scheduled for April 9, 2010
+** Completed April 9, 2010
 * Go on a mission trip
 ** In the U.S.
 ** Overseas

@@ -50,6 +50,12 @@ namespace :site do
     system('rsync -avrz _site/css nemo7467@www.davidwparker.com:static.davidwparker.com')
   end
 
+  desc "rsync screencasts (this must be done separately)"
+  task :rsync_screencasts do
+    puts "syncing video"
+    system('rsync -avrz screencasts/ nemo7467@www.davidwparker.com:screencasts.davidwparker.com/')
+  end
+
   desc "deploy the application"
   namespace :deploy do
     desc "builds the development _site"
