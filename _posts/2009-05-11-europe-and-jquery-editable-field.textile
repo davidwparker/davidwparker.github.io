@@ -8,7 +8,7 @@ I'll be in Europe for the next 2.5 weeks, so my awesome blog will continue to be
 
 In the meantime, check out a plugin I'm working on (of many) for jQuery.  Introducing: jQuery Editable Field.  With this plugin, you can make anything editable.
 
-Demo: "jQuery Editable Field Demo":/examples/editableField-v1.0/jqueryEditableField.html
+Demo: "jQuery Editable Field Demo":/examples/editableField-v1.0/jqueryEditableField/
 
 Usage:
 

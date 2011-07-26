@@ -49,7 +49,7 @@ h4(header). Master's Degree
 * Computer Science
 ** Scheduled to graduate May 2013
 * MBA
-** Scheduled to graduate May 2010
+** Scheduled to graduate May 2013
 
 h4(header). Bachelor's Degree
 
@@ -87,7 +87,7 @@ h4(header). Events
 * Marathon
 ** Completed May 1, 2011
 ** Time: 3:59:48
-** "Colorado Marathon":http://results.active.com/pages/oneResult.jsp?pID=107767346&rsID=107685
+** "Colorado Marathon":http://results.active.com/pages/oneResult.jsp?pID=111511758&rsID=107685
 * Half Marathon (13 miles)
 ** Completed June 26, 2010
 ** Time: 2:10:36
