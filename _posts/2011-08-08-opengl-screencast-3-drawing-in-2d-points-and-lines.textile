@@ -7,12 +7,13 @@ In this screencast, I discuss drawing points and lines in OpenGL. I also introdu
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, XX.X MB .mov":http://screencasts.davidwparker.com/episode-003.mov
+"Download the screencast, 19.5 MB .mov":http://screencasts.davidwparker.com/episode-003.mov
 
 h2(header). Watch the Screencast
-"Youtube":http://www.youtube.com/watch?v=XXXXXXX
 
-YOUTUBE IFRAME HERE
+"Youtube":http://www.youtube.com/watch?v=wKoCx0Gy8PY
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/wKoCx0Gy8PY?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
 h2(header). Code
 
