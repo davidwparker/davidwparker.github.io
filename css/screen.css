@@ -31,7 +31,6 @@ sup, sub {line-height:0;}
 abbr, acronym {border-bottom:1px dotted #666;}
 address {margin:0 0 1.5em;font-style:italic;}
 del {color:#666;}
-pre, code {border:1px solid #DEDEDE !important;background-color:#F8F8FF !important;}
 pre {margin:0.5em 0;white-space:pre;padding:0.5em;}
 /*
 overflow:auto;}
@@ -276,6 +275,8 @@ table.cloned th{border-bottom:0px;}
 /* typography */
 #content a, #content a:focus, #content a:hover{text-decoration:underline;}
 #content h1 a, #content h1 a:focus, #content h1 a:hover{text-decoration:none;}
+#content pre code{border:none;}
+#content pre {border:1px solid #DEDEDE !important;background-color:#F8F8FF !important;}
 article{font-size:110%;text-align:justify;}
 time{font-family:"Courier New",monospace;}
 h1.header,h2.header,h3.header,h4.header,h5.header,h6.header{margin-bottom:2px;}
