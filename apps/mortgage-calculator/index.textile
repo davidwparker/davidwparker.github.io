@@ -1,5 +1,6 @@
 ---
 layout: apps
 title: Mortgage Calculator
+permurl: "/apps/mortgage-calculator/"
 ---
 Mortgage Calculator now on the "Android Market":https://market.android.com/details?id=com.davidwparker.MortgageCalculator.
