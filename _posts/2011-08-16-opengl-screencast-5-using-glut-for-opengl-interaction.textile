@@ -1,0 +1,23 @@
+---
+layout: post
+title: "OpenGL Screencast 5 - Using GLUT for OpenGL interaction"
+categories: posts
+---
+In this screencast, I discuss using GLUT for different OpenGL interactions, including the mouse and keyboard.
+
+Functions used include:
+glutKeyboardFunc(), glutSpecialFunc(), glutMouseFunc(), glutPassiveMotionFunc(), glutGetModifiers(), glutPostRedisplay()
+
+The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+
+"Download the screencast, 13.5 MB .mov":http://screencasts.davidwparker.com/episode-005.mov
+
+h2(header). Watch the Screencast
+
+"Youtube":http://www.youtube.com/watch?v=NNgRm-EqAmM
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/NNgRm-EqAmM?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+
+h2(header). Code
+
+<script src="https://gist.github.com/1150282.js?file=005.c"></script>

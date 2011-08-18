@@ -14,7 +14,6 @@ namespace :site do
     task :dev => :delete do
       puts "building _site"
       system('jekyll --server')
-      system('rm -r _site/screencasts')
       puts "building _site complete"
     end
     
@@ -22,10 +21,8 @@ namespace :site do
     task :pro => :delete do
       puts "building production _site"
       system('jekyll')
-      system('rm -r _site/screencasts')
       puts "building _site complete"
     end
-
   end
   
   desc "change environment"
@@ -51,12 +48,6 @@ namespace :site do
   desc "rsync _site's CSS"
   task :rsync_css => :"build:pro" do
     system('rsync -avrz _site/css nemo7467@www.davidwparker.com:static.davidwparker.com')
-  end
-
-  desc "rsync screencasts (this must be done separately)"
-  task :rsync_screencasts do
-    puts "syncing video"
-    system('rsync -avrz screencasts/ nemo7467@www.davidwparker.com:screencasts.davidwparker.com/')
   end
 
   desc "deploy the application"
