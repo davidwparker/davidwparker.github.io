@@ -8,4 +8,4 @@ Even though I've been doing web-related work for seven or eight years now, I sti
 
 Anyway, I was having a bit of an issue dealing with floats, so I created a quick div float test html to help me figure out exactly what was going on.
 
-You can check it out "here":/examples/divblocktest.html
+You can check it out "here":/examples/divblocktest/
