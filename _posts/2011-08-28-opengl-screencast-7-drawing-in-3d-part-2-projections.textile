@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "OpenGL screencast 7 - Drawing in 3D part 2 - Perspective and Orthogonal Projections and Cubes"
+categories: posts
+---
+In this screencast, I discuss drawing cubes in 3D. More importantly, I cover perspective and orthogonal projections and discuss when you would want to use each.
+
+Functions used include:
+gluPerspective(), gluLookAt()
+
+The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+
+"Download the screencast, 26.8 MB .mov":http://screencasts.davidwparker.com/episode-007.mov
+
+h2(header). Watch the Screencast
+
+"Youtube":http://www.youtube.com/watch?v=BgIsTZiyvvU
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/BgIsTZiyvvU?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+
+h2(header). Code
+
+<script src="https://gist.github.com/1176938.js?file=007.c"></script>
