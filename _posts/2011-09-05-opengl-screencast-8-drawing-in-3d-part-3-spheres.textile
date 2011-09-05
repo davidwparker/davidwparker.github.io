@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "OpenGL screencast 8 - Drawing in 3D part 3 - Spheres, Cylinders, and Cones"
+categories: posts
+---
+In this screencast, I discuss drawing spheres, cylinders, and cones in 3D. I also introduce another convenience method for checking errors.
+
+OpenGL Functions used include:
+GL_QUAD_STRIP, GL_TRIANGLE_FAN, GL_TRIANGLES, glGetError(), gluErrorString()
+
+The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+
+"Download the screencast, 21.2 MB .mov":http://screencasts.davidwparker.com/episode-008.mov
+
+h2(header). Watch the Screencast
+
+"Youtube":http://www.youtube.com/watch?v=Kujd0RTsaAQ
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/Kujd0RTsaAQ?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+
+h2(header). Code
+
+<script src="https://gist.github.com/1195852.js?file=008.c"></script>

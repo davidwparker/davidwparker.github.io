@@ -18,7 +18,7 @@ If you use a debit or credit card for most of your spending, then company X and 
 
 h2(header). Why Track Me?
 
-You know, I would say that the reason they track people is so that they can come up with better algorithms to have targeted advertising.  I use "Google Chrome":www.google.com/chrome about 70% of the time now and "Mozilla Firefox":www.mozilla.com/firefox/ the other 30%.  I use adblock plus on Firefox, but with Chrome I don't block ads.  Most of the time, I don't mind ads, so long as they're targeted at who I am and are interesting.  So to me, if the reason these systems exist are to provide me with a better service, then so be it.
+You know, I would say that the reason they track people is so that they can come up with better algorithms to have targeted advertising.  I use "Google Chrome":http://www.google.com/chrome about 70% of the time now and "Mozilla Firefox":http://www.mozilla.com/firefox/ the other 30%.  I use adblock plus on Firefox, but with Chrome I don't block ads.  Most of the time, I don't mind ads, so long as they're targeted at who I am and are interesting.  So to me, if the reason these systems exist are to provide me with a better service, then so be it.
 
 At any rate, I think it goes beyond advertising.  I think that people 1) are nosy and 2) just like analyzing things.  In general, I think we like to know what's going on with other people, even if we don't know them.  We also like to analyze big groups of people so we can make 'In general' statements ;)
 
