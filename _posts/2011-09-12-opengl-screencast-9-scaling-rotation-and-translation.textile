@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "OpenGL screencast 9 - Scaling, Rotation, and Translation"
+categories: posts
+---
+In this screencast, I discuss scaling, rotation, and translation.
+
+OpenGL Functions used include:
+glTranslated(), glRotated(), glScaled()
+
+The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+
+"Download the screencast, 21.3 MB .mov":http://screencasts.davidwparker.com/episode-009.mov
+
+h2(header). Watch the Screencast
+
+"Youtube":http://www.youtube.com/watch?v=u-LoUvilIIQ
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/u-LoUvilIIQ?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+
+h2(header). Code
+
+<script src="https://gist.github.com/1212485.js?file=009.c"></script>
