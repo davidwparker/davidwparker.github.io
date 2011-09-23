@@ -2,10 +2,12 @@
 layout: nil
 site_pages:
   - /
-  - /about.html
-  - /projects.html
-  - /examples/
-  - /goals.html
+  - /apps/
+  - /portfolio/
+  - /demos/
+  - /goals/
+  - /other/
+  - /about/
   - /life/
   - /fitness/
 ---

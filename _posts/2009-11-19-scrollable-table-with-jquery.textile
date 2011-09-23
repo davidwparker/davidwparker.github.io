@@ -7,7 +7,7 @@ h2. aka jQuery Fixed Table Headers.
 
 I created this jQuery plugin a little while back.  Basically, it's headers that don't move while the table becomes scrollable.
 
-Demo: "jQuery scrollable table":/examples/jqueryScrollableTable/
+Demo: "jQuery scrollable table":/demos/jqueryScrollableTable/
 
 Usage:
 
