@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "OpenGL screencast 11 - Code Organization"
+categories: posts
+---
+In this screencast (OpenGL video tutorial), I discuss organizing OpenGL code. In general, this is how I have my code organized. I’m always up for change and better ways to do things though, so if you do things differently, please give me feedback.
+
+The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
+
+"Download the screencast, 13.1 MB .mov":http://screencasts.davidwparker.com/episode-011.mov
+
+h2(header). Watch the Screencast
+
+"Youtube":http://www.youtube.com/watch?v=QNIv7x0X5eg
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/QNIv7x0X5eg?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+
+h2(header). Code
+
+<script src="https://gist.github.com/1246364.js?file=Makefile"></script>
+
+<script src="https://gist.github.com/1246364.js?file=011.c"></script>
+
+<script src="https://gist.github.com/1246364.js?file=common.h"></script>
+
+<script src="https://gist.github.com/1246364.js?file=display.c"></script>
+
+<script src="https://gist.github.com/1246364.js?file=display.h"></script>
+
+<script src="https://gist.github.com/1246364.js?file=draw.c"></script>
+
+<script src="https://gist.github.com/1246364.js?file=draw.h"></script>
+
+<script src="https://gist.github.com/1246364.js?file=error.c"></script>
+
+<script src="https://gist.github.com/1246364.js?file=error.h"></script>
+
+<script src="https://gist.github.com/1246364.js?file=globals.c"></script>
+
+<script src="https://gist.github.com/1246381.js?file=initialization.c"></script>
+
+<script src="https://gist.github.com/1246381.js?file=initialization.h"></script>
+
+<script src="https://gist.github.com/1246381.js?file=interaction.c"></script>
+
+<script src="https://gist.github.com/1246381.js?file=interaction.h"></script>
+
+<script src="https://gist.github.com/1246381.js?file=models.c"></script>
+
+<script src="https://gist.github.com/1246381.js?file=models.h"></script>
+
+<script src="https://gist.github.com/1246381.js?file=print.c"></script>
+
+<script src="https://gist.github.com/1246381.js?file=print.h"></script>
+
+<script src="https://gist.github.com/1246381.js?file=screencasts.h"></script>
+
+<script src="https://gist.github.com/1246381.js?file=shapes.c"></script>
+
+<script src="https://gist.github.com/1246389.js?file=shapes.h"></script>
+
+
