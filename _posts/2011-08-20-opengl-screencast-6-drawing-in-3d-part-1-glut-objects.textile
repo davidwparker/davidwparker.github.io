@@ -14,7 +14,7 @@ The code is available to download on "Github":https://github.com/davidwparker/op
 
 h2(header). Watch the Screencast
 
-"Youtube":http://www.youtube.com/watch?v=D-tefNPQmaM
+"YouTube":http://www.youtube.com/watch?v=D-tefNPQmaM
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/D-tefNPQmaM?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 

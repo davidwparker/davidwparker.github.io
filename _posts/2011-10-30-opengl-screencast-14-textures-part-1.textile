@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "OpenGL screencast 14 - Textures Part 1"
+categories: posts
+---
+In this screencast (OpenGL video tutorial), I discuss using textures. I start by explaining loading a texture into texture memory from a bmp image. Next, I talk about how a texture is used a tied to a specific vertex.
+
+OpenGL commands used in this screencast: 
+glGenTextures(), glBindTextures(), glTexImage2D(), glTexParameteri(), glTexCoord2f()
+
+OpenGL parameters used in this screencast: 
+GL_TEXTURE_2D, GL_RGB, GL_UNSIGNED_BYTE, GL_TEXTURE_MAG_FILTER, GL_TEXTURE_MIN_FILTER, GL_LINEAR
+
+The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
+
+"Download the screencast, 34.6 MB .mov":http://screencasts.davidwparker.com/episode-014.mov
+
+h2(header). Watch the Screencast
+
+"YouTube":http://www.youtube.com/watch?v=jK6sfbw5oYQ&feature=colike
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/jK6sfbw5oYQ" frameborder="0" allowfullscreen></iframe>
+
+h2(header). Code (this is not all of the code- please see the github link above for all of it)
+
+<script src="https://gist.github.com/1326745.js?file=Makefile"></script>
+
+<script src="https://gist.github.com/1326745.js?file=014.c"></script>
+
+<script src="https://gist.github.com/1326745.js?file=globals.c"></script>
+
+<script src="https://gist.github.com/1326745.js?file=initialization.c"></script>
+
+<script src="https://gist.github.com/1326745.js?file=draw.c"></script>
+
+<script src="https://gist.github.com/1326745.js?file=shapes.c"></script>
+
+<script src="https://gist.github.com/1326745.js?file=textures.c"></script>

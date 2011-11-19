@@ -10,7 +10,8 @@ The code is available to download on "Github":https://github.com/davidwparker/op
 "Download the screencast, 51.7 MB .mov":http://screencasts.davidwparker.com/episode-001.mov
 
 h2(header). Watch the Screencast
-"Youtube":http://www.youtube.com/watch?v=QO4NTBWJQLg
+
+"YouTube":http://www.youtube.com/watch?v=QO4NTBWJQLg
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/QO4NTBWJQLg?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
