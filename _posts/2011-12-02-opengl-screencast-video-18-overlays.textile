@@ -23,4 +23,6 @@ h2(header). Watch the Screencast
 
 h2(header). Code (this is not all of the code- please see the github link above for all of it)
 
+<script src="https://gist.github.com/1424169.js?file=018.c"></script>
 
+<script src="https://gist.github.com/1424169.js?file=draw.c"></script>
