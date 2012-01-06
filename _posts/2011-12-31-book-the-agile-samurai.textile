@@ -6,7 +6,7 @@ categories: posts
 Read: December 2011
 Rating: 9/10
 
-"The Agile Samurai on Amazon":http://www.amazon.com/dp/1934356581?tag=parker08-20 by Jonathan Rasmusson is a great introduction to Agile Software Development. Whether you're working for a megacorp or at your own startup, whether you're a project manager, a programmer, or a customer, this book provides great detail on what most software development should look like. 
+"The Agile Samurai":http://www.amazon.com/dp/1934356581?tag=parker08-20 by Jonathan Rasmusson is a great introduction to Agile Software Development. Whether you're working for a megacorp or at your own startup, whether you're a project manager, a programmer, or a customer, this book provides great detail on what most software development should look like. 
 
 h2(header). My Notes
 
