@@ -6,7 +6,7 @@ categories: posts
 Read: January 2012
 Rating: 8/10
 
-"The Lean Startup":http://www.amazon.com/dp/0307887898?tag=parker08-20 is a good introduction to lean philosophies. While the book is a good starting point, I do believe that there were definitely some lacking areas and it could have been a little more actionable. It's still worth a read, if you get a chance. Otherwise, just take a look at my notes below.
+"The Lean Startup":http://www.amazon.com/dp/0307887898?tag=parker08-20 by Eric Ries is a good introduction to lean philosophies. While the book is a good starting point, I do believe that there were definitely some lacking areas and it could have been a little more actionable. It's still worth a read, if you get a chance. Otherwise, just take a look at my notes below.
 
 h2(header). My Notes
 

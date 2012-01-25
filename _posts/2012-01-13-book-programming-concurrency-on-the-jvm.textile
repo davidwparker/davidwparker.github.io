@@ -6,7 +6,7 @@ categories: posts
 Read: January 2012
 Rating: 8/10
 
-"Programming Concurrency on the JVM":http://www.amazon.com/dp/193435676X?tag=parker08-20 is an excellent introduction to exactly what its title says "programming concurrency on the JVM." This book is for people who want to learn a little about concurrency and don't know much. It's for people who are using Java and can't get away from it and want to know how to take advantage of their multicore computers. The book focuses mostly on Java, but also shows a good bit of the Scala equivalent code. It also shows a little Groovy, JRuby, and Clojure, but those languages definitely aren't the focus. Additionally, the book mostly uses the Akka library for a majority of the Software Transactional Memory (STM) and Actors code.
+"Programming Concurrency on the JVM":http://www.amazon.com/dp/193435676X?tag=parker08-20 by Venkat Subramaniam is an excellent introduction to exactly what its title says "programming concurrency on the JVM." This book is for people who want to learn a little about concurrency and don't know much. It's for people who are using Java and can't get away from it and want to know how to take advantage of their multicore computers. The book focuses mostly on Java, but also shows a good bit of the Scala equivalent code. It also shows a little Groovy, JRuby, and Clojure, but those languages definitely aren't the focus. Additionally, the book mostly uses the Akka library for a majority of the Software Transactional Memory (STM) and Actors code.
 
 h2(header). My Notes
 
