@@ -28,7 +28,7 @@ A great way to start the project is by asking four questions to the whole team:
 
 The assumption of consensus where none exists is what kills most projects.
 
-A majority of the book is about creating an inception deck. An inception deck answeres these simple questions and is generally a great way to get consensus about the software:
+A majority of the book is about creating an inception deck. An inception deck answers these simple questions and is generally a great way to get consensus about the software:
 * Why are we here?
 * Elevator pitch
 * Product box (what would it look like?)
