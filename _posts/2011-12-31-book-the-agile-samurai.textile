@@ -18,7 +18,7 @@ You cannot ever gather all requirements at the beginning of a software project, 
 
 The customer must be engaged. If they don't even want to show up, then the project must not be important to them and it'll inevitably fail. Set expectations with the customer. They must set priorities. They must also decide what not to build.
 
-The agile analyst will help write user stories. The agile programmer will turn user stories into software, make technical decisions, and holp make estimates. The agile tester will write tests for stories and confirm stories work as expected. The project manager will track how the team is doing and communicate the state of the project. They will also help remove roadblocks that are in the team's way.
+The agile analyst will help write user stories. The agile programmer will turn user stories into software, make technical decisions, and help make estimates. The agile tester will write tests for stories and confirm stories work as expected. The project manager will track how the team is doing and communicate the state of the project. They will also help remove roadblocks that are in the team's way.
 
 A great way to start the project is by asking four questions to the whole team:
 * What am I good at?
