@@ -6,7 +6,7 @@ categories: posts
 Read: April-May 2012
 Rating: 8.0/10
 
-"The Design of Everyday Things":http://www.amazon.com/dp/?0465067107tag=parker08-20 (DOET) by Donald Norman is a classic book on, well, design. It wasn't exactly what I was expecting, and I think it was different in a good way. The book pertains mostly to what people would think of as "usability" rather than "design," especially for those of us working with software, where we think of design as rounded corners, and other aesthetics like that. This book doesn't mention that stuff at all. Rather, it discusses what makes a good design and how a good design solves problems for those using the everyday object. I really think that the original name of the book, The Psychology of Everyday Things (POET), is an excellent name for the book. All said, I'd highly recommend this book.
+"The Design of Everyday Things":http://www.amazon.com/dp/0465067107?tag=parker08-20 (DOET) by Donald Norman is a classic book on, well, design. It wasn't exactly what I was expecting, and I think it was different in a good way. The book pertains mostly to what people would think of as "usability" rather than "design," especially for those of us working with software, where we think of design as rounded corners, and other aesthetics like that. This book doesn't mention that stuff at all. Rather, it discusses what makes a good design and how a good design solves problems for those using the everyday object. I really think that the original name of the book, The Psychology of Everyday Things (POET), is an excellent name for the book. All said, I'd highly recommend this book.
 
 h2(header). My Notes
 
