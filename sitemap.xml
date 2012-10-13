@@ -22,7 +22,7 @@ site_pages:
 {% endfor %}
 {% for post in site.posts %}
 <url>
-  <loc>http://davidwparker.com{{ post.url }}</loc>
+  <loc>http://davidwparker.com{{ post.url }}/</loc>
   <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   <changefreq>hourly</changefreq>
 </url>
