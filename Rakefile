@@ -64,6 +64,29 @@ namespace :site do
   end
 end
 
+namespace :post do
+  desc "create blog post"
+  task :b do
+    puts "created blog post"
+  end
+
+  desc "create life blog post"
+  task :l do
+    puts "created life blog post"
+  end
+
+  desc "create christianity blog post"
+  task :c do
+    puts "created christianity blog post"
+  end
+
+  desc "create fitness blog post"
+  task :f do
+    puts "created fitness blog post"
+  end
+end
+
+
 private 
   def updateConfig(rep)
     lines = IO.readlines("_config.yml");
