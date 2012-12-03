@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenGL Screencast 2 - Bitmap Characters
-categories: posts
+categories: [posts, opengl]
 ---
 Bitmap Characters are great because they allow us to display text information. We'll be using these convenience methods in future episodes moving forward so that we have easy access to specific data.
 

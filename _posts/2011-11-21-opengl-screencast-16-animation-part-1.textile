@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 16 - Animation Part 1"
-categories: posts
+categories: [posts, opengl]
 ---
 In this screencast (OpenGL video Tutorial), I explain how to do simple animations using the glut idle function. The function given as a callback to the idle function can be used to do interesting things (more than just animations)! I also talk about how to use the glut visibility function.
 

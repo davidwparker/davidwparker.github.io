@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 15 - Textures Part 2"
-categories: posts
+categories: [posts, opengl]
 ---
 In this screencast (OpenGL video Tutorial), I create a few more shapes with their corresponding textures. I also explain several specific OpenGL texture methods and parameters.
 

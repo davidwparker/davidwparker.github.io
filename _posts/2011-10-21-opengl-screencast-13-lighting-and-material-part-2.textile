@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 13 - Lighting and Material Part 2 - Materials"
-categories: posts
+categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I discuss materials and explain the difference between using glColorMaterial and glMaterial.
 

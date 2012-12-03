@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast video tutorial HD 19 - Blending"
-categories: posts
+categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I explain how to use blending in your OpenGL program.
 
