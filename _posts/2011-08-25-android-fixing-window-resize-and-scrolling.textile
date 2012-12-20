@@ -21,8 +21,6 @@ Which was what I wanted. Good times.
 
 Some code:
 
-<script src="https://gist.github.com/1172700.js?file=layout.xml"></script>
-
-<script src="https://gist.github.com/1172700.js?file=manifest.xml"></script>
+<script src="https://gist.github.com/1172700.js"></script>
 
 Hopes this helps.

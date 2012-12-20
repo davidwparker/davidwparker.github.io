@@ -23,16 +23,4 @@ h2(header). Watch the Screencast
 
 h2(header). Code (this is not all of the code- please see the github link above for all of it)
 
-<script src="https://gist.github.com/1326745.js?file=Makefile"></script>
-
-<script src="https://gist.github.com/1326745.js?file=014.c"></script>
-
-<script src="https://gist.github.com/1326745.js?file=globals.c"></script>
-
-<script src="https://gist.github.com/1326745.js?file=initialization.c"></script>
-
-<script src="https://gist.github.com/1326745.js?file=draw.c"></script>
-
-<script src="https://gist.github.com/1326745.js?file=shapes.c"></script>
-
-<script src="https://gist.github.com/1326745.js?file=textures.c"></script>
+<script src="https://gist.github.com/1326745.js"></script>

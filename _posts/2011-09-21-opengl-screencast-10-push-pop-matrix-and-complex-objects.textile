@@ -20,4 +20,4 @@ h2(header). Watch the Screencast
 
 h2(header). Code
 
-<script src="https://gist.github.com/1233400.js?file=010.c"></script>
+<script src="https://gist.github.com/1233400.js"></script>

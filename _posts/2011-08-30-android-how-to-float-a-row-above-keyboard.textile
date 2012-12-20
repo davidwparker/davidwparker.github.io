@@ -35,6 +35,6 @@ No <code>align_parentBottom</code>:
 
 And some code:
 
-<script src="https://gist.github.com/1182279.js?file=layout.xml"></script>
+<script src="https://gist.github.com/1182279.js"></script>
 
 Hope this helps.

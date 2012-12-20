@@ -22,29 +22,8 @@ h2(header). Watch the Screencast
 
 h2(header). Code
 
-<script src="https://gist.github.com/1276355.js?file=Makefile"></script>
+<script src="https://gist.github.com/1276355.js"></script>
 
-<script src="https://gist.github.com/1276359.js?file=012.c"></script>
+<script src="https://gist.github.com/1276359.js"></script>
 
-<script src="https://gist.github.com/1276355.js?file=common.h"></script>
-
-<script src="https://gist.github.com/1276355.js?file=display.c"></script>
-
-<script src="https://gist.github.com/1276355.js?file=display.h"></script>
-
-<script src="https://gist.github.com/1276359.js?file=draw.c"></script>
-
-<script src="https://gist.github.com/1276359.js?file=draw.h"></script>
-
-<script src="https://gist.github.com/1276355.js?file=globals.c"></script>
-
-<script src="https://gist.github.com/1276355.js?file=initialization.c"></script>
-
-<script src="https://gist.github.com/1276355.js?file=interaction.c"></script>
-
-<script src="https://gist.github.com/1276355.js?file=screencasts.h"></script>
-
-<script src="https://gist.github.com/1276355.js?file=shapes.c"></script>
-
-<script src="https://gist.github.com/1276355.js?file=shapes.h"></script>
 

@@ -17,46 +17,8 @@ h2(header). Watch the Screencast
 
 h2(header). Code
 
-<script src="https://gist.github.com/1246364.js?file=Makefile"></script>
+<script src="https://gist.github.com/1246364.js"></script>
 
-<script src="https://gist.github.com/1246364.js?file=011.c"></script>
+<script src="https://gist.github.com/1246381.js"></script>
 
-<script src="https://gist.github.com/1246364.js?file=common.h"></script>
-
-<script src="https://gist.github.com/1246364.js?file=display.c"></script>
-
-<script src="https://gist.github.com/1246364.js?file=display.h"></script>
-
-<script src="https://gist.github.com/1246364.js?file=draw.c"></script>
-
-<script src="https://gist.github.com/1246364.js?file=draw.h"></script>
-
-<script src="https://gist.github.com/1246364.js?file=error.c"></script>
-
-<script src="https://gist.github.com/1246364.js?file=error.h"></script>
-
-<script src="https://gist.github.com/1246364.js?file=globals.c"></script>
-
-<script src="https://gist.github.com/1246381.js?file=initialization.c"></script>
-
-<script src="https://gist.github.com/1246381.js?file=initialization.h"></script>
-
-<script src="https://gist.github.com/1246381.js?file=interaction.c"></script>
-
-<script src="https://gist.github.com/1246381.js?file=interaction.h"></script>
-
-<script src="https://gist.github.com/1246381.js?file=models.c"></script>
-
-<script src="https://gist.github.com/1246381.js?file=models.h"></script>
-
-<script src="https://gist.github.com/1246381.js?file=print.c"></script>
-
-<script src="https://gist.github.com/1246381.js?file=print.h"></script>
-
-<script src="https://gist.github.com/1246381.js?file=screencasts.h"></script>
-
-<script src="https://gist.github.com/1246381.js?file=shapes.c"></script>
-
-<script src="https://gist.github.com/1246389.js?file=shapes.h"></script>
-
-
+<script src="https://gist.github.com/1246389.js"></script>
