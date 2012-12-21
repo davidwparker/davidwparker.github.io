@@ -1,0 +1,19 @@
+---
+layout: default
+title: Game Development | david parker
+categories: gamedev
+---
+<h2 class="header">Game Development</h2>
+<ul>
+{% for post in site.categories.gamedev %}
+  <li><time datetime="{{ post.date | date_to_string_html5 }}">{{ post.date | date_to_string }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2 class="header">Ludum Dare Entries</h2>
+<ul>
+  <li><a href="/ludumdare/ld25/">Ludum Dare 25: Doggie Destroyer</a></li>
+  <li><a href="/ludumdare/ld24/">Ludum Dare 24: The Evolutionary Chocolatier</a></li>
+  <li><a href="/ludumdare/ld23/">Ludum Dare 23: Tiny God</a></li>
+  <li><a href="/ludumdare/ld22/">Ludum Dare 22: The Social Network</a></li>
+</ul>
