@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: No B.S. Time Management for Entrepreneurs"
-categories: posts
+categories: [posts, books]
 ---
 Read: March 2012
 Rating: 7.5/10

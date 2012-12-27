@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: The Innovator's Dilemma"
-categories: posts
+categories: [posts, books]
 ---
 Read: February-March 2012
 Rating: 8.0/10

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Venture Deals"
-categories: posts
+categories: [posts, books]
 ---
 Read: August 2012
 Rating: 8.5/10

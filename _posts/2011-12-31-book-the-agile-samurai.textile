@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: The Agile Samurai"
-categories: posts
+categories: [posts, books]
 ---
 Read: December 2011
 Rating: 9/10

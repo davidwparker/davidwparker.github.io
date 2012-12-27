@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: 59 Seconds"
-categories: posts
+categories: [posts, books]
 ---
 Read: April 2012
 Rating: 7.5/10

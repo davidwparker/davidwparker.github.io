@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Running Lean"
-categories: posts
+categories: [posts, books]
 ---
 Read: November 2012
 Rating: 9.5/10

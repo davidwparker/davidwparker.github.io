@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: The Strategic Student"
-categories: posts
+categories: [posts, books]
 ---
 Read: July 2012
 Rating: 8.0/10

@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Book: Game Theory 101: The Basics"
-categories: posts
+categories: [posts, books]
 ---
 Read: July 2012
 Rating: 8.0/10
-
 
 "Game Theory 101: The Basics":http://www.amazon.com/dp/B005DGHV0I?tag=parker08-20 by William Spaniel is a great introduction to Game Theory. If you haven't had any game theory before, then I'd definitely recommend this book. It's a pretty hard topic to cover, so I'll let the book do the speaking...
 

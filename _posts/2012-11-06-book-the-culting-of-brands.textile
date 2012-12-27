@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: The Culting of Brands"
-categories: posts
+categories: [posts, books]
 ---
 Read: October 2012
 Rating: 6.0/10

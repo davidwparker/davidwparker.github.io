@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Free"
-categories: posts
+categories: [posts, books]
 ---
 Read: February 2012
 Rating: 8.5/10

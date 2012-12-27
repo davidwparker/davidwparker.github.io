@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: The Design of Everyday Things"
-categories: posts
+categories: [posts, books]
 ---
 Read: April-May 2012
 Rating: 8.0/10

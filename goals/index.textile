@@ -6,7 +6,7 @@ Below is a list of my goals in my life.  I know that I have way more here than I
 
 h2(header). Goals
 
-Last updated: 09/23/2011
+Last updated: 12/27/2012
 
 h3(header). Life
 
@@ -49,7 +49,7 @@ h4(header). Master's Degree
 * Computer Science
 ** Scheduled to graduate May 2013
 * MBA
-** Scheduled to graduate May 2013
+** Finished classwork May 2012. Scheduled to graduate May 2013
 
 h4(header). Bachelor's Degree
 
@@ -64,6 +64,8 @@ h4(header). Bachelor's Degree
 * -Mathematics-
 
 h3(header). Music
+
+Let's be honest... these probably won't happen anytime soon.
 
 h4(header). Learn Instruments
 
@@ -85,8 +87,11 @@ h4(header). Events
 * Triathlon
 ** Iron Man
 ** Half-Iron Man
+*** Schedule August 2013
 ** Olympic
+*** Scheduled July 2013
 ** Sprint
+*** Scheduled June 2013
 * Marathon
 ** Completed May 1, 2011
 ** Time: 3:59:48
@@ -101,27 +106,20 @@ h4(header). Abilities
 ** Center
 ** Left side (left leg forward)
 ** Right side (right leg forward)
+* Break dancing (bboy)
+** Currently taking lessons
 * Capoiera
 * Kung Fu
-* Break dancing
 * Parkour
 * Standing backflip
 
 h3(header). Work
 
-* Have published work in the comic book business (at least one of the following)
-** Penciller
-** Inker
-** Colorist
-** Writer
-* Own real estate other than my home
-** Apartment complex(es)
-* Own companies as a major trader in the stock market
-* Start and own my own SUCCESSFUL start-up/web-based business(es)
+* Start and own a SUCCESSFUL tech company
 
 h3(header). Technology
 
-* Submit and get a patch accepted to an open source project
+* Submit and get a patch accepted to an Open Source project
 * Create a commonly used Open Source project
 
 h3(header). Christianity
@@ -133,4 +131,5 @@ h3(header). Christianity
 * Go on a mission trip
 ** In the U.S.
 ** Overseas
+*** Completed May 2012
 * Personally lead someone to Christ

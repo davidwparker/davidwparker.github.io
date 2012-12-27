@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Programming Concurrency on the JVM"
-categories: posts
+categories: [posts, books]
 ---
 Read: January 2012
 Rating: 8/10

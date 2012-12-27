@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Crossing the Chasm"
-categories: posts
+categories: [posts, books]
 ---
 Read: April 2012
 Rating: 7.5/10

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Logicomix: An Epic Search For Truth"
-categories: posts
+categories: [posts, books]
 ---
 Read: March 2012
 Rating: 9.0/10

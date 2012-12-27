@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book: Being Geek"
-categories: posts
+categories: [posts, books]
 ---
 Read: July 2012
 Rating: 8.0/10
