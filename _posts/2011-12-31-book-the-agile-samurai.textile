@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: The Agile Samurai"
 categories: [posts, books]
 ---

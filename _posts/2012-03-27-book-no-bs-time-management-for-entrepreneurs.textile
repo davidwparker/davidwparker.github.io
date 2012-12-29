@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: No B.S. Time Management for Entrepreneurs"
 categories: [posts, books]
 ---

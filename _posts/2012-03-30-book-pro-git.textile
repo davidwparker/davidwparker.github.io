@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: Pro Git"
 categories: [posts, books]
 ---

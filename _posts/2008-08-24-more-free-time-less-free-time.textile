@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More Free Time, Less Free Time
-categories: posts
+categories: [life]
 oldurl: http://davidwparker.com/2008/08/24/more-free-time-less-free-time/
 ---
 So there's plenty of things that I would love to say, but of course I can't say them all.  So, instead, I'll just play catch up.

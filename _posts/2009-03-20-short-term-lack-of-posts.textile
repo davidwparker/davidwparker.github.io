@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short-term lack of posts
-categories: posts
+categories: life
 oldurl: http://davidwparker.com/2009/03/20/short-term-lack-of-posts/
 ---
 My wife and I are in the middle of a move and I haven't had the time to keep up posting here (and won't have much time for a little while).

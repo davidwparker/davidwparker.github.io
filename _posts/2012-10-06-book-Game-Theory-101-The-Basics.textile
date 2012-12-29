@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: Game Theory 101: The Basics"
 categories: [posts, books]
 ---

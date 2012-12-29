@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Re-acquiring Focus
-categories: posts
+categories: [posts, life]
 oldurl: http://davidwparker.com/2009/04/17/re-acquiring-focus/
 ---
 It's been a while since I've had regular technical posts here, and I thought that I'd address my remedy to that really quick.

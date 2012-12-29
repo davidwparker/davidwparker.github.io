@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: The Innovator's Dilemma"
 categories: [posts, books]
 ---

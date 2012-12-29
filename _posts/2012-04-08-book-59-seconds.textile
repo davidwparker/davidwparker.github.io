@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: 59 Seconds"
 categories: [posts, books]
 ---

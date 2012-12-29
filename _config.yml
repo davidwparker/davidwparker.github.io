@@ -1,4 +1,5 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title
+future: false
 env: dev

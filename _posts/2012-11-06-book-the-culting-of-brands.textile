@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: The Culting of Brands"
 categories: [posts, books]
 ---

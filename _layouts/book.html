@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="books">
+  <a href="/books/">books</a>
+  <header>
+    <h1>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </h1>
+    published on <time datetime="{{ page.date | date_to_string_html5 }}" pubdate>{{ page.date | date_to_string }}</time>
+  </header>
+{{ content }}
+  <p>
+    Questions? E-mail me: this domain AT gmail DOT com
+  </p>
+</article>

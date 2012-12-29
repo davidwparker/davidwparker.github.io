@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: Logicomix: An Epic Search For Truth"
 categories: [posts, books]
 ---

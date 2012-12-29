@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: book
 title:  "Book: How To Prove It: A Structured Approach"
 categories: [posts, books]
 ---

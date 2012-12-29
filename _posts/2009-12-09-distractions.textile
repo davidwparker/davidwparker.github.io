@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Sorts of Distractions
-categories: posts
+categories: life
 ---
 I've been rather busy lately with quite a few things:
 # grad school essays

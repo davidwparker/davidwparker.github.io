@@ -1,7 +1,7 @@
 ---
 layout: post
 title: And then it was March
-categories: posts
+categories: [life]
 ---
 Well, I promised to have some "Sinatra":http://www.sinatrarb.com/, "XMPP":http://xmpp.org/ ("xmpp4r":http://home.gna.org/xmpp4r/), and "jabber":http://www.jabber.org/ goodness out, but I really haven't worked on that in the last couple of months.  Rather, I've been working a lot with "Django":http://www.djangoproject.com again, but this time more adamant about getting projects done.
 
