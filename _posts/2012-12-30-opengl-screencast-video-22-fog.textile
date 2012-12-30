@@ -13,14 +13,14 @@ GL_FOG, GL_EXP, GL_EXP2, GL_LINEAR, GL_FOG_DENSITY, GL_FOG_START, GL_FOG_END, GL
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-3
 
-"Download the screencast (HD), XX.X. MB .mov":http://screencasts.davidwparker.com/episode-022.mov
+"Download the screencast (HD), 50.1. MB .mov":http://screencasts.davidwparker.com/episode-022.mov
 
 h2(header). Watch the Screencast
 
-"YouTube":
+"YouTube":http://youtu.be/94L8_b1QJv8
 
-Iframe
+<iframe width="480" height="360" src="http://www.youtube.com/embed/94L8_b1QJv8" frameborder="0" allowfullscreen></iframe>
 
 h2(header). Code (this is not all of the code- please see the github link above for all of it)
 
-gist
+<script src="https://gist.github.com/4414262.js"></script>
