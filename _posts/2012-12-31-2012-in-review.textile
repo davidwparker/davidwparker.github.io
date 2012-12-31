@@ -23,7 +23,7 @@ h3(header). Learning
 
 As always, I'm in love with learning. This year was no exception to learning new stuff.
 
-This year, I read a ton of books (see numbers below), which has been nothing short of fantastic. No, not every book is fantastic, but the ones that really stood out to me this year were "Running Lean":/2012/11/19/book-running-lean/ and "Crazy Love":/2012/10/05/book-crazy-love/. 
+This year, I read a ton of books (see numbers below), which has been nothing short of fantastic. No, not every book was fantastic, but the ones that really stood out to me this year were "Running Lean":/2012/11/19/book-running-lean/ and "Crazy Love":/2012/10/05/book-crazy-love/. 
 
 In the physique side of learning, I started taking bboy lessons (breakdancing, another life goal). Bboying, of course, isn't going to be learned overnight, so it's something I'm expecting to keep up over the next few years. Bboying has been an excellent source of exercise outside of running.
 
@@ -33,7 +33,7 @@ This year I did quite a bit of coding, but I didn't publish as much as I would h
 
 While Ideal Tracker isn't pulling in any real money right now (it's ad-based, with an extremely small userbase), it did teach me quite a bit about the publish and upgrade process for Android apps.
 
-I competed in all three "Ludum Dare":http://www.ludumdare.com competitions this year. You can find my code and entries on the game dev "link":/gamedev. Needless to say, I taught myself Three.js, Processing.js, and Cocos2d-html5 (and CocosBuilder) during these events.
+I competed in all three "Ludum Dare":http://www.ludumdare.com competitions this year. You can find my code and entries on the game dev "link":/gamedev. I taught myself Three.js, Processing.js, and Cocos2d-html5 (and CocosBuilder) during these events.
 
 I published 3 more screencasts (and recorded a 4th) on OpenGL. This was a major disappointment this year, as I should have published a lot more. I only recently got inspired as I didn't realize how much time people were watching my videos over the last year (see numbers below).
 
@@ -45,9 +45,11 @@ My wife and I moved out of our apartment and into a friend's townhome, which has
 
 h2(header). Not Awesome Stuff
 
-Last year, I did a Marathon and ran several races. This year, the most that I did was run with a friend for 9-10 miles of her marathon. This 
+Last year, I did a Marathon and ran several races. This year, the longest single run I did was run with a friend for 9-10 miles of her marathon.
 
 My wife and I watched a lot of TV (via Netflix). I watched even more Netflix and an unacceptable amount of Youtube as well. See the numbers below... the definitely speak for themselves.
+
+And, as I said above, I didn't publish enough code. Or perhaps, I didn't write enough code. Or both. Next year, with graduation around the corner, this is going to change.
 
 h2(header). The Numbers
 
@@ -68,21 +70,23 @@ I've posted 2012's numbers below. I've also included numbers for 2009-2011, as I
 | _Random_ | ||||
 | Movies/Shows watched on Netflix via Instant | 347 | 245 | 156 | 170 |
 | Movies/Shows watched on Netflix via DVDs | 50 | 53 | 100 | 62 |
-| Emails sent | 912 | 704 | 66 | 77 |
+| Emails sent | 912 | 704 | ? | ? |
 | Concerts | 2 | 3 | 1 | 0 |
+| Songs starred in Spotify | 97 | 173 | | |
 | _Travel_ | ||||
 | Roundtrip Flights to Montgomery | 1 | 1 | 2 | 1 |
-| Roundtrip Flights elsewhere | 4 | 0 | 0 | 0 |
+| Roundtrip Flights elsewhere | 4 | 0 | 0 | 2 |
 | _Career_ | ||||
 | Networking Events | 37 | 28 | 5 | 0 |
-| Conferences attendend | 1 | 0 | 0 | 0 |
+| Conferences attended | 1 | 0 | 0  | 0 |
 | _Tech_ | ||||
-| Apps Published (total) | 1 | 1 | 0 | 0 |
-| Android Apps | 1 | 1 | 0 | 0 |
-| # Releases (new and old Android) | 2 | 7 | 0 | 0 |
-| Games Created (total) | 3 | 1 | 0 | 0 |
-| Screencasts Recorded | 4 | 19 | 0 | 0 |
 | Blog Posts | 32 | 22 | 16 | 27 |
+| Apps Published (total) | 1 | 1 |  |  |
+| Android Apps | 1 | 1 |  |  |
+| # Releases (new and old Android) | 2 | 7 |  |  |
+| Games Created (total) | 3 | 1 |  |  |
+| Screencasts Recorded | 4 | 19 |  |  |
+| # of views on my screencasts (Youtube) | 10841 | 2000 | | |
 
 I only started using RescueTime in September of 2011, so some numbers may seem a little low. See % of year for actual comparison in that regard. I didn't include everything from RescueTime, as there are way too many categories and details. I chose to share the ones that have the most time or relevancy associated with them.
 
@@ -109,6 +113,6 @@ I only started using RescueTime in September of 2011, so some numbers may seem a
 | ... coding (Xcode) | 22 | 0 | 0.25% | 0.00% |
 | *TOTAL Productive Hours* | *695* | *256* | *7.93%* | *9.04%* |
 
-Not included is time spent on my Android device. I'd like to find a "RescueTime of Android" or equivalent, but have yet to look. I'll be looking shortly though, for next year's stats. The main things that change is the fact that I hardly play games on my laptop, but do semi-regularly on my Android. I also use Twitter almost exclusively on my Android, but obviously not a lot on my laptop. I also use Google+ more on my Android.
+Not included is time spent on my Android device. I'd like to find a "RescueTime of Android" or equivalent, but have yet to look. I'll be looking shortly though, so I can have more data for next year's stats. The main things that change is the fact that I hardly play games on my laptop, but do semi-regularly on my Android. I also use Twitter almost exclusively on my Android, but obviously not a lot on my laptop. I also use Google+ more on my Android.
 
 And that's it. Tomorrow I'll be looking at what I would like to achieve next year, and what I can, and will do to meet those goals.
