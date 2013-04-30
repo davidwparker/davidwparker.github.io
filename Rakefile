@@ -48,6 +48,7 @@ namespace :site do
   desc "rsync _site's CSS"
   task :rsync_css => :"build:pro" do
     system('rsync -avrz _site/css nemo7467@www.davidwparker.com:static.davidwparker.com')
+    system('rsync -avrz _site/.htaccess nemo7467@www.davidwparker.com:static.davidwparker.com/.htaccess')
   end
 
   desc "deploy the application"
