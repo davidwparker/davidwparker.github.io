@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <meta name="description" content="David W Parker: a blog about software, mobile development, web development, entrepreneurship, ruby, rails, python, django, javascript, jquery, java, android, ios, cocos2d, openl and more.">
   <meta name="keywords" content="ruby, rails, python, django, javascript, jquery, emacs, programming, computer programming, software engineering, business, entrepreneurship, fitness, christianity">
   <meta name="author" content="David W Parker">
@@ -17,7 +16,7 @@
   {% endif %}
   {% if site.env == "pro" %}
   <link rel="stylesheet" href="http://static.davidwparker.com/css/screen.css" />
-  <link rel="stylesheet" href="http://static.davidwparker.com/css/highlight.css" />
+  <link rel="stylesheet" href="http://static.davidwparker.com/css/highlight-min.css" />
   <!--[if IE]>
     <link rel="stylesheet" href="http://static.davidwparker.com/css/ie.css" media="screen, projection" />
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,7 +40,7 @@
     <li><a href="/portfolio/">portfolio</a></li>
     <li><a href="/demos/">demos</a></li>
     <li><a href="/gamedev/">gamedev</a></li>
-    <li><a href="/opengl/">opengl</a></li>
+    <li><a href="/graphics/">graphics</a></li>
     <li><a href="/books/">books</a></li>
     <li><a href="/goals/">goals</a></li>
     <li><a href="/other/">other</a></li>
@@ -55,14 +54,16 @@
 </footer>
 {% if site.env == "pro" %}
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3039643-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3039643-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
 {% endif %}
 </body>
 </html>

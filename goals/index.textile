@@ -102,11 +102,11 @@ h4(header). Events
 
 h4(header). Abilities
 
-* Do the Splits 
+* Do the Splits
 ** Center
 ** Left side (left leg forward)
 ** Right side (right leg forward)
-* Break dancing (bboy)
+* Breakdancing (bboy)
 ** Currently taking lessons
 * Capoiera
 * Kung Fu
