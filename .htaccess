@@ -5,6 +5,9 @@ Redirect permanent /2008/09/30/facebook-style-unobrusive-ajax-pagination-for-wil
 # Assign default character set of utf-8
 AddDefaultCharset utf-8
 
+# 404 page
+ErrorDocument 404 /404.html 
+
 <IfModule mod_headers.c>
 # 2 Weeeks
 <FilesMatch "\.(ico|gif|jpg|jpeg|png)$">
