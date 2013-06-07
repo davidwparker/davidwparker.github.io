@@ -248,6 +248,9 @@ nav ul{margin-right:0;}
 nav ul li{border-bottom:1px solid #024c68;}
 nav ul li a{background-color:#3c9dd0;color:#fff;display:block;padding:2px 0 2px 3px;}
 nav ul li a:focus, nav ul li a:hover{background-color:#c3d9ff;color:#024c68;}
+header{background-color:#3c9dd0;padding:20px;}
+header a{color:#fff;}
+header a:focus, header a:hover{background-color:#c3d9ff;color:#024c68;}
 footer{bottom:0px;color:#fff;display:block;height:25px;right:0px;position:fixed;width:100%;text-align:center;}
 .footer-content{background-color:#3c9dd0;height:100%;padding-top:3px;width:950px;margin:0 auto;overflow:visible !important;}
 .footer-content a,.footer-content span{color:#fff;padding:0 3px;}
@@ -275,4 +278,3 @@ table.cloned th{border-bottom:0px;}
 article{font-size:110%;text-align:justify;}
 time{font-family:"Courier New",monospace;}
 h1.header,h2.header,h3.header,h4.header,h5.header,h6.header{margin-bottom:2px;}
-header{padding:20px;}
