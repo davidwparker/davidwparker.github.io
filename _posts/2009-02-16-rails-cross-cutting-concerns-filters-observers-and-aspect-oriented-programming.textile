@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rails Cross-Cutting Concerns - Filters, Observers, and Aspect-Oriented Programming
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2009/02/16/rails-cross-cutting-concerns-filters-observers-and-aspect-oriented-programming/
 ---
 h2(header). Background

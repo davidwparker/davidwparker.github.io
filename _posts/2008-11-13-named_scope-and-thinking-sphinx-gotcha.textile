@@ -1,7 +1,7 @@
 ---
 layout: post
 title: named_scope and Thinking Sphinx gotcha
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/11/13/named_scope-and-thinking-sphinx-gotcha/
 ---
 I was working with named_scope earlier today and I was have an issue getting it to work properly with a Thinking Sphinx search that I had.  This makes sense, as named_scope is not completely supported yet by Thinking Sphinx.  Read below for the gotcha and a short-term work around.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple non-model checkbox in Rails
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/11/12/simple-non-model-checkbox-in-rails/
 ---
 I recently needed to do search in Rails with several checkboxes.  The search itself was not model backed, so the check_box tag was out.  I decided to use the check_box_tag instead.  The problem I had with that was that the check_box_tag had no real easy way of maintaining the state as to whether or not the boxes were checked from search to search.

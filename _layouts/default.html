@@ -8,7 +8,9 @@
   <link href="http://feeds.feedburner.com/davidwparker" rel="alternate" title="david parker | software and web development" type="application/atom+xml" />
   {% if site.env == "dev" %}
   <link rel="stylesheet" href="/css/screen.css" />
+  {% if page.categories contains "hascode" %}
   <link rel="stylesheet" href="/css/highlight.css" />
+  {% endif %}
   <!--[if IE]>
     <link rel="stylesheet" href="/css/ie.css" media="screen, projection" />
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,7 +18,9 @@
   {% endif %}
   {% if site.env == "pro" %}
   <link rel="stylesheet" href="http://static.davidwparker.com/css/screen.css" />
+  {% if page.categories contains "hascode" %}
   <link rel="stylesheet" href="http://static.davidwparker.com/css/highlight-min.css" />
+  {% endif %}
   <!--[if IE]>
     <link rel="stylesheet" href="http://static.davidwparker.com/css/ie.css" media="screen, projection" />
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

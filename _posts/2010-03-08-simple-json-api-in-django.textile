@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple JSON API in Django
-categories: posts
+categories: [posts, hascode]
 ---
 For the Bible API, I made the decision early on that I was going to be using "JSON":http://www.json.org/ for the API.
 

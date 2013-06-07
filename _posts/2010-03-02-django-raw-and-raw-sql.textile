@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django Raw and Raw SQL
-categories: posts
+categories: [posts, hascode]
 ---
 "Django Raw":http://djangoadvent.com/1.2/smoothing-curve/ is pretty sweet.  Basically, you use it like so:
 

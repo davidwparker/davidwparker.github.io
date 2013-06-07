@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Project Euler #5"
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2009/03/01/project-euler-5/
 ---
 In JavaScript:

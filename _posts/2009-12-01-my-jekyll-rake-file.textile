@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Jekyll Rake File
-categories: posts
+categories: [posts, hascode]
 ---
 Perhaps once I get off my lazy butt, I'll upload my Jekyll setup to Github.  In the meantime, I want to show off my Rake file, which I use to deploy this blog.
 

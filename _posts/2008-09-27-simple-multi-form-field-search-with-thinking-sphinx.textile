@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple filterered search using drop downs with Thinking Sphinx
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/09/27/simple-multi-form-field-search-with-thinking-sphinx/
 ---
 Sometimes you may need to offer your users the ability to perform a filtered search using drop down selects.  I had already settled on using Thinking Sphinx based on past experience, so I just needed to figure out how to offer 'filters'.

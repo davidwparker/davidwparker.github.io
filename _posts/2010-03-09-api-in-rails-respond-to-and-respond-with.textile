@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple API in Rails 3 using respond_to and respond_with
-categories: posts
+categories: [posts, hascode]
 ---
 "Yesterday":http://davidwparker.com/2010/03/08/simple-json-api-in-django/ I showed you how to create a simple JSON API in "Django":http://www.djangoproject.com/.  Today I'm going to show you how to do the same thing in Rails 3.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scrollable Table with jQuery
-categories: posts
+categories: [posts, hascode]
 ---
 h2. aka jQuery Fixed Table Headers.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Europe and jQuery Editable Field
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2009/05/11/europe-and-jquery-editable-field/
 ---
 I'll be in Europe for the next 2.5 weeks, so my awesome blog will continue to be ignored for a while.  Sorry.

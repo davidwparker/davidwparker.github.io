@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Facebook style, unobtrusive ajax pagination for will_paginate with jQuery
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/09/30/facebook-style-unobrusive-ajax-pagination-for-will_paginate-with-jquery/
 ---
 I really like the 'pagination' that Facebook provides on their status tab.  It's not true 'pagination' in that the result set is changed, but it does add additional results to the bottom of the set.

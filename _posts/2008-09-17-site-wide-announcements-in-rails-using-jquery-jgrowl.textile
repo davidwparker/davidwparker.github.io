@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Site wide announcements in Rails using jQuery (jGrowl)
-categories: posts
+categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/09/17/site-wide-announcements-in-rails-using-jquery-jgrowl/
 ---
 I like it when a site tells me that they're going to do some maintenance, so I wanted to implement similar features for a web application that I'm working on.  I based my announcements on Ryan Bates' "Railscasts episode 103":http://railscasts.com/episodes/103-site-wide-announcements and updated code based on avarhirion's post on the "Rails Forum":http://railsforum.com/post.php?tid=18705.  The major changes are the added changes for cookie support, graceful degradation, and jQuery (jGrowl).

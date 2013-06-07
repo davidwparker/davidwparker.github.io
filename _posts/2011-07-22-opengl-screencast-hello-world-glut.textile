@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenGL Screencast 1 - Hello World (Glut)
-categories: [posts, opengl]
+categories: [posts, opengl, hascode]
 ---
 I've spent a good bit of time recently doing quite a bit of C and OpenGL and I figured this would be a good time to post some OpenGL screencasts. This first screencast is an introduction to OpenGL 2.1 and GLUT.
 
