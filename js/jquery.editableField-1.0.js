@@ -51,12 +51,14 @@ editableField: function(opts){
     textAttrs:{class:"editInput"},
     textCSS:{},
     buttonAttrs:{
-      class:"saveButton push-right-light-1",
+      class:"saveButton",
+      style:"margin-left:5px",
       value:"Save"
     },
     buttonCSS:{},
     cancelAttrs:{
-      class:"cancel push-right-light-1",
+      class:"cancel",
+      style:"margin-left:5px",
       href:"#"
     },
     cancelCSS:{}
