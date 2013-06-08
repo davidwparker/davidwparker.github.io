@@ -1,12 +1,12 @@
 ---
 layout: default
-title: goals | david parker - software and web development
+title: goals | david parker
 ---
 Below is a list of my goals in my life.  I know that I have way more here than I would actually be able to complete, which I don't think is necessarily a bad thing.  I need something to aim for, if you know what I mean.  Yes, I know this doesn't look super pretty, but I'll be updating that some other time.
 
 h2(header). Goals
 
-Last updated: 12/27/2012
+Last updated: 6/8/2013
 
 h3(header). Life
 
@@ -47,9 +47,10 @@ h3(header). Education
 h4(header). Master's Degree
 
 * Computer Science
-** Scheduled to graduate May 2013
+** Completed (graduated) May 2013
 * MBA
-** Finished classwork May 2012. Scheduled to graduate May 2013
+** Finished classwork in May 2012
+** Completed (graduated) May 2013
 
 h4(header). Bachelor's Degree
 
@@ -96,7 +97,7 @@ h4(header). Events
 ** Completed May 1, 2011
 ** Time: 3:59:48
 ** "Colorado Marathon":http://results.active.com/pages/oneResult.jsp?pID=111511758&rsID=107685
-* Half Marathon (13 miles)
+* Half Marathon (13.1 miles)
 ** Completed June 26, 2010
 ** Time: 2:10:36
 
@@ -108,9 +109,9 @@ h4(header). Abilities
 ** Right side (right leg forward)
 * Breakdancing (bboy)
 ** Currently taking lessons
-* Capoiera
-* Kung Fu
-* Parkour
+* -Capoiera-
+* -Kung Fu-
+* -Parkour-
 * Standing backflip
 
 h3(header). Work
