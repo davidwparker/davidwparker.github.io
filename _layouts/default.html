@@ -26,6 +26,9 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   {% endif %}
+  {% for style in page.styles %}
+  <style>{{ style }}</style>
+  {% endfor %}
 </head>
 <body>
 <div class="container">

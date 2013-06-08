@@ -3,6 +3,10 @@ layout: demo
 title: jQuery Scrollable Table
 description: Make a table scrollable and leave the headers in place
 permalink: /demos/jqueryScrollableTable
+styles: |
+  #content{padding:5px 15px;}
+  .tall-10{height:200px;}
+  .overflowed{overflow-y:scroll;}
 ---
 See the <a href="/2009/11/19/scrollable-table-with-jquery">blog post</a>.
 
@@ -119,11 +123,6 @@ See the <a href="/2009/11/19/scrollable-table-with-jquery">blog post</a>.
     <td class="data3">data 3 row 9</td>
   </tr>
 </table>
-<style>
-#content{padding:5px 15px;}
-.tall-10{height:200px;}
-.overflowed{overflow-y:scroll;}
-</style>
 <script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="/js/jquery.scrollableTable-1.0.js"></script>
 <script type="text/javascript">
