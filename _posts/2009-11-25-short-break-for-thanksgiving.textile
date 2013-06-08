@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: Short Break for Thanksgiving
 categories: life
 ---

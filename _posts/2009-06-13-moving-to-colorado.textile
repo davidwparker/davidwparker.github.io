@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: Moving to Colorado!
 categories: life
 oldurl: http://davidwparker.com/2009/06/13/moving-to-colorado/

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: More Free Time, Less Free Time
 categories: [life]
 oldurl: http://davidwparker.com/2008/08/24/more-free-time-less-free-time/

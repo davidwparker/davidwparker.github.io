@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: Re-acquiring Focus
 categories: [posts, life]
 oldurl: http://davidwparker.com/2009/04/17/re-acquiring-focus/

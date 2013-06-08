@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: Short-term lack of posts
 categories: life
 oldurl: http://davidwparker.com/2009/03/20/short-term-lack-of-posts/

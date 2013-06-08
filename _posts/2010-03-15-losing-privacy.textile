@@ -1,6 +1,7 @@
 ---
 layout: life
 title: Losing Privacy and Why You Can't Espace
+categories: life
 ---
 It seems like over the last few months that lots of different people are saying "privacy is dead" (namely, Eric Schmidt and Mark Zuckerberg).  I don't really hold a position as to whether individuals care or not that their privacy may be fleeting, but I do know that privacy is slowly escaping the average American, whether they like it or not.  I'm not talking about the people that are actively on Facebook posting information.  Rather, I'm talking about the ways people don't even know they're being tracked (of course, a lot of programmers and other "nerds" probably already know this stuff).
 

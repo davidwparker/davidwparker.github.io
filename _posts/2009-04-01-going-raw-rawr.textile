@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: going raw. Rawr.
 categories: life
 oldurl: http://davidwparker.com/2009/04/01/going-raw-rawr/

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: And then it was March
 categories: [life]
 ---

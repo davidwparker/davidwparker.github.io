@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: life
 title: Forgetting the Milk
 categories: [posts, life]
 ---

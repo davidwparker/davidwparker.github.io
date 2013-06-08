@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: life
 title: Wasting Time Online
-categories: [posts, life]
+categories: [life]
 oldurl: http://davidwparker.com/2008/07/02/wasting-time-online/
 ---
 So, here's a trivial little poll:

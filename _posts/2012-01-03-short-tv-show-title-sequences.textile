@@ -1,6 +1,7 @@
 ---
 layout: life
 title: "Short TV Show Title Sequences"
+categories: life
 ---
 I'm a huge fan of short title sequences. For me, it started with Lost, which really wasn't that great, but it was one of the first that I saw in that style. Since then, I've watched an assortment of other shows with short title sequences.
 

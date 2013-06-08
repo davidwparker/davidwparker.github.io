@@ -1,6 +1,7 @@
 ---
 layout: life
 title: "Lost - The Television Show - My Questions and Answers"
+categories: life
 ---
 h2(header). Note: Major LOST spoilers below
 
