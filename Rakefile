@@ -87,7 +87,6 @@ namespace :post do
   end
 end
 
-
 private 
   def updateConfig(rep)
     lines = IO.readlines("_config.yml");

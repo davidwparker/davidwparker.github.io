@@ -2,4 +2,9 @@ markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title
 future: false
+jekyll-press:
+  exclude: ['atom.xml','sitemap.xml','*shaders*','*bootstrap*']
+  js_options: {}
+  css_options: {}
+  html_options: {}
 env: dev
