@@ -1,6 +1,7 @@
 ---
 title: "Book: Forgotten God"
 layout: christianity
+categories: christianity
 ---
 Read: September 2012
 Rating: 9.0/10
