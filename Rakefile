@@ -13,14 +13,14 @@ namespace :site do
     desc "build and deploy dev"
     task :dev => :delete do
       puts "building _site"
-      system('jekyll --server')
+      system('jekyll serve')
       puts "building _site complete"
     end
     
     desc "build pro"
     task :pro => :delete do
       puts "building production _site"
-      system('jekyll')
+      system('jekyll build')
       puts "building _site complete"
     end
   end

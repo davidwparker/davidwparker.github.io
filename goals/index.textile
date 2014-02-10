@@ -6,7 +6,7 @@ Below is a list of my goals in my life.  I know that I have way more here than I
 
 h2(header). Goals
 
-Last updated: 6/8/2013
+Last updated: 2/3/2014
 
 h3(header). Life
 
@@ -33,14 +33,16 @@ h3(header). Travel
 ** Completed May 2006
 * Paris
 ** Completed June 2002, May 2009
+* New York City
+** Completed June - September 2013. Lived in Jersey City, worked in New York. Techstars.
 * Scotland
 * Egypt
 * Australia
 * New Zealand
-* New York City
 * Brazil
 * Japan
 * Korea
+* Argentina
 
 h3(header). Education
 
@@ -49,8 +51,7 @@ h4(header). Master's Degree
 * Computer Science
 ** Completed (graduated) May 2013
 * MBA
-** Finished classwork in May 2012
-** Completed (graduated) May 2013
+** Finished classwork in May 2012. Completed (graduated) May 2013
 
 h4(header). Bachelor's Degree
 
@@ -83,16 +84,6 @@ h3(header). Physique
 
 h4(header). Events
 
-* Eco-Challenge
-** These competitions are no longer going on :(
-* Triathlon
-** Iron Man
-** Half-Iron Man
-*** Schedule August 2013
-** Olympic
-*** Scheduled July 2013
-** Sprint
-*** Scheduled June 2013
 * Marathon
 ** Completed May 1, 2011
 ** Time: 3:59:48
@@ -100,6 +91,16 @@ h4(header). Events
 * Half Marathon (13.1 miles)
 ** Completed June 26, 2010
 ** Time: 2:10:36
+* Triathlon
+** Iron Man
+** Half-Iron Man
+** Olympic
+** Sprint
+*** Completed June 16, 2013
+*** Time: 1:52:17; Swim: 24:27, T1: 7:53, Bike 50:04, T2: 1:09, Run: 28:44
+*** "Boulder Tri Sprint":http://edge.raceresults360.com/rr360/race/GIMOj9/#/person:&entry_id=649:1391483995136
+* Eco-Challenge
+** These competitions are no longer going on :(
 
 h4(header). Abilities
 
@@ -108,15 +109,17 @@ h4(header). Abilities
 ** Left side (left leg forward)
 ** Right side (right leg forward)
 * Breakdancing (bboy)
-** Currently taking lessons
+** Started October 2012 - Current
+* Standing backflip
 * -Capoiera-
 * -Kung Fu-
 * -Parkour-
-* Standing backflip
 
 h3(header). Work
 
-* Start and own a SUCCESSFUL tech company
+* Start and own a successful tech company
+** Co-founder Uvize (Started May 2013)
+*** Accepted in to Kaplan EdTech Accelerator Powered by Techstars, Summer 2013, NYC
 
 h3(header). Technology
 
