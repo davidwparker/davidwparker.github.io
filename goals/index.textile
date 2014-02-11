@@ -55,14 +55,14 @@ h4(header). Master's Degree
 
 h4(header). Bachelor's Degree
 
+* Information Systems
+** Completed May 2006
 * -Accounting-
 * -Architecture-
 * -Computer Science-
 * -Finance-
 * -Graphic Design-
 * -Illustration-
-* Information Systems
-** Completed May 2006
 * -Mathematics-
 
 h3(header). Music
