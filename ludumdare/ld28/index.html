@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html ng-app="ld28">
+  <head>
+    <title>Ludum Dare 28: Choices</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Choices is a game David Parker made for Ludum Dare 28">
+    <meta name="keywords" content="Ludum Dare, Ludum Dare 28, Game">
+    <meta name="author" content="David W Parker">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body ng-controller="GameCtrl">
+
+    <div class="header">
+      <h1>Choices</h1>
+    </div>
+    <div class="choices" ng-show="game.choices.show">
+      <div ng-show="game.choices.planet">
+        Planet: <span ng-bind="game.choices.planet.name"></span>
+      </div>
+      <div ng-show="game.choices.family">
+        Family: <span ng-bind="game.choices.family.name"></span>
+      </div>
+      <div ng-show="game.choices.power">
+        Power: <span ng-bind="game.choices.power.name"></span>
+      </div>
+      <div ng-show="game.choices.school">
+        School: <span ng-bind="game.choices.school.name"></span>
+      </div>
+      <div ng-show="game.items.key1">
+        You have a pretty key!
+      </div>
+      <div ng-show="game.items.key2">
+        You have an ugly key!
+      </div>
+      <div ng-show="game.items.energy">
+        You have the energy.
+      </div>
+      <div ng-show="game.items.permission">
+        You have permission to leave.
+      </div>
+    </div>
+
+    <div ng-show="game.state == 'played'">
+      <p>
+        Alas, you've already played this game before. You only have ONE chance to play*, and you wasted it...
+      </p>
+      <p>
+        * = I set the localStorage variable "played" to true...<br>
+        Press <button ng-click="newGame()">here</button> if you want to clear this to play again.
+      </p>
+    </div>
+
+    <div ng-show="game.state == 'init'"
+         class="init">
+      <p>
+        Make your selection.
+      </p>
+      <button ng-click="setState('intro')">Start</button>
+    </div>
+
+    <div ng-show="game.state == 'intro'"
+         class="intro">
+      <p>
+        Welcome to the game of Choices. A game where you are presented with an infinite number of possibilities of choices, but <u>you only get one</u>.
+      </p>
+      <p>
+        <b>Warning:</b> You only get ONE chance to play this game*. After you have played once, you will never get to play again.
+      </p>
+      <p>
+        Ready?
+      </p>
+      <button ng-click="setState('act1')">Play</button>
+      <p>
+        * = not entirely true
+      </p>
+    </div>
+
+    <div ng-show="game.state == 'act'">
+      <h2 ng-bind="game.header"></h2>
+      <img ng-show="game.has_img"
+           ng-src="{{game.img}}"></img>
+      <p ng-repeat="story in game.story">
+        <span ng-bind="story"></span>
+      </p>
+      <div ng-show="game.show || !game.game">
+        <p><b ng-bind="game.question"></b></p>
+        <div ng-repeat="option in game.options">
+          <label>
+            <input type="radio" value="{{option.v}}" name="{{game.optionName}}" ng-click="setChoice(game.act, option.v, option.name)"></input>
+            <span ng-bind="option.name"></span><span ng-show="option.desc != ''"> - </span>
+            <span ng-bind="option.desc"></span>
+          </label>
+        </div>
+        <button ng-show="game.nextAct" ng-click="setState('actt')" ng-bind="game.nextAct[1]"></button>
+      </div>
+      <div ng-show="game.game">
+        <button ng-click="left('actg')" ng-bind="game.dir.left[1]"></button>
+        <button ng-click="right('actg')" ng-bind="game.dir.right[1]"></button>
+        <button ng-click="up('actg')" ng-bind="game.dir.up[1]"></button>
+        <button ng-click="down('actg')" ng-bind="game.dir.down[1]"></button>
+      </div>
+    </div>
+
+    <div ng-show="game.state == 'end'">
+      <p ng-bind="game.end"></p>
+      <p>
+        This is the end of the game.
+      </p>
+      <p>
+        Would you like to play again?
+      </p>
+      <p>
+        Too bad. You only got ONE chance*
+      </p>
+      <p>
+        I must be feeling nice: <button ng-click="setState('init')">Restart</button>
+      </p>
+    </div>
+
+  </body>
+
+  <!-- Libraries -->
+  <script type="text/javascript" src="angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3039643-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</html>

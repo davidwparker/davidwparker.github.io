@@ -1,0 +1,15 @@
+body {
+    margin-left: 100px;
+}
+
+img {
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+
+.choices {
+    float:right;
+    border: 1px solid #ff0000;
+    padding: 20px;
+}
