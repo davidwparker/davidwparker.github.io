@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ludum Dare 24: Evolutionary Chocolatier</title>
+  </head>
+  <body>
+    <h1>Ludum Dare 24: Evolutionary Chocolatier</h1>
+    <p>This may take a little time to load (it's doing it now, trust me...)</p>
+    <p>See <a href="#concept">concept</a> and <a href="#instructions">instructions</a> below</p>
+    <canvas id="game" data-processing-sources="game.pde"></canvas>
+    <h3 id="concept">Concept</h3>
+    <p>You're a run of the mill chocolatier. But you want to make it big. You need to learn, adapt, and evolve, if you want to make the big $$$.</p>
+    <h3 id="instructions">Instructions</h3>
+    <p>Select your ingredients from the ingredients area. You can select up to 6 (different) ingredients. Once you have selected your ingredients, press the -> button in the prep area.</p>
+    <p>Next, turn on the stove and let it begin... then start making the next chocolate. Once a chocolate achieves temperature between 95 and 99, turn off the burner to let it begin tempering (this is lower than what you would do in real life).</p>
+    <p>Once the temperature drops back down between 88 and 90 degrees, press the -> button for the corresponding stove to send it to the molds. Don't let it drop below 88 degrees or you'll have to reheat it back to 105!</p>
+    <p>Sell off the chocolate once it's cooled in the mold and make serious $$$!</p>
+    <h3 id="todo">Gameplay things I wanted TODO, but didn't have time</h3>
+    <ul>
+      <li>Implement levels => actually, you know, evolve</li>
+      <li>Implement tickets => patrons would ask for a specific type of chocolate and you had to make it in time</li>
+      <li>Implement difficulty => different chocolates would be harder to make, based on your evolutionary chocolatier level</li>
+      <li>Require user to stir in the chocolate and stir while tempering</li>
+      <li>Buy/restock different ingredients based on the level</li>
+      <li>Many, many more...</li>
+    </ul>
+    <h3 id="keyboard">Keyboard Shortcuts</h3>
+    <p>First click inside the canvas, then you can use keyboard shortcuts</p>
+    <ul>
+      <li>1-6: add corresponding top row item of chocolate</li>
+      <li>QWERTY: add corresponding 2nd row item of ingredients</li>
+      <li>ASDFGH: add corresponding 3rd row item of ingredients</li>
+    </ul>
+    <h3 id="bugs">Known Bugs</h3>
+    <ul>
+      <li>Pressing a button and holding it continues to press the button. This results in error messages such as only one chocolate can be added, even though you only pressed a single chocolate.</li>
+      <li>Deleting an ingredient from the prep board that isn't the last ingredient added may result in all ingredients after the one selected being deleted.</li>
+      <li>The color of the chocolate in the stove and molds doesn't match the selected type.</li>
+    </ul>
+    <script src="processing-1.4.1.js"></script>
+    <script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3039643-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+
+  </body>
+</html>

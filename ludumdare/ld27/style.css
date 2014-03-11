@@ -1,0 +1,72 @@
+.clearfix { 
+    clear: both;
+    float: left; 
+    display: block; 
+    position: relative;
+} 
+
+.box-easy {
+    border: 1px solid #000;
+    height: 48px;
+    width: 48px;
+}
+
+.box-medium {
+    border: 1px solid #000;
+    height: 24px;
+    width: 24px;
+}
+
+.box-hard {
+    border: 1px solid #000;
+    height: 12px;
+    width: 12px;
+}
+
+.box-green {
+    background-color: #4A7023;
+}
+
+.box-blue {
+    background-color: #0000ff;
+}
+
+.box-red {
+    background-color: #ff0000;
+}
+
+.box-orange {
+    background-color: #ffa500;
+}
+
+.box-black {
+    background-color: #000000;
+}
+
+.box-gray {
+    background-color: #f0f0f0;
+}
+
+.floater {
+    float: left;
+}
+
+.green {
+    color: #4A7023;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.orange {
+    color: #ffa500;
+}
+
+.black {
+    color: #000000;
+}

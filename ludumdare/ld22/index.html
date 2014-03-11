@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ludum Dare 22: Alone. The Social Network strives to create unrealistic friendships and poor acquaintances. Your goal is to end all such relationships.">
+  <meta name="keywords" content="Ludum Dare, Alone, Social Network">
+  <meta name="author" content="David W Parker">
+  <title>Ludum Dare 22: "Alone" presents: The Social Network</title>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="container">
+
+<section id="intro-content">
+  <h1>The Social Network</h1>
+  <p>Enter... if you <span class="label important">dare</span>.</p>
+  <input type="text" id="logon-name" class="xlarge" name="logon-name" size="30" placeholder="Name"/>
+  <input type="button" id="logon-btn" class="btn primary" value="Log On" />
+  <section>
+    <h2>About the Game</h2>
+    <p>The Social Network is a text-based battle game created for Ludum Dare 22 by David Parker.</p>
+    <p>Created on OSX 10.6.8. Tested on Safari 5.1.2, Firefox, 8.0.1, and Chrome 16.0.912.63.</p>
+    <p>All pictures Creative Commons from Flickr.</p>
+  </section>
+</section>
+
+<section id="welcome-content">
+  <h1>Welcome to The Social Network, <span class="player-name"></span>.</h1>
+  <div class="row">
+    <div class="span8 offset1">
+      <p>You're just too damn <span class="label success">popular</span>. You've never felt more connected... but you've never felt more <span class="label important">alone</span>. Don't they all just understand that you need to get away???</p>
+      <p>Your objective is to hurl <span class="label warning">insults</span>, rumors, and more at your so-called acquaintances, friends, and family in order to remove social ties. De-friend everyone and you'll win by getting your <span class="label important">alone</span> time. Don't and you may never have a minute to yourself ever again.</p>
+      <div class="row">
+	<div class="offset1">
+	  <input type="button" id="welcome-btn" class="btn danger" value="Begin" />
+	</div>
+      </div>
+    </div>
+  </div>
+  <section>
+  <h2>Rules</h2>
+  <div class="row">
+    <div class="span8 offset1">
+      <p>You play the game by <span class="label">hanging out</span> with acquaintances, friends, and family. When you hangout, you insult them until they de-friend you. Use your <span class="label success">Wit</span> to use advanced <span class="label important">Hateful Communication Tactics (HCT)</span>. As they de-friend you, you gain more <span class="label notice">Peace and Quiet</span> which helps you level up and earn more ability points. Using ability points allows you to get better HCT's. But watch out, you don't want to get your own <span class="label success">Feelings</span> hurt!</p>
+    </div>
+  </div>
+  </section>
+</section>
+
+<section id="main-content">
+  <ul class="tabs">
+    <li><a href="#logout" id="logout-link" data-controls-modal="logout-modal" data-backdrop="true" data-keyboard="true" class="btn secondary">Log Out</a></li>
+  </ul>
+
+  <div class="pill-content">
+    <div id="profile" class="active">
+      <h1>Hello, <span class="player-name"></span>!</h1>
+      <div class="row">
+	<div class="span5 offset1">
+	  <img class="thumbnail player-pic" src="http://placehold.it/230x230" alt="A picture of the player" />
+	</div>
+	<div class="span6">
+	  <section>
+	    <div class="row">
+	      Friends: <span class="player-friends"></span>
+	    </div>
+	    <div class="row">
+	      Level: <span class="player-level"></span>
+	    </div>
+	    <div class="row">
+	      Peace and Quiet: <span class="player-peace"></span>
+	    </div>
+	    <div class="row">
+	      Next Level: <span class="player-peace-next"></span> Peace and Quiet
+	    </div>
+	    <div class="row">
+	      Ability Points: <span class="player-points"></span>
+	    </div>
+	    <div class="row">
+	      Feelings: <span class="player-feelings"></span> / <span class="player-feelings-max"></span>
+	    </div>
+	    <div class="row">
+	      Wit: <span class="player-wit"></span> / <span class="player-wit-max"></span>
+	    </div>
+	    <div class="pushed">
+	      <button data-controls-modal="hangout-modal" data-backdrop="true" data-keyboard="true" class="btn danger">Enter Hangout</button>
+	    </div>
+	  </section>
+	</div>
+      </div>
+      <h2>Hateful Communication Tactics</h2>
+      <div class="row">
+	<div class="offset1">
+	  <ul class="abilities unstyled">
+	    <li class="insultsLi"><h4>Insults</h4>
+	      <ul class="insults unstyled">
+	      </ul>
+	    </li>
+	    <li class="rumorsLi"><h4>Rumors</h4>
+	      <ul class="rumors unstyled">
+	      </ul>
+	    </li>
+	    <li class="specialLi"><h4>Advanced</h4>
+	      <ul class="specials unstyled">
+	      </ul>
+	    </li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+
+    <div id="hangout">
+      <h1>Hangout</h1>
+      <div class="row">
+	<div class="offset3">
+	  <h3><span class="player-name"></span> is hanging out with <span class="enemy-name"></span></h3>
+	</div>
+      </div>
+      <div class="row">
+	<div class="span3">
+	  <section>
+	    <div class="row">
+	      <span class="label notice player-name"></span>
+	    </div>
+	    <div class="row">
+	      Feelings: <span class="player-feelings"></span> / <span class="player-feelings-max"></span>
+	    </div>
+	    <div class="row">
+	      Wit: <span class="player-wit"></span> / <span class="player-wit-max"></span>
+	    </div>
+	  </section>
+	</div>
+	<div class="span5">
+	  <ul class="media-grid">
+	    <li><a href="#"><img class="thumbnail player-pic" src="http://placehold.it/230x230" alt="A picture of the player" /></a></li>
+	  </ul>
+	</div>
+	<div class="span5">
+	  <ul class="media-grid">
+	    <li><a href="#"><img class="thumbnail enemy-pic" src="http://placehold.it/230x230" alt="A picture of the enemy" /></a></li>
+	  </ul>
+	</div>
+	<div class="span3">
+	  <section>
+	    <div class="row">
+	      <span class="label important enemy-name"></span>
+	    </div>
+	    <div class="row">
+	      Feelings: <span class="enemy-feelings"></span> / <span class="enemy-feelings-max"></span>
+	    </div>
+	    <div class="row">
+	      <span class="enemy-desc"></span>
+	    </div>
+	  </section>
+	</div>
+      </div>
+      <div class="row">
+	<div class="span7">
+	  <ul id="turns" class="unstyled">
+	  </ul>
+	</div>
+	<div class="span3 offset1">
+	  <ul class="abilities unstyled">
+	    <li class="insultsLi"><h4>Insults</h4>
+	      <ul class="insults unstyled">
+	      </ul>
+	    </li>
+	    <li class="rumorsLi"><h4>Rumors</h4>
+	      <ul class="rumors unstyled">
+	      </ul>
+	    </li>
+	    <li class="specialLi"><h4>Advanced</h4>
+	      <ul class="specials unstyled">
+	      </ul>
+	    </li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="hangout-modal" class="modal hide fade">
+  <div class="modal-header">
+    <a href="#" class="close">x</a>
+    <h3>Enter Hangout?</h3>
+  </div>
+  <div class="modal-body">
+    <p>Are you ready to hangout with <span class="enemy-name"></span> (<span class="enemy-type"></span>) and hurl <span class="label warning">insults</span>?</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">Let's do this!</a>
+    <a href="#" class="btn info">How about a random enemy instead?</a>
+    <a href="#" class="btn secondary">Not right now...</a>
+  </div>
+</div>
+
+<div id="upgrade-modal" class="modal hide fade">
+  <div class="modal-header">
+    <a href="#" class="close">x</a>
+    <h3>Learn Ability?</h3>
+  </div>
+  <div class="modal-body">
+    <p>Are you sure you want to spend <span class="ability-points"></span> points to learn this ability?</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">I'm mean!</a>
+    <a href="#" class="btn secondary">Nope ...</a>
+  </div>
+</div>
+
+<div id="upgrade-fail-modal" class="modal hide fade">
+  <div class="modal-header">
+    <h3>Not enough Points!</h3>
+  </div>
+  <div class="modal-body">
+    <p>Alas, you don't have enough ability points!</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">Drat.</a>
+  </div>
+</div>
+
+<div id="logout-modal" class="modal hide fade">
+  <div class="modal-header">
+    <a href="#" class="close">x</a>
+    <h3>Log Out</h3>
+  </div>
+  <div class="modal-body">
+    <p>Are you sure you want to log out?</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">Save and Exit</a>
+    <a href="#" class="btn secondary">Cancel</a>
+  </div>
+</div>
+
+<div id="gameover-modal" class="modal hide fade">
+  <div class="modal-header">
+    <h3>Game Over</h3>
+  </div>
+  <div class="modal-body">
+    <p>You are forever doomed to be with people. Never <span class="label important">alone</span></p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">Lame</a>
+  </div>
+</div>
+
+<div id="battle-modal" class="modal hide fade">
+  <div class="modal-header">
+    <h3>De-friended!</h3>
+  </div>
+  <div class="modal-body">
+    <p>An epic battle of words, insults, and damage to their <span class="label important">ego</span>!</p>
+    <p>Peace and Quiet +<span class="enemy-peace"></span></p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">Booyah!</a>
+  </div>
+</div>
+
+<div id="win-modal" class="modal hide fade">
+  <div class="modal-header">
+    <h3>No more friends!</h3>
+  </div>
+  <div class="modal-body">
+    <p>You can finally enjoy some <span class="label important">alone</span> time</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">Finally!</a>
+  </div>
+</div>
+
+<div id="wit-modal" class="modal hide fade">
+  <div class="modal-header">
+    <h3>Not enough Wit!</h3>
+  </div>
+  <div class="modal-body">
+    <p>Alas, you don't have enough wit!</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn primary">errr duh.</a>
+  </div>
+</div>
+
+</div>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="bootstrap-modal.js"></script>
+<script type="text/javascript" src="bootstrap-twipsy.js"></script>
+<script type="text/javascript" src="bootstrap-popover.js"></script>
+<script type="text/javascript" src="ld22-game.js"></script>
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3039643-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
+
