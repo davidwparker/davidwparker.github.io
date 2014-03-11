@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ludum Dare 26: Minimalist Moe</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Tiny God is a Tiny World game made for Ludum Dare 23">
+    <meta name="keywords" content="Tiny World, Ludum Dare, Tiny God, Game">
+    <meta name="author" content="David W Parker">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"><!-- Style must be before responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+  </head>
+
+  <body>
+    <div id="container" class="container">
+      <div class="row">
+        <h1>Minimalist Moe</h1>
+      </div>
+      <div id="game-data" class="row">
+        <div class="span3">
+          Life: <span id="game-life"></span><br />
+          Level: <span id="game-level"></span>
+        </div>
+        <div class="span3">
+          % wave complete: <span id="game-percent"></span><br />
+          Wave #: <span id="game-wave"></span>
+        </div>
+        <div class="span3">
+          Score: <span id="game-score"></span><br />
+          Crazy Angles destroyed: <span id="game-kills"></span>
+        </div>
+        <div class="span3">
+          <a id="start" href="#" class="btn">Start Game</a>
+          <a id="level" href="#" class="btn hide">Next Level</a>
+          <a id="pause" href="#" class="btn hide">Pause</a>
+          <a id="resume" href="#" class="btn hide">Resume</a>
+          <a id="reset" href="#" class="btn">Reset</a>
+          <a id="mute" href="#" class="btn">Mute</a>
+        </div>
+      </div>
+      <div class="row">
+        <span id="log" class="error"></span>
+      </div>
+      <div id="game" class="row">
+      </div>
+    </div>
+  </body>
+
+  <!-- Libraries -->
+  <script type="text/javascript" src="js/lib/detector.js"></script>
+  <script type="text/javascript" src="js/lib/three.min.js"></script>
+  <script type="text/javascript" src="js/lib/stats.js"></script>
+  <script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
+
+  <!-- MY CODE -->
+  <script type="text/javascript" src="js/util.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3039643-2']);
+      _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</html>
