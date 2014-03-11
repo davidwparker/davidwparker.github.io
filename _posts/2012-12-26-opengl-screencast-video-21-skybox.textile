@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I explain how to create a Skybox in your OpenGL program.
 
-OpenGL functions used in this screencast: 
+OpenGL functions used in this screencast:
 glBindTexture, glTexCoord2f, glVertex3f
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_TEXTURE_2D, GL_QUADS
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-3
 
-"Download the screencast (HD), 40.8. MB .mov":http://screencasts.davidwparker.com/episode-021.mov
+"Download the screencast (HD), 40.8. MB .mov":https://dl.dropboxusercontent.com/s/fkcq8wc9p9elikh/episode-021.mov?dl=1
 
 h2(header). Watch the Screencast
 

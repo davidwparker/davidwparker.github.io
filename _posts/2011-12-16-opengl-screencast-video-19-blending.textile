@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I explain how to use blending in your OpenGL program.
 
-OpenGL functions used in this screencast: 
+OpenGL functions used in this screencast:
 glBlendFunc(), glDepthMask()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_TRUE, GL_FALSE, GL_BLEND, GL_ZERO, GL_ONE, GL_DST_COLOR, GL_SRC_COLOR, GL_ONE_MINUS_DST_COLOR, GL_ONE_MINUS_SRC_COLOR, GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_DST_ALPHA, GL_ONE_MINUS_DST_ALPHA, GL_SRC_ALPHA_SATURATE
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast (HD), 67.9 MB .mov":http://screencasts.davidwparker.com/episode-019.mov
+"Download the screencast (HD), 67.9 MB .mov":https://dl.dropboxusercontent.com/s/ipv4rwl6nhomjgk/episode-019.mov?dl=1
 
 h2(header). Watch the Screencast
 

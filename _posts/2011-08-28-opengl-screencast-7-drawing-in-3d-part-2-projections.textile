@@ -10,7 +10,7 @@ gluPerspective(), gluLookAt()
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 26.8 MB .mov":http://screencasts.davidwparker.com/episode-007.mov
+"Download the screencast, 26.8 MB .mov":https://dl.dropboxusercontent.com/s/b8w1ccnqcqwlkxn/episode-007.mov?dl=1
 
 h2(header). Watch the Screencast
 

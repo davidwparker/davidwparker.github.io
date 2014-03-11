@@ -7,7 +7,7 @@ Bitmap Characters are great because they allow us to display text information. W
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 49.3 MB .mov":http://screencasts.davidwparker.com/episode-002.mov
+"Download the screencast, 49.3 MB .mov":https://dl.dropboxusercontent.com/s/uh9rez74f3wp2su/episode-002.mov?dl=1
 
 h2(header). Watch the Screencast
 
@@ -126,7 +126,7 @@ void display()
   printAt(5,5,"hello bitmap characters");
   glWindowPos2i(100,20);
   print("and again");
-  
+
   /*  Flush and swap */
   glFlush();
   glutSwapBuffers();

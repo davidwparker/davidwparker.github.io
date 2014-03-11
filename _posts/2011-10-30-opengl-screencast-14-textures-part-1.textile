@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I discuss using textures. I start by explaining loading a texture into texture memory from a bmp image. Next, I talk about how a texture is used a tied to a specific vertex.
 
-OpenGL commands used in this screencast: 
+OpenGL commands used in this screencast:
 glGenTextures(), glBindTextures(), glTexImage2D(), glTexParameteri(), glTexCoord2f()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_TEXTURE_2D, GL_RGB, GL_UNSIGNED_BYTE, GL_TEXTURE_MAG_FILTER, GL_TEXTURE_MIN_FILTER, GL_LINEAR
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast, 34.6 MB .mov":http://screencasts.davidwparker.com/episode-014.mov
+"Download the screencast, 34.6 MB .mov":https://dl.dropboxusercontent.com/s/az0yvrg8qaewk3y/episode-014.mov?dl=1
 
 h2(header). Watch the Screencast
 

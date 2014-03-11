@@ -10,7 +10,7 @@ glutKeyboardFunc(), glutSpecialFunc(), glutMouseFunc(), glutPassiveMotionFunc(),
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 13.5 MB .mov":http://screencasts.davidwparker.com/episode-005.mov
+"Download the screencast, 13.5 MB .mov":https://dl.dropboxusercontent.com/s/3g8qgorfykujqs0/episode-005.mov?dl=1
 
 h2(header). Watch the Screencast
 

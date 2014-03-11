@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video Tutorial), I create a few more shapes with their corresponding textures. I also explain several specific OpenGL texture methods and parameters.
 
-OpenGL commands used in this screencast: 
+OpenGL commands used in this screencast:
 glutInitWindowPosition(), glBindTexture(), glTexParameteri(), glTexParameterfv(), glTexEnvi(), glTexEnvfv()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_TEXTURE_2D, GL_NEAREST, GL_TEXTURE_MIN_FILTER, GL_TEXTURE_MAG_FILTER, GL_TEXTURE_WRAP_S, GL_TEXTURE_WRAP_T, GL_REPEAT, GL_CLAMP, GL_CLAMP_TO_BORDER, GL_CLAMP_TO_EDGE, GL_MIRRORED_REPEAT, GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE, GL_BLEND, GL_MODULATE, GL_DECAL, GL_COMBINE, GL_ADD, GL_TEXTURE_ENV_COLOR, GL_TEXTURE_BORDER_COLOR
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast (HD), 58.9 MB .mov":http://screencasts.davidwparker.com/episode-015.mov
+"Download the screencast (HD), 58.9 MB .mov":https://dl.dropboxusercontent.com/s/q25tidvs8agoyws/episode-015.mov?dl=1
 
 h2(header). Watch the Screencast
 

@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I explain how to use Anti-Aliasing in your OpenGL program.
 
-OpenGL functions used in this screencast: 
+OpenGL functions used in this screencast:
 glBlendFunc, glHint
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_FRAGMENT_SHADER_DERIVATIVE_HINT, GL_LINE_SMOOTH_HINT, GL_TEXTURE_COMPRESSION_HINT, GL_POLYGON_SMOOTH_HINT, GL_DONT_CARE, GL_NICEST, GL_FASTEST
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast (HD), 27.4 MB .mov":http://screencasts.davidwparker.com/episode-020.mov
+"Download the screencast (HD), 27.4 MB .mov":https://dl.dropboxusercontent.com/s/e7wg78giyvcujnn/episode-020.mov?dl=1
 
 h2(header). Watch the Screencast
 

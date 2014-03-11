@@ -10,7 +10,7 @@ GL_TRIANGLES, GL_TRIANGLE_STRIP, GL_TRIANGLE_FAN, GL_QUADS, GL_QUAD_STRIP, GL_PO
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 17.5 MB .mov":http://screencasts.davidwparker.com/episode-004.mov
+"Download the screencast, 17.5 MB .mov":https://dl.dropboxusercontent.com/s/9n23c1ru24ztkr4/episode-004.mov?dl=1
 
 h2(header). Watch the Screencast
 

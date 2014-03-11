@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I explain how to create animations using timers. Timers are generally much more robust than using typical idle functions. I also introduce using C structs to enhance the code.
 
-OpenGL commands used in this screencast: 
+OpenGL commands used in this screencast:
 glutTimerFunc()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 N/A
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast (HD), 24.0 MB .mov":http://screencasts.davidwparker.com/episode-017.mov
+"Download the screencast (HD), 24.0 MB .mov":https://dl.dropboxusercontent.com/s/v4t8bos9m9oqr6g/episode-017.mov?dl=1
 
 h2(header). Watch the Screencast
 

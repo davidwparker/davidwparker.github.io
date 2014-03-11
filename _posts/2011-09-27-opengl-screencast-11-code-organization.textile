@@ -7,7 +7,7 @@ In this screencast (OpenGL video tutorial), I discuss organizing OpenGL code. In
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast, 13.1 MB .mov":http://screencasts.davidwparker.com/episode-011.mov
+"Download the screencast, 13.1 MB .mov":https://dl.dropboxusercontent.com/s/tds7gkvfux1kykm/episode-011.mov?dl=1
 
 h2(header). Watch the Screencast
 

@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I discuss materials and explain the difference between using glColorMaterial and glMaterial.
 
-OpenGL commands used in this screencast: 
+OpenGL commands used in this screencast:
 glDisable(), glEnable(), glColorMaterial(), glMaterial()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_COLOR_MATERIAL, GL_FRONT, GL_FRONT_AND_BACK, GL_AMBIENT, GL_DIFFUSE, GL_SPECULAR, GL_SHININESS, GL_EMISSION, GL_AMBIENT_AND_DIFFUSE
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast, 20.9 MB .mov":http://screencasts.davidwparker.com/episode-013.mov
+"Download the screencast, 20.9 MB .mov":https://dl.dropboxusercontent.com/s/efigqztedp317t9/episode-013.mov?dl=1
 
 h2(header). Watch the Screencast
 

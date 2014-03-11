@@ -7,7 +7,7 @@ In this screencast, I discuss drawing points and lines in OpenGL. I also introdu
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 19.5 MB .mov":http://screencasts.davidwparker.com/episode-003.mov
+"Download the screencast, 19.5 MB .mov":https://dl.dropboxusercontent.com/s/aqnhe8z7030hzkj/episode-003.mov?dl=1
 
 h2(header). Watch the Screencast
 
@@ -49,7 +49,7 @@ void display()
 			  {1.0,1.0,0.0},{1.0,0.0,1.0} };
   GLfloat color1[3] = {1.0,1.0,1.0};
   GLfloat color23[2][3] = { {0.0,1.0,0.0},{0.0,0.0,1.0} };
-  
+
   /*  Clear the image */
   glClear(GL_COLOR_BUFFER_BIT);
   /*  Reset previous transforms */

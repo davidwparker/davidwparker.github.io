@@ -10,7 +10,7 @@ glutCreateMenu(), glutAddMenuEntry(), glutAttachMenu(), glRasterPos3d(), glutWir
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 20.7 MB .mov":http://screencasts.davidwparker.com/episode-006.mov
+"Download the screencast, 20.7 MB .mov":https://dl.dropboxusercontent.com/s/2jrkkmrvanjelrj/episode-006.mov?dl=1
 
 h2(header). Watch the Screencast
 

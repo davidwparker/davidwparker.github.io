@@ -10,7 +10,7 @@ GL_QUAD_STRIP, GL_TRIANGLE_FAN, GL_TRIANGLES, glGetError(), gluErrorString()
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 21.2 MB .mov":http://screencasts.davidwparker.com/episode-008.mov
+"Download the screencast, 21.2 MB .mov":https://dl.dropboxusercontent.com/s/3356ly3q24ii8tq/episode-008.mov?dl=1
 
 h2(header). Watch the Screencast
 

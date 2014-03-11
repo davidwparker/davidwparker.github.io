@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video Tutorial), I explain how to do simple animations using the glut idle function. The function given as a callback to the idle function can be used to do interesting things (more than just animations)! I also talk about how to use the glut visibility function.
 
-OpenGL commands used in this screencast: 
+OpenGL commands used in this screencast:
 glutGet(), glutIdleFunc(), glutVisibilityFunc()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GLUT_ELAPSED_TIME, GLUT_NOT_VISIBLE, GLUT_VISIBLE
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast (HD), 28.8 MB .mov":http://screencasts.davidwparker.com/episode-016.mov
+"Download the screencast (HD), 28.8 MB .mov":https://dl.dropboxusercontent.com/s/rpjw4ixc4wuk5le/episode-016.mov?dl=1
 
 h2(header). Watch the Screencast
 

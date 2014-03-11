@@ -7,7 +7,7 @@ I've spent a good bit of time recently doing quite a bit of C and OpenGL and I f
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 51.7 MB .mov":http://screencasts.davidwparker.com/episode-001.mov
+"Download the screencast, 51.7 MB .mov":https://dl.dropboxusercontent.com/s/q96n5eyd9cvlrpb/episode-001.mov?dl=1
 
 h2(header). Watch the Screencast
 
@@ -60,7 +60,7 @@ void display()
 {
   glClear(GL_COLOR_BUFFER_BIT);
   glLoadIdentity();
-  
+
   /* draw something */
   glBegin(GL_POLYGON);
   glColor3f(1.0,0.0,0.0);

@@ -10,7 +10,7 @@ glPushMatrix(), glPopMatrix()
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
 
-"Download the screencast, 21.2 MB .mov":http://screencasts.davidwparker.com/episode-010.mov
+"Download the screencast, 21.2 MB .mov":https://dl.dropboxusercontent.com/s/c341zc9j9itfjom/episode-010.mov?dl=1
 
 h2(header). Watch the Screencast
 

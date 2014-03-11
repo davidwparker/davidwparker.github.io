@@ -5,15 +5,15 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I explain how to add an overlay to your OpenGL window. I also explain how to use glPushAttrib().
 
-OpenGL commands used in this screencast: 
+OpenGL commands used in this screencast:
 glPushAttrib()
 
-OpenGL parameters used in this screencast: 
+OpenGL parameters used in this screencast:
 GL_TRANSFORM_BIT, GL_ENABLE_BIT
 
 The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
 
-"Download the screencast (HD), 35.3 MB .mov":http://screencasts.davidwparker.com/episode-018.mov
+"Download the screencast (HD), 35.3 MB .mov":https://dl.dropboxusercontent.com/s/j0ihi3o9much2l0/episode-018.mov?dl=1
 
 h2(header). Watch the Screencast
 
