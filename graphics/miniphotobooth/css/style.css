@@ -1,0 +1,60 @@
+body {
+    color:#000;
+    font-family:Monospace;
+    font-size:13px;
+    font-weight:bold;
+    background-color:#fff;
+}
+
+html, body {
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+canvas {
+    background: black;
+    margin: auto;
+}
+
+div.main #video,
+div.main #canvas, 
+div.main #preview {
+    width: 640px;
+    height: 480px;
+}
+
+div.main #canvas,
+div.main #preview {
+    opacity: 0;
+    -o-transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.canvases {
+    width: 320px;
+    height: 240px;
+}
+
+.error {
+    color: red;
+    margin: 20px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.canvas-text {
+    color:#fff;
+    font-size:1.3em;
+}
+
+.effects label {
+    display:inline;
+}
+
+.row2 {
+    margin-bottom:10px;
+}

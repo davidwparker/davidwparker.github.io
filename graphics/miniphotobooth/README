@@ -1,0 +1,56 @@
+*********************************
+* Name: David Parker
+* Assignment: Project Update
+* April 2++
+*********************************
+IDEA:
+"PhotoBooth" for the web (via WebGL, not using THREE.js or other libraries).
+
+SOURCE CODE (mine):
+--project.html
+--js/project.js
+--shaders/
+
+USAGE:
+* Easiest way: Start a python server:
+python -m SimpleHTTPServer 8000
+* go to: localhost:8000/project.html
+* Click on the effects button
+* Move through the different pages to view/select different effects
+* Click on an effect to apply it
+* Change the number of passes and RGB values as desired
+* Click on the photo button to take a photo
+* Click on the save button to save photo
+* Click on the cam button to go back to cam (from photo)
+
+COMPUTER:
+* Only tested on Google Chrome.
+
+TO DO:
+X * Continue to add a bunch of distortion filters (bubble, etc).
+X *** NOTE: I expect this to take the majority of my time as I would love to add a bunch of cool effects.
+
+* Enable the ability to modify filters "on the fly"... For example, if there is a swirl effect, then I should be able to "move" the center of the swirl.
+
+TIME ALLOTTED:
+* Apply filters before taking a picture from the webcam.
+* Apply filters after taking a picture from the webcam.
+* Have the ability to add multiple effects at the same time (and in which order they are applied).
+* Add multiple extra "effects" that would use cool edge detection algorithms
+* -- What I'm thinking is that you could select a "hat" and the hat image would be overlaid on top of where your head is on the webcam.
+* Be able to 'upload' pictures.
+* Be able to share pictures to Facebook, Twitter, etc.
+
+TIME TRACKING
+- 3.5 hours trying to get more than one canvas object to display (different things).
+- 6.0 hours successfullying getting 4x canvas objects to display and able to select one which loads to the main canvas object.
+- 3.0 hours adding filters
+- 2.0 hours cleaning up UI
+- 3.0 hours adding filters
+- 0.5 hours cleaning up UI
+- 0.5 hours refactoring
+- 0.5 hours README
+
+- 8.0 hours- refactoring (splitting shader files), adding new filters
+
+Total so far: 19.0 hours

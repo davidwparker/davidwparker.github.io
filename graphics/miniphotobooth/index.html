@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Mini-Photobooth by David Parker</title>
+    <meta name="author" content="David W Parker">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"><!-- Style must be before responsive -->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="lib/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Mini-PhotoBooth</h1>
+      </div>
+      <div class="row">
+        <span id="log" class="error"></span>
+      </div>
+      <div class="row">
+        Active Effects (Order matters, 3 max for best performance):<br />
+        <span id="active">none</span>
+      </div>
+      <div class="row">
+        <div class="row main">
+          <video id="video"></video>
+          <canvas id="canvas" width=640 height=480></canvas>
+          <canvas id="preview" width=640 height=480></canvas>
+        </div>
+        <div class="row main2">
+        </div>
+        <span id="canvas1text" class="canvas-text"></span>
+        <span id="canvas2text" class="canvas-text"></span>
+        <span id="canvas3text" class="canvas-text"></span>
+        <span id="canvas4text" class="canvas-text"></span>
+        <div class="row2 inputs">
+          <a id="firstPage" type="submit" class="btn btn-info hide"><i class="icon-fast-backward"></i> First</a>
+          <a id="prevPage" type="submit" class="btn btn-info hide"><i class="icon-backward"></i> Back</a>
+          <a id="effects" type="submit" class="btn"><i class="icon-fire"></i> Effects</a>
+          <a id="nextPage" type="submit" class="btn btn-info hide"><i class="icon-forward"></i> Next</a>
+          <a id="lastPage" type="submit" class="btn btn-info hide"><i class="icon-fast-forward"></i> Last</a>
+        </div>
+        <div id="pass" class="row effects hide">
+          Passes: <input id="passes" type="range" value="1" class="span2" min="1" max="3" step="2"/>
+        </div>
+        <div id="scalars" class="row effects hide">
+          Scalars:
+          <label for="R">R:</label><input id="R" type="range" value="1" class="span2" min="0" max="1" step="0.1"/>
+          <label for="G">G:</label><input id="G" type="range" value="1" class="span2" min="0" max="1" step="0.1"/>
+          <label for="B">B:</label><input id="B" type="range" value="1" class="span2" min="0" max="1" step="0.1"/>
+        </div>
+        <div class="row2">
+          <a id="cam" type="submit" class="btn"><i class="icon-facetime-video"></i> Cam</a>
+          <a id="photo" type="submit" class="btn"><i class="icon-camera"></i> Photo</a>
+          <a id="save" type="submit" class="btn"><i class="icon-download"></i> Save</a>
+        </div>
+        <div class="hide">
+          <canvas class="canvases" width=640 height=480></canvas>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Shaders: Must come first for Loader -->
+  <script data-src="shaders/simple.js" data-name="simple" class="shader-vertex" type="x-shader/x-vertex"></script>
+  <script data-src="shaders/pre.js" data-name="pre" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/end.js" data-name="end" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/copy.js" data-name="copy" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/blur.js" data-name="blur" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/dilation.js" data-name="dilation" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/erosion.js" data-name="erosion" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/sharpen.js" data-name="sharpen" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/laplacian.js" data-name="laplacian" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/sobel.js" data-name="sobel" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/prewitt.js" data-name="prewitt" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/gray.js" data-name="gray" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/negative.js" data-name="negative" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/sepia.js" data-name="sepia" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/polar_pre_pre.js" data-name="polar_pre_pre" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/polar_pre.js" data-name="polar_pre" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/polar_end.js" data-name="polar_end" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/twirl.js" data-name="twirl" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/squeeze.js" data-name="squeeze" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/bubble.js" data-name="bubble" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/glow.js" data-name="glow" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/mirror.js" data-name="mirror" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/thermal.js" data-name="thermal" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/darkness.js" data-name="darkness" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/light.js" data-name="light" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/halo.js" data-name="halo" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/pixelated.js" data-name="pixelated" class="shader-fragment" type="x-shader/x-fragment"></script>
+  <script data-src="shaders/self.js" data-name="self" class="shader-fragment" type="x-shader/x-fragment"></script>
+
+  <!-- Library: Used to detect whether WebGL can be run -->
+  <script type="text/javascript" src="js/lib/detector.js"></script>
+
+  <!-- Library: jQuery is used for convenience in dealing with the DOM -->
+  <script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="js/lib/jquery-ui-1.10.2.custom.min.js"></script>
+
+  <!-- Library: Signals processing used for dispatching methods -->
+  <script type="text/javascript" src="js/lib/signals.js"></script>
+
+  <!-- Library: Loads Shaders from files -->
+  <script type="text/javascript" src="js/lib/shaderLoader.js"></script>
+
+  <!-- Libraries: Used to allow saving of canvas objects to file -->
+  <script type="text/javascript" src="js/lib/blob.js"></script>
+  <script type="text/javascript" src="js/lib/canvasToBlob.js"></script>
+  <script type="text/javascript" src="js/lib/fileSaver.min.js"></script>
+
+  <!-- MY CODE -->
+  <script type="text/javascript" src="js/util.js"></script>
+  <script type="text/javascript" src="js/project.js"></script>
+
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3039643-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</html>
