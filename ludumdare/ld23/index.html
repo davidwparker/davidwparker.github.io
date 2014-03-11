@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Tiny God is a Tiny World game made for Ludum Dare 23">
+  <meta name="keywords" content="Tiny World, Ludum Dare, Tiny God, Game">
+  <meta name="author" content="David W Parker">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Ludum Dare 23 - Tiny God by David W Parker</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+  </style>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="span3 offset1 tg-sidebar">
+    <h3>Tiny God</h3>
+    <p>Time Remaining: <span id="tg-time"></span></p>
+    <p>Tiny Worlds Destroyed: <span id="tg-destroyed"></span></p>
+    <p>Most Tiny Worlds Destroyed: <span id="tg-highscore"></span></p>
+  </div>
+
+  <div class="span3 offset12 tg-debugger hide">
+    <h3>Debugger</h3>
+    <p>Mouse:  <span id="debug-mouse"></span></p>
+    <p>Object: <span id="debug-obj"></span></p>
+    <p>Other:  <span id="debug-other"></span></p>
+  </div>
+
+  <div class="modal hide" id="pregameModal">
+    <div class="modal-header">
+      <h3>Tiny God - A Ludum Dare 23 Tiny World Game</h3>
+    </div>
+    <div class="modal-body">
+      <h3>Backstory</h3>
+      <p>You are a <span class="label label-important">tiny</span> God of Tiny Worlds.</p>
+      <p>All of the Tiny Worlds are misbehaving. It's time to destroy them all.</p>
+      <h3>Rules</h3>
+      <p>Click on as many of the Tiny Worlds as you can before the timer runs out.</p>
+      <p>Press <span class="label label-important">h</span> anytime for help.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn btn-primary" id="play-btn5" data-time="5">Play (05 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-btn10" data-time="10">Play (10 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-btn15" data-time="15">Play (15 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-btn30" data-time="30">Play (30 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-btn30" data-time="45">Play (45 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-btn30" data-time="60">Play (60 seconds)</a>
+    </div>
+  </div>
+
+  <div class="modal hide" id="gameoverModal">
+    <div class="modal-header">
+      <h3>Tiny God - Game Over</h3>
+    </div>
+    <div class="modal-body">
+      <p>You <span class="label label-important">destroyed</span> <span class="tg-game-end-destroyed"></span> tiny worlds!</p>
+      <p><span class="label label-important">NOTE!</span> Currently, for some reason, the textures don't load on restart, so I have to turn them off on when restarting, sorry.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn btn-primary" id="play-again-btn5" data-time="5">Play (05 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-again-btn10" data-time="10">Play (10 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-again-btn15" data-time="15">Play (15 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-again-btn30" data-time="30">Play (30 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-again-btn30" data-time="45">Play (45 seconds)</a>
+      <a href="#" class="btn btn-primary" id="play-again-btn30" data-time="60">Play (60 seconds)</a>
+    </div>
+  </div>
+
+  <div class="modal hide" id="helpModal">
+    <div class="modal-header">
+      <h3>Tiny God - Help</h3>
+    </div>
+    <div class="modal-body">
+      <h3>Rules</h3>
+      <p>Click on as many of the Tiny Worlds as you can before the timer runs out.</p>
+      <p>Press <span class="label label-important">h</span> anytime for help</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn btn-primary">Okay</a>
+    </div>
+  </div>
+  <script src="Detector.js"></script>
+  <script src="Three2.js"></script>
+  <script src="ThreeKeyboard.js"></script>
+  <script src="Stats.js"></script>
+  <script src="jquery-1.7.2.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="bootstrap-modal.js"></script>
+  <script src="app3.js"></script>
+  <script id="fragmentShader1" type="x-shader/x-fragment">
+    uniform vec2 resolution;
+    uniform float time;
+    varying vec2 vUv;
+    void main(void) {
+    vec2 p = -1.0 + 2.0 * vUv;
+    float a = time*40.0;
+    float d,e,f,g=1.0/40.0,h,i,r,q;
+    e=400.0*(p.x*0.5+0.5);
+    f=400.0*(p.y*0.5+0.5);
+    i=200.0+sin(e*g+a/150.0)*20.0;
+    d=200.0+cos(f*g/2.0)*18.0+cos(e*g)*7.0;
+    r=sqrt(pow(i-e,2.0)+pow(d-f,2.0));
+    q=f/r;
+    e=(r*cos(q))-a/2.0;f=(r*sin(q))-a/2.0;
+    d=sin(e*g)*176.0+sin(e*g)*164.0+r;
+    h=((f+d)+a/2.0)*g;
+    i=cos(h+r*p.x/1.3)*(e+e+a)+cos(q*g*6.0)*(r+h/3.0);
+    h=sin(f*g)*144.0-sin(e*g)*212.0*p.x;
+    h=(h+(f-e)*q+sin(r-(a+h)/7.0)*10.0+i/4.0)*g;
+    i+=cos(h*2.3*sin(a/350.0-q))*184.0*sin(q-(r*4.3+a/12.0)*g)+tan(r*g+h)*184.0*cos(r*g+h);
+    i=mod(i/5.6,256.0)/64.0;
+    if(i<0.0) {i+=4.0;}
+    if(i>=2.0) {i=4.0-i;}
+    d=r/350.0;
+    d+=sin(d*d*8.0)*0.52;
+    f=(sin(a*g)+1.0)/2.0;
+
+    gl_FragColor=vec4(vec3(f*i/1.6,i/2.0+d/13.0,i)*d*p.x+vec3(i/1.3+d/8.0,i/2.0+d/18.0,i)*d*(1.0-p.x),1.0);
+    }
+  </script>
+  <script id="fragmentShader2" type="x-shader/x-fragment">
+    uniform float time;
+    uniform vec2 resolution;
+    varying vec2 vUv;
+    void main(void) {
+    vec2 position = vUv;
+    float color = 0.0;
+    color += sin(position.x * cos(time / 15.0) * 50.0) + cos(position.y * cos( time / 15.0) * 10.0);
+    color += sin(position.y * sin(time / 10.0) * 20.0) + cos(position.x * sin( time / 25.0) * 20.0);
+    color += sin(position.x * sin(time / 5.0) * 10.0) + sin(position.y * sin( time / 35.0) * 50.0);
+    color *= sin(time / 10.0) * 0.5;
+
+    gl_FragColor = vec4(vec3(color, color*0.3, sin(color + time / 1.0) * 0.5), 1.0);
+    }
+  </script>
+  <script id="fragmentShader4" type="x-shader/x-fragment">
+    uniform float time;
+    uniform vec2 resolution;
+    varying vec2 vUv;
+    void main(void) {
+    vec2 position = -1.0 + 2.0 * vUv;
+    float red = abs(sin(position.x * position.y + time / 5.0));
+    float green = abs(sin(position.x * position.y + time / 4.0));
+    float blue = abs(sin(position.x * position.y + time / 3.0));
+
+    gl_FragColor = vec4(red, green, blue, 1.0);
+    }
+  </script>
+
+  <script id="vertexShader" type="x-shader/x-vertex">
+    varying vec2 vUv;
+    void main() {
+    vUv = uv;
+    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
+    gl_Position = projectionMatrix * mvPosition;
+    }
+  </script>
+  <script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3039643-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

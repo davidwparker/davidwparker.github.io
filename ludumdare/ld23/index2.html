@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Tiny God is a Tiny World game made for Ludum Dare 23">
+  <meta name="keywords" content="Tiny World, Ludum Dare, Tiny God, Game">
+  <meta name="author" content="David W Parker">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Ludum Dare 23 - Tiny God by David W Parker</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+  </style>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="span3 offset1 tg-sidebar" style="position:absolute; z-index:10001;" >
+    <h3>Tiny God Status</h3>
+    <p>Turn <span class="tg-turn"></span></p>
+    <p>Worshipped at <span class="tg-planets"></span> planets</p>
+    <p>Total believers <span class="tg-believers"></span></p>
+  </div>
+
+  <div class="modal hide" id="pregameModal">
+    <div class="modal-header">
+      <h3>Tiny God - A Ludum Dare 23 Tiny World Game</h3>
+    </div>
+    <div class="modal-body">
+      <h3>Backstory</h3>
+      <p>You are a <span class="label label-important">tiny</span> God of Tiny Worlds.</p>
+      <p>You want to be a <span class="label label-success">big</span> God.</p>
+      <p>All of the Tiny Worlds are misbehaving. It's time to destroy them all.</p>
+      <h3>Rules</h3>
+      <p>Tiny God is a turn-based game.</p>
+      <p>Click on Tiny Worlds so that you can cause miracles and expand your total belief.</p>
+      <p>As your belief expands, you can continue on to bigger worlds. Over time, belief in your miracles subsides, so you must go back to previous worlds where you performed miracles.</p>
+      <p>Press <span class="label label-important">h</span> anytime for help.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn btn-primary" id="play-btn">Play</a>
+    </div>
+  </div>
+
+  <div class="modal hide" id="helpModal">
+    <div class="modal-header">
+      <h3>Tiny God - A Ludum Dare 23 Tiny World Game</h3>
+    </div>
+    <div class="modal-body">
+      <h3>Rules</h3>
+      <p>Tiny God is a turn-based game. Click on Tiny Worlds so that you can cause miracles and expand your total belief. As your belief expands, you can continue on to bigger worlds. Over time, belief in your miracles subsides, so you must go back to previous worlds where you performed miracles.</p>
+      <p>Press <span class="label label-important">h</span> anytime for help</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn btn-primary">Okay</a>
+    </div>
+  </div>
+
+  <div class="modal hide" id="planetModal">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal">×</a>
+      <h3 class="planet-name"></h3>
+    </div>
+    <div class="modal-body">
+      <p>Size: <span class="planet-size"></span> world</p>
+      <p>Population: <span class="planet-population"></span></p>
+      <p>Believers: <span class="planet-believers"></span></p>
+      <p>Believers: <span class="planet-"></span></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn nothing">Do nothing</a>
+      <a href="#" class="btn btn-primary">Perform Miracle?</a>
+    </div>
+  </div>
+  <script src="Three.js"></script>
+  <script src="ThreeKeyboard.js"></script>
+  <script src="Stats.js"></script>
+  <script src="jquery-1.7.2.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="bootstrap-modal.js"></script>
+  <script src="app3.js"></script>
+</body>
+</html>

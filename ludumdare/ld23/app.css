@@ -1,0 +1,18 @@
+body {
+    font-family: Monospace;
+    background-color: #080808;
+    margin: 0px;
+    overflow: hidden;
+}
+.tg-sidebar{
+    background-color: #ffffff;
+    position:absolute;
+    z-index:10001;
+    opacity:0.9;
+}
+.tg-debugger{
+    background-color: #ffffff;
+    position:absolute;
+    z-index:10001;
+    opacity:0.9;
+}
