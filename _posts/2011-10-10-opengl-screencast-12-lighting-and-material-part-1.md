@@ -10,20 +10,18 @@ glDisable(), glEnable(), glColorMaterial(), glutGetModifiers(), glLightfv(), glN
 
 Different OpenGL parameters used: GL_LIGHTING, GL_NORMALIZE, GL_COLOR_MATERIAL, GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, GL_LIGHT0, GL_AMBIENT, GL_DIFFUSE, GL_SPECULAR, GL_POSITION, GLUT_ACTIVE_SHIFT
 
-The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
+The code is available to download on [Github](https://github.com/davidwparker/opengl-screencasts-2)
 
-"Download the screencast, 28.5 MB .mov":https://dl.dropboxusercontent.com/s/1az80hk9ssng73f/episode-012.mov?dl=1
+[Download the screencast, 28.5 MB .mov](https://dl.dropboxusercontent.com/s/1az80hk9ssng73f/episode-012.mov?dl=1)
 
-h2(header). Watch the Screencast
+## Watch the Screencast
 
-"YouTube":http://www.youtube.com/watch?v=geebJz2XSAU
+[YouTube](http://www.youtube.com/watch?v=geebJz2XSAU)
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/geebJz2XSAU?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
-h2(header). Code
+## Code
 
 <script src="https://gist.github.com/1276355.js"></script>
 
 <script src="https://gist.github.com/1276359.js"></script>
-
-

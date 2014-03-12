@@ -7,34 +7,34 @@ I'm a huge fan of short title sequences. For me, it started with Lost, which rea
 
 As of this posting, I couldn't find the intros online (youtube). I know that most are on Netflix, so perhaps I'll screen capture them sometime in the near future and put them here... until then, bear with me.
 
-h3(header). Lost
+### Lost
 
 The one that started it all for me. The sweet zoom.
 
-h3(header). Heroes
+### Heroes
 
 So much potential (in the show). Why the eclipse? Pretty interesting.
 
-h3(header). Daybreak
+### Daybreak
 
 I like the idea of the repetition.
 
-h3(header). Legend of the Seeker
+### Legend of the Seeker
 
 Pretty boring sequence. The sword looked too fake.
 
-h3(header). Jericho
+### Jericho
 
 By far the best one- I love the use of morse code to share something about each episode.
 
-h3(header). Kidnapped
+### Kidnapped
 
 Could have been used ala Flashforward to share a little of each episode.
 
-h3(header). Flashforward
+### Flashforward
 
 Interesting take, similar to Jericho, but pictures are always too revealing, or not good enough.
 
-h3(header). No Ordinary Family
+### No Ordinary Family
 
 The house with the window open... meh.

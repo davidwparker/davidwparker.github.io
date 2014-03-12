@@ -8,16 +8,16 @@ In this screencast, I discuss drawing cubes in 3D. More importantly, I cover per
 Functions used include:
 gluPerspective(), gluLookAt()
 
-The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+The code is available to download on [Github](https://github.com/davidwparker/opengl-screencasts-1)
 
-"Download the screencast, 26.8 MB .mov":https://dl.dropboxusercontent.com/s/b8w1ccnqcqwlkxn/episode-007.mov?dl=1
+[Download the screencast, 26.8 MB .mov](https://dl.dropboxusercontent.com/s/b8w1ccnqcqwlkxn/episode-007.mov?dl=1)
 
-h2(header). Watch the Screencast
+## Watch the Screencast
 
-"YouTube":http://www.youtube.com/watch?v=BgIsTZiyvvU
+[YouTube](http://www.youtube.com/watch?v=BgIsTZiyvvU)
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/BgIsTZiyvvU?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
-h2(header). Code
+## Code
 
 <script src="https://gist.github.com/1176938.js"></script>

@@ -8,17 +8,17 @@ In this screencast, I discuss drawing in 3D using GLUT objects. I also show how 
 Functions used include:
 glutCreateMenu(), glutAddMenuEntry(), glutAttachMenu(), glRasterPos3d(), glutWireSphere(), glutSolidSphere(), glutWireCube(), glutSolidCube(), glutWireCone(), glutSolidCone(), glutWireTorus(), glutSolidTorus(), glutWireIcosahedron(), glutSolidIcosahedron(), glutWireOctahedron(), glutSolidOctahedron(), glutWireTetrahedron(), glutSolidTetrahedron(), glutWireDodecahedron(), glutSolidDodecahedron(), glutWireTeapot(), glutSolidTeapot()
 
-The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+The code is available to download on [Github](https://github.com/davidwparker/opengl-screencasts-1)
 
-"Download the screencast, 20.7 MB .mov":https://dl.dropboxusercontent.com/s/2jrkkmrvanjelrj/episode-006.mov?dl=1
+[Download the screencast, 20.7 MB .mov](https://dl.dropboxusercontent.com/s/2jrkkmrvanjelrj/episode-006.mov?dl=1)
 
-h2(header). Watch the Screencast
+## Watch the Screencast
 
-"YouTube":http://www.youtube.com/watch?v=D-tefNPQmaM
+[YouTube](http://www.youtube.com/watch?v=D-tefNPQmaM)
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/D-tefNPQmaM?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
-h2(header). Code
+## Code
 
 Try modifying objSlices and objStacks to see how the objects change!
 

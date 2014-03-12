@@ -5,17 +5,17 @@ categories: [posts, opengl]
 ---
 In this screencast (OpenGL video tutorial), I discuss organizing OpenGL code. In general, this is how I have my code organized. I’m always up for change and better ways to do things though, so if you do things differently, please give me feedback.
 
-The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
+The code is available to download on [Github](https://github.com/davidwparker/opengl-screencasts-2)
 
-"Download the screencast, 13.1 MB .mov":https://dl.dropboxusercontent.com/s/tds7gkvfux1kykm/episode-011.mov?dl=1
+[Download the screencast, 13.1 MB .mov](https://dl.dropboxusercontent.com/s/tds7gkvfux1kykm/episode-011.mov?dl=1)
 
-h2(header). Watch the Screencast
+## Watch the Screencast
 
-"YouTube":http://www.youtube.com/watch?v=QNIv7x0X5eg
+[YouTube](http://www.youtube.com/watch?v=QNIv7x0X5eg)
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/QNIv7x0X5eg?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
-h2(header). Code
+## Code
 
 <script src="https://gist.github.com/1246364.js"></script>
 

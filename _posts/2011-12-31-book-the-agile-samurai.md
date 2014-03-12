@@ -3,14 +3,14 @@ layout: book
 title:  "Book: The Agile Samurai"
 categories: [posts, books]
 ---
-Read: December 2011
-Rating: 9/10
+* Read: December 2011
+* Rating: 9/10
 
-"The Agile Samurai":http://www.amazon.com/dp/1934356581?tag=parker08-20 by Jonathan Rasmusson is a great introduction to Agile Software Development. Whether you're working for a megacorp or at your own startup, whether you're a project manager, a programmer, or a customer, this book provides great detail on what most software development should look like. 
+[The Agile Samurai](http://www.amazon.com/dp/1934356581?tag=parker08-20) by Jonathan Rasmusson is a great introduction to Agile Software Development. Whether you're working for a megacorp or at your own startup, whether you're a project manager, a programmer, or a customer, this book provides great detail on what most software development should look like.
 
-h2(header). My Notes
+## My Notes
 
-Deliver something of value every week. Break big problems into small ones. Focus on important things and forget everything else. Get constant feedback. If and when you are going the wrong direction, change direction. 
+Deliver something of value every week. Break big problems into small ones. Focus on important things and forget everything else. Get constant feedback. If and when you are going the wrong direction, change direction.
 
 Most software is believing an unrealistic plan + random miracle will result in working software.
 
@@ -20,7 +20,7 @@ The customer must be engaged. If they don't even want to show up, then the proje
 
 The agile analyst will help write user stories. The agile programmer will turn user stories into software, make technical decisions, and help make estimates. The agile tester will write tests for stories and confirm stories work as expected. The project manager will track how the team is doing and communicate the state of the project. They will also help remove roadblocks that are in the team's way.
 
-A great way to start the project is by asking four questions to the whole team:
+#### A great way to start the project is by asking four questions to the whole team:
 * What am I good at?
 * How do I perform?
 * What do I value?
@@ -28,7 +28,7 @@ A great way to start the project is by asking four questions to the whole team:
 
 The assumption of consensus where none exists is what kills most projects.
 
-A majority of the book is about creating an inception deck. An inception deck answers these simple questions and is generally a great way to get consensus about the software:
+#### A majority of the book is about creating an inception deck. An inception deck answers these simple questions and is generally a great way to get consensus about the software:
 * Why are we here?
 * Elevator pitch
 * Product box (what would it look like?)
@@ -48,9 +48,9 @@ Creating user stories is hard. Make sure you have the correct emphasis on the co
 
 Use a point-based system to size tasks. Size them based on previous, similar work. If there is none, then be sure to figure it out as you go- and be flexible on what you're actually doing. Measuring your team's speed is the team velocity.
 
-When reality sets in, and you're not doing things as well as you'd like, then you have to be able to adjust your plan quickly and efficiently. 
+When reality sets in, and you're not doing things as well as you'd like, then you have to be able to adjust your plan quickly and efficiently.
 
-Your first plan:
+#### Your first plan:
 * Create your master story list
 * Size it up
 * Prioritize
@@ -63,7 +63,7 @@ Create personas for your stories. If you have different users (and you always do
 
 Make sure the code matches the language the customers use.
 
-Four things to do during any iteration:
+#### Four things to do during any iteration:
 * Make sure next iteration's work is ready
 * Get feedback on last iteration's stories
 * Plan the next iteration's work

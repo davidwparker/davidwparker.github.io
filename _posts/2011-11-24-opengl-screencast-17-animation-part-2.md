@@ -11,16 +11,16 @@ glutTimerFunc()
 OpenGL parameters used in this screencast:
 N/A
 
-The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-2
+The code is available to download on [Github](https://github.com/davidwparker/opengl-screencasts-2)
 
-"Download the screencast (HD), 24.0 MB .mov":https://dl.dropboxusercontent.com/s/v4t8bos9m9oqr6g/episode-017.mov?dl=1
+[Download the screencast (HD), 24.0 MB .mov](https://dl.dropboxusercontent.com/s/v4t8bos9m9oqr6g/episode-017.mov?dl=1)
 
-h2(header). Watch the Screencast
+## Watch the Screencast
 
-"YouTube":http://www.youtube.com/watch?v=gbAL7Ufku80
+[YouTube](http://www.youtube.com/watch?v=gbAL7Ufku80)
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/gbAL7Ufku80?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
-h2(header). Code (this is not all of the code- please see the github link above for all of it)
+## Code (this is not all of the code- please see the github link above for all of it)
 
 <script src="https://gist.github.com/1391933.js"></script>
