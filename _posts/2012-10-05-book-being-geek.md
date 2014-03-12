@@ -6,9 +6,9 @@ categories: [posts, books]
 Read: July 2012
 Rating: 8.0/10
 
-"Being Geek":http://www.amazon.com/dp/0596155409?tag=parker08-20 is a collection of essays written by Michael 'Rands in Repose' Lopp to help software developer's with their careers. The topics are extremely varied, from office politics, to games, to, well, everything. If you already read Rands' blog, a lot of it may be repeated... if you don't, then you'll discover a lot of interesting things in his book.
+[Being Geek](http://www.amazon.com/dp/0596155409?tag=parker08-20) is a collection of essays written by Michael 'Rands in Repose' Lopp to help software developer's with their careers. The topics are extremely varied, from office politics, to games, to, well, everything. If you already read Rands' blog, a lot of it may be repeated... if you don't, then you'll discover a lot of interesting things in his book.
 
-h2(header). Quotes / My Notes
+## Quotes / My Notes
 
 "What am I doing? What do I do? What matters to me? What do I care about?"
 
@@ -20,7 +20,7 @@ h2(header). Quotes / My Notes
 
 "An excuse is an abdication of responsibility. There are no healthy excuses"
 
-People you may deal with (in meetings):
+#### People you may deal with (in meetings):
 * Interrogator - endless questions
 * Prioritizer - todo lists
 
@@ -40,7 +40,7 @@ Gather perspective: "What is going to matter today?"
 
 Performance review isn't about comparing to others; it's about what you did and what you could do
 
-Question to ask yourself when pursuing a career:
+#### Question to ask yourself when pursuing a career:
 * Question #1) Startup or established?
 * Question #2) Industry and brand?
 * Question #3) Management or development?
@@ -56,4 +56,3 @@ How do I want to build it?
 A new job is one of "abstraction, synthesis, and filtering"
 
 "Just because you're kicking ass doesn't mean you're successful. Misery is productive. Conflict is learning."
-

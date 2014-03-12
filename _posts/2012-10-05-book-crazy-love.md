@@ -3,12 +3,13 @@ title: "Book: Crazy Love"
 layout: christianity
 categories: christianity
 ---
-Read: July-August 2012
-Rating: 9.5/10
 
-"Crazy Love":http://www.amazon.com/dp/1434768511?tag=parker08-20 by Francis Chan is basically an epic punch-in-the-face. And for me, it was a well-deserved punch-in-the-face. Francis challenges so-called Christians to be living the way that we shoulde be living... and for me, and I know that there are major changes that I need to make in my life. This book is a wake up call. And I won't lie. Since finishing the book in early August, it's been pretty hard to make some changes, but pretty easy to make others. I recommend this book whole-heartedly... just be ready to be challenged.
+* Read: July-August 2012
+* Rating: 9.5/10
 
-h2(header). Quotes / My Notes
+[Crazy Love](http://www.amazon.com/dp/1434768511?tag=parker08-20) by Francis Chan is basically an epic punch-in-the-face. And for me, it was a well-deserved punch-in-the-face. Francis challenges so-called Christians to be living the way that we shoulde be living... and for me, and I know that there are major changes that I need to make in my life. This book is a wake up call. And I won't lie. Since finishing the book in early August, it's been pretty hard to make some changes, but pretty easy to make others. I recommend this book whole-heartedly... just be ready to be challenged.
+
+## Quotes / My Notes
 
 Be called (or named) a Christian by others watching your life
 
@@ -22,11 +23,11 @@ Be called (or named) a Christian by others watching your life
 
 "To say that God is holy is to say that He is set apart, distinct from us."
 
-Attributes of God:
+#### Attributes of God:
 * Holy
 * Eternal
 * All-Knowing
-** "He knows who we are and what we are about. We cannot escape Him, not even if we want to"
+  * "He knows who we are and what we are about. We cannot escape Him, not even if we want to"
 * All-Powerful
 * Fair and Just
 

@@ -3,12 +3,13 @@ title: "Book: Forgotten God"
 layout: christianity
 categories: christianity
 ---
-Read: September 2012
-Rating: 9.0/10
 
-"Forgotten God":http://www.amazon.com/dp/1434767957?tag=parker08-20 is another excellent book I recently read by Francis Chan. It's pretty interesting how he talks about the Holy Spirit, and he mentions regularly how the Spirit is God and how often we forgot that fact. I think one of my favorite quotes in the book is "Have you ever thought about the significance of having 'another' counselor who is 'just like' Christ?" For me that's pretty amazing to think about. We regularly say, "what would Jesus do?" rather than saying "what does the Holy Spirit (who lives inside me) want me to do?" I'd definitely recommend this book.
+* Read: September 2012
+* Rating: 9.0/10
 
-h2(header). Quotes / My Notes
+[Forgotten God](http://www.amazon.com/dp/1434767957?tag=parker08-20) is another excellent book I recently read by Francis Chan. It's pretty interesting how he talks about the Holy Spirit, and he mentions regularly how the Spirit is God and how often we forgot that fact. I think one of my favorite quotes in the book is "Have you ever thought about the significance of having 'another' counselor who is 'just like' Christ?" For me that's pretty amazing to think about. We regularly say, "what would Jesus do?" rather than saying "what does the Holy Spirit (who lives inside me) want me to do?" I'd definitely recommend this book.
+
+## Quotes / My Notes
 
 "The benchmark of success in church services has become more about attendance than the movement of the Holy Spirit."
 

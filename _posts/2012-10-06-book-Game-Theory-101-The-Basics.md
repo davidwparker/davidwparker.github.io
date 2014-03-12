@@ -3,12 +3,13 @@ layout: book
 title:  "Book: Game Theory 101: The Basics"
 categories: [posts, books]
 ---
-Read: July 2012
-Rating: 8.0/10
 
-"Game Theory 101: The Basics":http://www.amazon.com/dp/B005DGHV0I?tag=parker08-20 by William Spaniel is a great introduction to Game Theory. If you haven't had any game theory before, then I'd definitely recommend this book. It's a pretty hard topic to cover, so I'll let the book do the speaking...
+* Read: July 2012
+* Rating: 8.0/10
 
-h2(header). My Notes
+[Game Theory 101: The Basics](http://www.amazon.com/dp/B005DGHV0I?tag=parker08-20) by William Spaniel is a great introduction to Game Theory. If you haven't had any game theory before, then I'd definitely recommend this book. It's a pretty hard topic to cover, so I'll let the book do the speaking...
+
+## My Notes
 
 Strict dominance - Strategy X strictly dominates strategy Y for a player if X provides a greater payoff for that player than Y regardless of what the other players do.
 

@@ -3,25 +3,27 @@ layout: book
 title:  "Book: 59 Seconds"
 categories: [posts, books]
 ---
-Read: April 2012
-Rating: 7.5/10
+* Read: April 2012
+* Rating: 7.5/10
 
-"59 Seconds":http://www.amazon.com/dp/0307273407?tag=parker08-20 by Richard Wiseman is a different take on psychology, self-help, and productivity-type books. Rather than saying "you're wrong, you should be doing X," Richard shows through actual scientific studies what the best things to do for a variety of things. Imagine that- using science rather than just making up stuff. Additionally, Richard gives the reader actual things that they can implement in order to take the information to heart. This is definitely worth the read if you're into this kind of stuff. 
+[59 Seconds](http://www.amazon.com/dp/0307273407?tag=parker08-20) by Richard Wiseman is a different take on psychology, self-help, and productivity-type books. Rather than saying "you're wrong, you should be doing X," Richard shows through actual scientific studies what the best things to do for a variety of things. Imagine that- using science rather than just making up stuff. Additionally, Richard gives the reader actual things that they can implement in order to take the information to heart. This is definitely worth the read if you're into this kind of stuff.
 
-h2(header). My Notes
+## My Notes
 
-h3(header). Happiness
+### Happiness
 
 Happiness doesn't just flow from success; it actually causes it
 
 Expressing gratitude, thinking about a perfect future, and affection writing have been scientifically proven to work (improve happiness)
 
 Buy experiences, not goods
+
 Smile
 
-h3(header). Persuasion
+### Persuasion
 
 Excessive rewards can even have a detrimental effect on tasks that people don't enjoy
+
 Those offered a carrot tend not to perform as well as those who don't expect to receive anything
 
 Job interviews => did the candidate appear to be a pleasant person?
@@ -34,7 +36,7 @@ Spontaneous trait transference = when you gossip about another person, listeners
 
 Bystander effect = the more people who around when a person is apparently in need of assistance, the lower the likelihood that any one person will actually help
 
-h3(header). Motivation
+### Motivation
 
 Fantasizing your perfect world may make you feel better (happiness, see above), but it is unlikely to help you transform your dreams into reality
 
@@ -43,7 +45,7 @@ Having the perfect plan, knowing how to beat procrastination, and employing a st
 Break goals into subgoals, with step-by-step processes
 * Remove Fear and hesitation
 
-Subgoals should be:
+#### Subgoals should be:
 * Concrete
 * Measurable
 * Time-based
@@ -57,7 +59,7 @@ Issue yourself a reward for being successful in your goals (and subgoals)
 
 Express goals, plans, benefits, and rewards in writing
 
-Chronic procrastinators (me!) causes:
+#### Chronic procrastinators (me!) causes:
 * Fear of failure
 * Perfectionism
 * Low levels of self-control
@@ -70,17 +72,17 @@ Starting an activity causes your mind to experience a kind of psychic anxiety (t
 
 Visualize the process of doing a task
 
-Process
-# Think about something you want to achieve
-# Spend a few moments thinking about reaching the goal and the top two benefits of the achievement
-# Same, with top two barriers and problems
-# Doublethink: reflect on the first benefit
-# Immediately think of biggest hurdle to success and what you can do if you encounter the hurdle
-# Same with second benefit
+#### Process
+1. Think about something you want to achieve
+2. Spend a few moments thinking about reaching the goal and the top two benefits of the achievement
+3. Same, with top two barriers and problems
+4. Doublethink: reflect on the first benefit
+5. Immediately think of biggest hurdle to success and what you can do if you encounter the hurdle
+6. Same with second benefit
 
 Think about how much you will regret not accomplishing your goal
 
-h3(header). Creativity
+### Creativity
 
 Work alone, not in groups
 
@@ -88,9 +90,9 @@ Think about your problem, then jump to a different hard, analytic task (Sudoku, 
 
 Add flowers and plants (real ones!) to your office
 
-Visually prime yourself 
+Visually prime yourself
 
-h3(header). Attraction
+### Attraction
 
 How much we desire and treasure an object depends, in part, on how easy it is to obtain
 
@@ -98,7 +100,7 @@ If you want to get someone to help you out, try the briefest of touches on the u
 
 Want bigger tips? Repeat the order back to your customers
 
-h3(header). Relationships
+### Relationships
 
 Activities associated with early courtship can help rekindle past passions
 
@@ -112,7 +114,7 @@ Positive comments have to outweight negative remarks by five to one
 
 Surround yourself with objects that remind you of your partner
 
-h3(header). Stress
+### Stress
 
 The venting of anger does not extinguish the flame
 
@@ -126,7 +128,7 @@ Get out in the Sun
 
 Get a dog
 
-h3(header). Decision Making
+### Decision Making
 
 Being in a group exaggerates people's opinions, causing them to make a more extreme decision than they would on their own
 
@@ -136,13 +138,13 @@ Get your foot in the door (start small and build up)
 
 People who are shown the options but then kept busy working on a difficult mental activity make better decisions than others do
 
-Containing regret (of a missed opportunity):
+#### Containing regret (of a missed opportunity):
 * Adapt a will do attitude
 * Remedy the situation (if possible)
 * Use the regret as a wake-up call
 * Think about the negative things that could have happened if you did the activity (or didn't) and focus on the positives that came from the missed opportunity
 
-Lying isn't like it is in the movies. Instead, look for:
+#### Lying isn't like it is in the movies. Instead, look for:
 * not moving arms and legs
 * cutting down of gestures
 * repeating the same phrases
@@ -151,7 +153,7 @@ Lying isn't like it is in the movies. Instead, look for:
 * pauses and hesitation
 * more uses of him and her, and less of I, me, and mine
 
-h3(header). Parenting
+### Parenting
 
 Listening to Mozart won't make your kid smarter long-term
 
@@ -162,29 +164,29 @@ Watch out for naming your kid with letters C or D, which are correlated to lower
 Children told they were intelligent are less likely to do challenging activities, and perform worst
 Instead, praise your children on their effort and how hard they try
 
-h3(header). Personality
+### Personality
 
-The big five (OCEAN):
-# Openness
-** Appreciates new, interesting, and unusual experiences
-# Conscientiousness
-** Organization, persistence, and self-discipline to achieve goals
-# Extroversion
-** Need for stimulation from the outside world and other people
-# Agreeableness
-** Degree to which a person cares about others
-# Neuroticism
-** Emotionally stability and ability to cope with potentially stressful situations
+#### The big five (OCEAN):
+1. Openness
+  * Appreciates new, interesting, and unusual experiences
+2. Conscientiousness
+  * Organization, persistence, and self-discipline to achieve goals
+3. Extroversion
+  * Need for stimulation from the outside world and other people
+4. Agreeableness
+  * Degree to which a person cares about others
+5. Neuroticism
+  * Emotionally stability and ability to cope with potentially stressful situations
 
-h3(header). Ten techniques in 59 seconds:
+### Ten techniques in 59 seconds:
 
-# Develop the gratitude attitude
-# Be a giver
-# Hang a mirror in your kitchen
-# Buy a potted plant for the office
-# Touch people lightly on th upper arm
-# Write about your relationship
-# Deal with potential liars by closing your eyes and asking for an email
-# Praise children's effort over their ability
-# Visualize yourself doing, not achieving
-# Consider your legacy
+1. Develop the gratitude attitude
+2. Be a giver
+3. Hang a mirror in your kitchen
+4. Buy a potted plant for the office
+5. Touch people lightly on th upper arm
+6. Write about your relationship
+7. Deal with potential liars by closing your eyes and asking for an email
+8. Praise children's effort over their ability
+9. Visualize yourself doing, not achieving
+10. Consider your legacy

@@ -5,24 +5,24 @@ categories: posts
 ---
 Read: May 2012
 
-h2(header). Quotes from the first four issues of Hacker Monthly
+## Quotes from the first four issues of Hacker Monthly
 
-2 Steps to becoming a great developer - Eric Davis
-# Write more code
-# Work with great developers
+### 2 Steps to becoming a great developer - Eric Davis
+1. Write more code
+2. Work with great developers
 
-7 Tips for Successful Self-Learning - Bradford Cross and Hamilton Ulmer
-# Longest path is the shortest and the shortest path is the longest
-# Avoid isolation
-# Avoid multitasking
-# You don't read through textbooks, you work through them
-# Build Eigencourses
-# What to do when you don't understand
-# There is nothing so practical as good theory - Kurt Lewin
+### 7 Tips for Successful Self-Learning - Bradford Cross and Hamilton Ulmer
+1. Longest path is the shortest and the shortest path is the longest
+2. Avoid isolation
+3. Avoid multitasking
+4. You don't read through textbooks, you work through them
+5. Build Eigencourses
+6. What to do when you don't understand
+7. There is nothing so practical as good theory - Kurt Lewin
 
-Leave the ad revenue and crazy business model revenue streams to the startups with venture funding. - Spencer Fry
+### Leave the ad revenue and crazy business model revenue streams to the startups with venture funding. - Spencer Fry
 
-How to become a millionaire in three years - Jason Baptiste
+### How to become a millionaire in three years - Jason Baptiste
 * Market opportunity
 * Leverage skills you know
 * Look in obscure places
@@ -33,7 +33,7 @@ How to become a millionaire in three years - Jason Baptiste
 * Get as many distribution channels as possible
 * Do not care about fameballing - become famous with your customers. They're the ones that truly matter.
 * Be an unrelenting machine - commit to your goals and do not waiver from them one bit regardless of what else is there.
-* Focus on the first $10,000 
+* Focus on the first $10,000
 * Be a master of information
 * Get out and be social
 * Say No way more than you say Yes
@@ -49,4 +49,4 @@ How to become a millionaire in three years - Jason Baptiste
 * Keep the momentum going
 * Learn how to filter
 
-Don't worry about managing the information - Clay Johnson
+### Don't worry about managing the information - Clay Johnson
