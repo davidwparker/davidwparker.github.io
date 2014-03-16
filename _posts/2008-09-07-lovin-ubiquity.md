@@ -4,7 +4,7 @@ title: Lovin Ubiquity
 categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/09/07/lovin-ubiquity/
 ---
-So Mozilla's <a href="http://labs.mozilla.com/2008/08/introducing-ubiquity/">Ubiquity</a> project is extremely cool.  If you haven't checked it out yet, do it now.  Ubiquity is an extremely efficient way to get around the web.
+So Mozilla's [Ubiquity](http://labs.mozilla.com/2008/08/introducing-ubiquity/) project is extremely cool.  If you haven't checked it out yet, do it now.  Ubiquity is an extremely efficient way to get around the web.
 
 I wanted an easy way to search rspec documentation.  Not wanting to work too hard, I just forked Jack Dempsey's code (which searched the Ruby documentation) and changed it to handle rspec instead.
 
@@ -22,10 +22,10 @@ CmdUtils.CreateCommand({
         var url       = "http://apidock.com/rspec/search?query={QUERY}&commit=Search"
         var urlString = url.replace("{QUERY}", directObject.text);
         Utils.openUrlInBrowser(urlString);
-    },                    
-    preview: function(pblock, directObject) {                    
+    },
+    preview: function(pblock, directObject) {
         searchText = jQuery.trim(directObject.text);
-        if(searchText.length <= 0) 
+        if(searchText.length <= 0)
         {
           pblock.innerHTML = "Search rspec function documentation";
           return;
@@ -33,11 +33,11 @@ CmdUtils.CreateCommand({
         var previewTemplate = "Search rspec function documentation of ${query}";
         var previewData     = {query: searchText};
         pblock.innerHTML    = CmdUtils.renderTemplate(previewTemplate, previewData);
-    }                    
+    }
 });
 {% endhighlight %}
 
-You can find it "here":http://gist.github.com/9310 on Github if you want to subscribe to it.
+You can find it [here](http://gist.github.com/9310) on Github if you want to subscribe to it.
 
 Edit: I also just created a decent one for searching on Colourlovers.com.  You can search for colors by colors.  And you can search for palettes by colors/hex.  Here it is:
 
@@ -109,4 +109,4 @@ CmdUtils.CreateCommand({
 });
 {% endhighlight %}
 
-and on "here":http://gist.github.com/9332 on Github
+and on [here](http://gist.github.com/9332) on Github

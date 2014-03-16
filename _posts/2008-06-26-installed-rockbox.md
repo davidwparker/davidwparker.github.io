@@ -6,7 +6,7 @@ oldurl: http://davidwparker.com/2008/06/26/installed-rockbox/
 ---
 Last night I finally got around to installing Rockbox on my iPod.  I've been meaning to do it for a while now, as I'm trying to transition to as many open source alternatives as possible*.  Anyway, it wasn't too much hassle, though it did end up taking a bit more time than I thought it should, and I did run into a few snags.
 
-So I went to Rockbox's "website":http://rockbox.org and went to the documentation for my 30gb iPod Video.  Reading through the instructions, I thought it would be simple enough, so I decided to try the automated installer (rbutilqt) rather than the manual install.
+So I went to Rockbox's [website](http://rockbox.org) and went to the documentation for my 30gb iPod Video.  Reading through the instructions, I thought it would be simple enough, so I decided to try the automated installer (rbutilqt) rather than the manual install.
 
 So I download rbutilqt, throw it in a folder, then I run it.  The user interface was very nice.  I select the autodetect button and it detects my iPod.  So far so good.  Then I click on the complete install and I get the nice *BOOM*  "No iPod could be found" error message.  Excellent.  Except for the fact that it was autodetected and I was able to drag and drop songs to and from it in RhythmBox.  Looking again at the manual, I go the check out the manual route.  I download the bootloader and run it.  Bam, once again, nothing.  Nice "No iPod could be found" error again.
 

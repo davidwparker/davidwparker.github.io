@@ -4,9 +4,9 @@ title: Site wide announcements in Rails using jQuery (jGrowl)
 categories: [posts, hascode]
 oldurl: http://davidwparker.com/2008/09/17/site-wide-announcements-in-rails-using-jquery-jgrowl/
 ---
-I like it when a site tells me that they're going to do some maintenance, so I wanted to implement similar features for a web application that I'm working on.  I based my announcements on Ryan Bates' "Railscasts episode 103":http://railscasts.com/episodes/103-site-wide-announcements and updated code based on avarhirion's post on the "Rails Forum":http://railsforum.com/post.php?tid=18705.  The major changes are the added changes for cookie support, graceful degradation, and jQuery (jGrowl).
+I like it when a site tells me that they're going to do some maintenance, so I wanted to implement similar features for a web application that I'm working on.  I based my announcements on Ryan Bates' [Railscasts episode 103](http://railscasts.com/episodes/103-site-wide-announcements) and updated code based on avarhirion's post on the [Rails Forum](http://railsforum.com/post.php?tid=18705).  The major changes are the added changes for cookie support, graceful degradation, and jQuery (jGrowl).
 
-If you'd rather, check out all the files on "Github":http://gist.github.com/11359.
+If you'd rather, check out all the files on [Github](http://gist.github.com/11359).
 
 **announcement.rb:**
 
@@ -38,7 +38,7 @@ map.hide_announcements '/hide_announcements', :controller => 'javascripts', :act
 {% endhighlight %}
 
 Here's the first of the important ones: **javascripts_controller.rb**.  Note that I'm setting the session and a cookie.  Also see my TODO.  I'd like to set the expiration date of the cookie to the oldest expiring active announcement.
-  
+
 {% highlight ruby %}
 class JavascriptsController < ApplicationController
   def hide_announcements
@@ -55,7 +55,7 @@ class JavascriptsController < ApplicationController
     def set_session(time)
       session[:announcement_hide_time] = time
     end
-    #TODO change expiration time to be the expiration 
+    #TODO change expiration time to be the expiration
     #date from the list in current_announcements
     def set_cookies(time)
       cookies[:announcement_hide_time] = {
@@ -79,7 +79,7 @@ def current_announcements
 end
 {% endhighlight %}
 
-Finally, to make it with the cool-kids, we need to add some jQuery.  So I decided to use the "jGrowl":http://stanlemon.net/projects/jgrowl.html plugin because it's awesome.  This code goes in your **application.js** file (somewhere in $(function){ //here })
+Finally, to make it with the cool-kids, we need to add some jQuery.  So I decided to use the [jGrowl](http://stanlemon.net/projects/jgrowl.html) plugin because it's awesome.  This code goes in your **application.js** file (somewhere in $(function){ //here })
 
 {% highlight javascript %}
   //jgrowl announcements. ajax GET to hide ann/store cookie
@@ -145,14 +145,14 @@ I'd like to leave you with a couple of specs that I wrote.  I attempted to do TD
     it "should return announcements since a time provided" do
       time = Time.now.utc
       Announcement.since.should == Announcement.find(
-            :all, 
+            :all,
             :conditions => (time ? ['updated_at > ? OR starts_at > ?', time.utc, time.utc] : nil))
     end
 
     it "should return announcements since a time provided (nil)" do
       time = nil
       Announcement.since.should == Announcement.find(
-            :all, 
+            :all,
             :conditions => (time ? ['updated_at > ? OR starts_at > ?', time.utc, time.utc] : nil))
     end
   end

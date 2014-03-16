@@ -44,7 +44,7 @@ My haml template looks like so:
     = submit_tag "Search", :name => nil
 {% endhighlight %}
 
-Nothing out of the ordinary here.  For this demonstration, suppose that I have previously defined STATE_LIST and PER_PAGE_LIST to be the list of states and the numbers for results per page that I want to offer my users the ability to select from.  In general your application will probably store the information for the drop downs in the database but if you just want to try something really quick, this will do the trick.  The PER_PAGE_LIST is only required if you're using the wonderful "will_paginate":http://github.com/mislav/will_paginate/tree/master plugin.
+Nothing out of the ordinary here.  For this demonstration, suppose that I have previously defined STATE_LIST and PER_PAGE_LIST to be the list of states and the numbers for results per page that I want to offer my users the ability to select from.  In general your application will probably store the information for the drop downs in the database but if you just want to try something really quick, this will do the trick.  The PER_PAGE_LIST is only required if you're using the wonderful [will_paginate](http://github.com/mislav/will_paginate/tree/master) plugin.
 
 Anyway, onto the controller:
 
@@ -77,6 +77,7 @@ I use the text field for the city as what I'm actually searching.  The state get
 That's it!  You can now define several drop down select filters!
 
 Required additional reading/watching:
-* Pat Allan's concise "guide":http://freelancing-gods.com/posts/a_concise_guide_to_using_thinking_sphinx to Thinking Sphinx.
-* Ryan Bate's Railscasts "episode":http://railscasts.com/episodes/120-thinking-sphinx on Thinking Sphinx.
-* Rein's "comparison":http://reinh.com/blog/2008/07/14/a-thinking-mans-sphinx.html of UltraSphinx and Thinking Sphinx.
+
+* Pat Allan's concise [guide](http://freelancing-gods.com/posts/a_concise_guide_to_using_thinking_sphinx) to Thinking Sphinx.
+* Ryan Bate's Railscasts [episode](http://railscasts.com/episodes/120-thinking-sphinx on Thinking Sphinx).
+* Rein's [comparison](http://reinh.com/blog/2008/07/14/a-thinking-mans-sphinx.html) of UltraSphinx and Thinking Sphinx.

@@ -8,9 +8,9 @@ I really like the 'pagination' that Facebook provides on their status tab.  It's
 
 <img src="/media/fb_bottomless_pagination.png" alt="Facebook Bottomless Pagination" title="Facebook Bottomless Pagination" />
 
-If you want to just change the result set and not add to it (with will_paginate), then I suggest checking out Chris' solution "here":http://ozmm.org/posts/ajax_will_paginate_jq_style.html, otherwise, read on...
+If you want to just change the result set and not add to it (with will_paginate), then I suggest checking out Chris' solution [here](http://ozmm.org/posts/ajax_will_paginate_jq_style.html), otherwise, read on...
 
-Anyway, I went ahead and created a plugin for jQuery based on the wonder Rails plugin "will_paginate":http://github.com/mislav/will_paginate/tree/master.  Introducing, jquery-bottomless-pagination.
+Anyway, I went ahead and created a plugin for jQuery based on the wonder Rails plugin [will_paginate](http://github.com/mislav/will_paginate/tree/master).  Introducing, jquery-bottomless-pagination.
 
 Usage:
 You should already be using the will_paginate plugin.
@@ -29,10 +29,10 @@ objName:'',
 callback:null
 {% endhighlight %}
 
-**ajaxLoaderPath** is the path to your image which will be displayed while the ajax call is being made.
-**results** is the CSS selector that jQuery will use to append the results of the ajax call to.
-**objName** is the name of the object that you would like displayed in the phrase "Show more (objName)..." and "There are no more (objName) to add..."
-**callback** is a function which you can provide to perform extra functions after the objects are appended, such as adding highlight or zebra effects.
+* **ajaxLoaderPath** is the path to your image which will be displayed while the ajax call is being made.
+* **results** is the CSS selector that jQuery will use to append the results of the ajax call to.
+* **objName** is the name of the object that you would like displayed in the phrase "Show more (objName)..." and "There are no more (objName) to add..."
+* **callback** is a function which you can provide to perform extra functions after the objects are appended, such as adding highlight or zebra effects.
 
 All of these settings can be utilized similarly to the following (this would be in your application.js file or something):
 
@@ -50,9 +50,9 @@ $.bottomlessPagination({objName:'rows', callback:function(){
 You may need to provide something like the following for Rails.
 
 {% highlight javascript %}
-$.ajaxSetup({ 
+$.ajaxSetup({
   'beforeSend': function(xhr) {
-    xhr.setRequestHeader("Accept","text/javascript")} 
+    xhr.setRequestHeader("Accept","text/javascript")}
 });
 {% endhighlight %}
 
@@ -77,4 +77,4 @@ and the partial:
     Your stuff here
 {% endhighlight %}
 
-That's it.  Be sure to check out the plugin in its entirety on "Github":http://github.com/davidwparker/jquery-bottomless-pagination/tree/master.  Feedback is always welcome.  Enjoy!
+That's it.  Be sure to check out the plugin in its entirety on [Github](http://github.com/davidwparker/jquery-bottomless-pagination/tree/master).  Feedback is always welcome.  Enjoy!
