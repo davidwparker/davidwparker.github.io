@@ -5,36 +5,36 @@ categories: [posts, opengl, hascode]
 ---
 I've spent a good bit of time recently doing quite a bit of C and OpenGL and I figured this would be a good time to post some OpenGL screencasts. This first screencast is an introduction to OpenGL 2.1 and GLUT.
 
-The code is available to download on "Github":https://github.com/davidwparker/opengl-screencasts-1
+The code is available to download on [Github](https://github.com/davidwparker/opengl-screencasts-1)
 
-"Download the screencast, 51.7 MB .mov":https://dl.dropboxusercontent.com/s/q96n5eyd9cvlrpb/episode-001.mov?dl=1
+[Download the screencast, 51.7 MB .mov](https://dl.dropboxusercontent.com/s/q96n5eyd9cvlrpb/episode-001.mov?dl=1)
 
-h2(header). Watch the Screencast
+## Watch the Screencast
 
-"YouTube":http://www.youtube.com/watch?v=QO4NTBWJQLg
+[YouTube](http://www.youtube.com/watch?v=QO4NTBWJQLg)
 
 <iframe width="425" height="349" src="http://www.youtube.com/embed/QO4NTBWJQLg?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
-h2(header). Resources
+## Resources
 
-* "OpenGL":http://www.opengl.org/ main site
-* "OpenGL Documentation":http://www.opengl.org/documentation/
-* "OpenGL wiki":http://www.opengl.org/wiki/Main_Page
-* "OpenGL Programming Guide":http://www.opengl-redbook.com/ (Red Book)
+* [OpenGL](http://www.opengl.org/) main site
+* [OpenGL Documentation](http://www.opengl.org/documentation/)
+* [OpenGL wiki](http://www.opengl.org/wiki/Main_Page)
+* [OpenGL Programming Guide](http://www.opengl-redbook.com/) (Red Book)
 
-h3(header). Great tutorials
+### Great tutorials
 
-* "Swiftless":http://www.swiftless.com/ Gaming Tutorials
-* "Lighthouse 3d":http://www.lighthouse3d.com/ OpenGL Tutorials
-* "Nehe":http://nehe.gamedev.net/ Various OpenGL Tutorials
+* [Swiftless](http://www.swiftless.com/) Gaming Tutorials
+* [Lighthouse 3d](http://www.lighthouse3d.com/) OpenGL Tutorials
+* [Nehe](http://nehe.gamedev.net/) Various OpenGL Tutorials
 
-h3(header). Other libraries (than GLUT)
+### Other libraries (than GLUT)
 
-* "SDL":http://www.libsdl.org/
-* "QT":http://qt.nokia.com/
-* "SFML":http://www.sfml-dev.org/
+* [SDL](http://www.libsdl.org/)
+* [QT](http://qt.nokia.com/)
+* [SFML](http://www.sfml-dev.org/)
 
-h2(header). Code
+## Code
 
 {% highlight c %}
 #include <stdio.h>
