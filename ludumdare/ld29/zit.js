@@ -56,8 +56,8 @@ Zit.prototype.growZit = function() {
   this.x = this.x - this.scale.x/100;
   this.y = this.y - this.scale.y/100;
 
-  // if this zit has grown 30 times, then explode
-  if (this.growth === 10) {
+  // if this zit has grown 20 times, then explode
+  if (this.growth === 20) {
     this.game.zitsExploded++;
   }
 };

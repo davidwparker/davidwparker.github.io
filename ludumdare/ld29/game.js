@@ -89,8 +89,7 @@ GameState.prototype.update = function() {
 };
 
 GameState.prototype.addZits = function() {
-  var max = Math.min(2*this.zitLoop, 6);
-  var z = this.game.rnd.integerInRange(this.zitLoop, max);
+  var z = this.game.rnd.integerInRange(1, 5);
   for (var i=0; i<z; i++) {
     this.game.zits.add(new Zit(this.game, this.game.world.randomY, SKIN_HEIGHT));
   }

@@ -46,7 +46,9 @@ Finger.prototype.update = function() {
   }
   */
   // X position
-  this.body.x = this.game.input.x-this.width/4;
+  if (!this.game.input.mousePointer.isDown) {
+    this.body.x = this.game.input.x; //-this.width/4;
+  }
 
   // Y position
   // while clicking
