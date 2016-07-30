@@ -5,7 +5,7 @@ permurl: "/apps/mortgage-calculator/"
 ---
 The Mortgage Calculator is now on the "Android Market":https://market.android.com/details?id=com.davidwparker.MortgageCalculator.
 
-h3(header). What is it?
+### What is it?
 
 The Mortgage Calculator enables you to see how much your monthly payment will be for a mortgage, given the number of years, amount of principal, and an interest rate.
 
@@ -17,16 +17,16 @@ This app is Ad-Free.
 
 If you have any issues, please let me know: this domain name AT gmail
 
-h3(header). What's new?
+### What's new?
 
-h4(header). 1.0.6
+#### 1.0.6
 
 Added menu option to set interest, time, and principal.
 
-h4(header). 1.0.5
+#### 1.0.5
 
 Fixed bugs caused by upper bounds for principal and interest. Upper bounds now set to 1,000,000,000 for principal and 30% for interest.
 
-h4(header). 1.0.1-1.0.4
+#### 1.0.1-1.0.4
 
 Fixed various bugs and decreased size of the app.

@@ -6,15 +6,16 @@ It's the first of March and I wanted to officially announce my attempt at "getti
 
 I have a friend who has done the whole getting big thing before and he did it extremely well.  He started off around 140, bulked up to 200+ or so, and is currently about 160+.  I asked him what the best way is to getting bigger.  His answer: "eat.  A lot."  His advice, in more detail, went something like this- basically, if I don't mind cutting fat after bulking up, then eating a lot is the best way to get big.  Compensate eating with whey protein for best results.  And of course, work out a lot (not so much cardio).  Obviously, I'll be gaining a fair share of fat with the muscle (which is what I mean when I say I want to getting big), so I'll definitely have to start cutting later.
 
-h2(header#goal). My goal:
+## My goal:
 
 145 lbs, body fat ~5-8% by August 1st.
 
-h2(header). Currently:
+## Currently:
 
-141 lbs, body fat ~15% 
+141 lbs, body fat ~15%
 
-h2(header#weight). Weight Gameplan:
+## Weight Gameplan:
+
 * End of February - 141 lbs
 * End of March - 146 lbs
 * End of April - 151 lbs
@@ -24,10 +25,10 @@ h2(header#weight). Weight Gameplan:
 
 So far, I'm on target, as I ended last month at 141 lbs.  I've been going to the gym at my apartment consistently for the last month too, and I can already tell I'm a little bigger.
 
-h2(header#workout). Workout Gameplan:
+## Workout Gameplan:
 
 Bulking workout: M/W/F- upper body/back, T/Th- abs/legs, S- cardio.
-Cutting workout: M/F- upper body/back, T/Th- abs/legs, M/T/Th/F/S- cardio. 
+Cutting workout: M/F- upper body/back, T/Th- abs/legs, M/T/Th/F/S- cardio.
 
 * Current - Mid-March - bulking, 4 sets.
 * Mid-March - Mid-April - bulking, 5 sets.
@@ -41,6 +42,6 @@ Cutting workout: M/F- upper body/back, T/Th- abs/legs, M/T/Th/F/S- cardio.
 One thing that I haven't gotten yet is some calipers to actually check my body fat percentage.  Once I have those, I'll update this blog post above.
 edit: I've updated my current body fat percentage.
 
-h2(header#so_far). So Far:
+## So Far:
 
 The biggest downside to the whole thing so far is that I feel tired of eating sometimes.  My metabolism has skyrocketed since I've started eating a lot more and working out a lot.  Of course, I still enjoy eating desserts, but I'm trying to stay semi-healthy.  I am a pretty good rut-eater though, so I should be good for eating a lot of the same stuff.  I'll keep you updated on that as well.

@@ -7,7 +7,7 @@ header: about me
 
 Last updated: 2/9/2014
 
-I'm a Christian, software developer | programmer | engineer, and entrepreneur.
+I'm a Christian, software developer / programmer / engineer, and entrepreneur.
 
 I'm happily married to a [Speech Pathologist](http://en.wikipedia.org/wiki/Speech_and_language_pathology). She helps old people, which I think is awesome that she is able to improve others' lives.
 
