@@ -1,6 +1,6 @@
 baseurl: /
 highlighter: rouge
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 future: false
 jekyll-press:
   exclude: ['atom.xml','sitemap.xml','*shaders*','*bootstrap*']
