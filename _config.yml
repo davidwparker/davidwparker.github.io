@@ -1,3 +1,4 @@
+baseurl: /
 highlighter: rouge
 permalink: /:year/:month/:day/:title
 future: false
