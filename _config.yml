@@ -1,4 +1,4 @@
-highlighter: rogue
+highlighter: rouge
 permalink: /:year/:month/:day/:title
 future: false
 jekyll-press:
