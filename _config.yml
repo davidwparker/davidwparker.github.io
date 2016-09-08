@@ -7,3 +7,5 @@ jekyll-press:
   js_options: {}
   css_options: {}
   html_options: {}
+gems:
+  - jekyll-redirect-from
