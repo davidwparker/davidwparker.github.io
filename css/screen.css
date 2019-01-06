@@ -83,6 +83,9 @@ time{font-family:"Courier New",monospace;}
   .content{margin:5px 5px 60px 5px;}
   h1 {font-size:30px;}
   nav ul {margin:0;}
-  nav ul li{margin:5px;}
-  .footer-content{margin: 0;}
+  nav ul li{padding:5px;}
+  nav ul li a{padding:0px;}
+  .footer-content{margin:0;}
+  .footer-content li{padding:0;}
+  .footer-content li a{padding:0;}
 }
