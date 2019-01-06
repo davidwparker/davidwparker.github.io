@@ -1,7 +1,7 @@
 ---
 title: "Book: Erasing Hell"
-layout: christianity
-categories: christianity
+layout: book
+categories: books
 ---
 * Read: May 2012
 * Rating: 8.5/10

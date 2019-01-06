@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android: How to float a row above the soft keyboard"
-categories: [posts, android]
+categories: [posts, code]
 ---
 Last time, I explained how to fix resizing and scrolling on Android (see "blog post here":/2011/08/25/android-fixing-window-resize-and-scrolling/).
 

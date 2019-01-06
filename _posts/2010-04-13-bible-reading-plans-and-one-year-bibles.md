@@ -1,6 +1,6 @@
 ---
-layout: christianity
-categories: christianity
+layout: book
+categories: books
 ---
 I recently finished reading one of those "read the Bible in one year" daily Bible...  It took approximately five years to read.  I have to say, after finishing it, I'm relieved and I'm probably never going to do one of those, or any "read the entire" Bible reading plans again.
 
@@ -8,7 +8,7 @@ I recently finished reading one of those "read the Bible in one year" daily Bibl
 
 ### Time
 
-The first reason and main reason I didn't like the one-year Bible is due to time.  It's kind of two-fold: first, some days I didn't have the time (in reality, I didn't set apart the time) and then I would fall behind on my reading.  This became cumulative and made me not want to read even more.  Second, I felt like I was attempting to wrap God around my schedule.  I may only have 15 minutes and so I would cram the day's reading to fit my misaligned schedule.  This is obviously not the way that someone wants to study The Word of God.  
+The first reason and main reason I didn't like the one-year Bible is due to time.  It's kind of two-fold: first, some days I didn't have the time (in reality, I didn't set apart the time) and then I would fall behind on my reading.  This became cumulative and made me not want to read even more.  Second, I felt like I was attempting to wrap God around my schedule.  I may only have 15 minutes and so I would cram the day's reading to fit my misaligned schedule.  This is obviously not the way that someone wants to study The Word of God.
 
 ### Guilt
 

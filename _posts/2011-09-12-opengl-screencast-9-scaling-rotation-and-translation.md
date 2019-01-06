@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 9 - Scaling, Rotation, and Translation"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast, I discuss scaling, rotation, and translation.
 

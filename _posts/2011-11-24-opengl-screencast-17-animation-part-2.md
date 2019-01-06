@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 17 - Animation Part 2"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I explain how to create animations using timers. Timers are generally much more robust than using typical idle functions. I also introduce using C structs to enhance the code.
 

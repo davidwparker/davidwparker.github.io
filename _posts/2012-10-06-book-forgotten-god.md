@@ -1,7 +1,7 @@
 ---
 title: "Book: Forgotten God"
-layout: christianity
-categories: christianity
+layout: book
+categories: books
 ---
 
 * Read: September 2012

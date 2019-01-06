@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 11 - Code Organization"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I discuss organizing OpenGL code. In general, this is how I have my code organized. I’m always up for change and better ways to do things though, so if you do things differently, please give me feedback.
 

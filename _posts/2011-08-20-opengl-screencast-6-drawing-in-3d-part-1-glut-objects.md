@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenGL Screencast 6 - Drawing in 3D part 1 - GLUT objects"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast, I discuss drawing in 3D using GLUT objects. I also show how to add a menu in GLUT.
 

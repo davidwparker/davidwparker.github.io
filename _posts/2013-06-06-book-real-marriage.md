@@ -1,7 +1,7 @@
 ---
 title: "Book: Real Marriage"
-layout: christianity
-categories: christianity
+layout: book
+categories: books
 ---
 
 * Read: April-June 2013

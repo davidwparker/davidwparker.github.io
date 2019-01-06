@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 14 - Textures Part 1"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I discuss using textures. I start by explaining loading a texture into texture memory from a bmp image. Next, I talk about how a texture is used a tied to a specific vertex.
 

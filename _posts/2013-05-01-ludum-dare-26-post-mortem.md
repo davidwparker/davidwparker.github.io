@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ludum Dare 26 Post Mortem - Minimalist Moe"
-categories: [posts, gamedev]
+categories: [posts, code]
 ---
 tldr; I did Ludum Dare 26 last weekend with the theme [Minimalism](http://www.ludumdare.com/compo/2013/04/24/welcome-to-ludum-dare-26/). This time I made a game called Minimalist Moe. I didn't learn a new framework this time, but used an old framework in a way that's it's not meant to be used and was slightly frustrated because of it: I used Three.js to make a 2D game. I also had issues with HTML5's audio API and GLSL ES shaders.
 

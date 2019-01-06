@@ -5,8 +5,7 @@
     name="description"
     content="David W Parker: a blog about web development, mobile development, game development,
       graphics, software, and entrepreneurship. I cover technologies such as webgl, opengl, ruby,
-      rails, python, django, javascript, jquery, java, android, ios, cocos2d, three.js, and more."
-  >
+      rails, python, django, javascript, jquery, java, android, ios, cocos2d, three.js, and more.">
   <meta
     name="keywords"
     content="webgl, opengl, graphics, ruby, rails, javascript, jquery, three.js, programming,
@@ -16,8 +15,7 @@
   <title>{{ page.title }}</title>
   <link
     href="http://feeds.feedburner.com/davidwparker"
-    rel="alternate"
-    title="david parker | software and web development"
+    rel="alternate" title="david parker | software and web development"
     type="application/atom+xml"
   />
   <link rel="stylesheet" href="/css/screen.css" />
@@ -33,38 +31,9 @@
   {% endfor %}
 </head>
 <body>
-<div class="container">
-  <header>
-    <hgroup>
-      <h1 class="header" title="davidwparker.com">
-        <a href="/">David W Parker - Developer</a>
-      </h1>
-    </hgroup>
-  </header>
-  <div id="content">
-    {{ content }}
-  </div>
+  {{ content }}
 </div>
-<nav>
-  <ul>
-    <li><a href="/">index</a></li>
-    <li><a href="https://codenameparker.com">portfolio</a></li>
-    <li><a href="/code/">code</a></li>
-    <li><a href="/books/">books</a></li>
-    <li><a href="/life/">life</a></li>
-    <li><a href="/goals/">goals</a></li>
-    <li><a href="/about/">about</a></li>
-  </ul>
-</nav>
-<footer>
-  <div class="footer-content">
-    <a href="http://github.com/davidwparker">github</a> |
-    <a href="http://twitter.com/davidwparker">twitter</a> |
-    <a href="http://youtube.com/user/iamdavidwparker">youtube</a> |
-    <a href="/">davidwparker.com</a> |
-    <span>copyright 2008-Today</span>
-  </div>
-</footer>
+
 <script type="text/javascript">
  var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-3039643-2']);

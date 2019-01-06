@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenGL Screencast 5 - Using GLUT for OpenGL interaction"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast, I discuss using GLUT for different OpenGL interactions, including the mouse and keyboard.
 

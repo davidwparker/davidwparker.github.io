@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast video tutorial HD 20 - Anti Aliasing"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I explain how to use Anti-Aliasing in your OpenGL program.
 

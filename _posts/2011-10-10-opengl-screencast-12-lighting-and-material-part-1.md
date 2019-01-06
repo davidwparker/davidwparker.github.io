@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 12 - Lighting and Material Part 1 - Setup and Normals"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I discuss using lighting in OpenGL. I discuss setting up lighting, as well as how normals work. Additionally, I mention how to determine if a user is pressing a modifier such as shift.
 

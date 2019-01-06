@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast video tutorial HD 23 - Tessellation"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I explain how to use tessellation in your OpenGL program.
 

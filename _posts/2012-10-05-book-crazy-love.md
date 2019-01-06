@@ -1,7 +1,7 @@
 ---
 title: "Book: Crazy Love"
-layout: christianity
-categories: christianity
+layout: book
+categories: books
 ---
 
 * Read: July-August 2012

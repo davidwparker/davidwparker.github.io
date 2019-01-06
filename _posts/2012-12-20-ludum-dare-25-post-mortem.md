@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ludum Dare 25 Post Mortem - Doggie Destroyer"
-categories: [posts, gamedev]
+categories: [posts, code]
 ---
 tldr; I did Ludum Dare 25 last weekend with the theme [You are the Villain](http://www.ludumdare.com/compo/2012/12/08/welcome-to-ludum-dare-25/) I made a game called "Doggie Destroyer": where you take on the role of a dog who is attempting to pee on fire hydrants without getting wet. I used Cocos2d-HTML5, CocosBuilder, InkScape, and Audacity.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android: fixing window resizing and scrolling"
-categories: [posts, android]
+categories: [posts, code]
 ---
 Recently, when I was working on an my forthcoming Exercise Android App, I was having an issue. When I clicked into a EditText box, then the soft keyboard would come up. So far, so good. But what was happening was the keyboard was covering a good portion of the EditText box until the user began to type.
 

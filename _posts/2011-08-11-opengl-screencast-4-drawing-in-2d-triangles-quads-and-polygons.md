@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenGL Screencast 4 - Drawing in 2D: Triangles, Quads, and Polygons"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast, I discuss drawing triangles, quads, and polygons in OpenGL.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast video tutorial HD 18 - Overlays"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I explain how to add an overlay to your OpenGL window. I also explain how to use glPushAttrib().
 

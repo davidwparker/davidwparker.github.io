@@ -1,7 +1,7 @@
 ---
 title: "Book: Don't Waste Your Life"
-layout: christianity
-categories: christianity
+layout: book
+categories: books
 ---
 Read: November-December 2012
 Rating: 8.5/10

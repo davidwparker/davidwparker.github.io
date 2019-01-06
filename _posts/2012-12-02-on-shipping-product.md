@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Shipping Product"
-categories: [posts, android, product]
+categories: [posts, code, product]
 ---
 ### tldr;
 

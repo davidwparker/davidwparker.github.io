@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast 10 - Push and Pop Matrix, and Complex Objects"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast, I discuss using glPushMatrix, glPopMatrix, and how they work. I also show how to create complex objects using push and pop.
 

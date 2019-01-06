@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenGL Screencast 3 - Drawing in 2D: Points and Lines"
-categories: [posts, opengl, hascode]
+categories: [posts, code, hascode]
 ---
 In this screencast, I discuss drawing points and lines in OpenGL. I also introduce the vector format for supplying variables to OpenGL functions.
 

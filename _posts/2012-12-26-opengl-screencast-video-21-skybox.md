@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGL screencast video tutorial HD 21 - Skybox"
-categories: [posts, opengl]
+categories: [posts, code]
 ---
 In this screencast (OpenGL video tutorial), I explain how to create a Skybox in your OpenGL program.
 
