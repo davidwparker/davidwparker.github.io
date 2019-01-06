@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <meta
     name="description"
     content="David W Parker: a blog about web development, mobile development, game development,
@@ -13,6 +14,7 @@
       computer programming, software engineering, business, entrepreneurship"
   >
   <meta name="author" content="David W Parker">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>{{ page.title }}</title>
   <link
     href="http://feeds.feedburner.com/davidwparker"
@@ -24,6 +26,7 @@
   {% if page.categories contains "hascode" %}
   <link rel="stylesheet" href="/css/highlight.css" />
   {% endif %}
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!--[if IE]>
     <link rel="stylesheet" href="/css/ie.css" media="screen, projection" />
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,35 +39,40 @@
 <div class="container">
   <header>
     <hgroup>
-      <h1 class="header" title="davidwparker.com">
-        <a href="/">David W Parker - Developer</a>
+      <h1 class="header">
+        <a href="/" title="davidwparker.com">
+          David W Parker - Developer
+        </a>
       </h1>
     </hgroup>
   </header>
-  <div id="content">
+  <nav>
+    <ul>
+      <li><a href="https://codenameparker.com">portfolio</a></li>
+      <li><a href="/code/">code</a></li>
+      <li><a href="/books/">books</a></li>
+      <li><a href="/life/">life</a></li>
+      <li><a href="/goals/">goals</a></li>
+      <li><a href="/about/">about</a></li>
+    </ul>
+  </nav>
+  <div class="content">
     {{ content }}
   </div>
+  <footer>
+    <ul class="footer-content">
+      <li>
+        <a href="http://www.programmingtil.com">ProgrammingTIL</a>
+      </li>
+      <li>
+        <a href="http://youtube.com/user/iamdavidwparker">YouTube</a>
+      </li>
+      <li>
+        copyright 2008-Today
+      </li>
+    </ul>
+  </footer>
 </div>
-<nav>
-  <ul>
-    <li><a href="/">index</a></li>
-    <li><a href="https://codenameparker.com">portfolio</a></li>
-    <li><a href="/code/">code</a></li>
-    <li><a href="/books/">books</a></li>
-    <li><a href="/life/">life</a></li>
-    <li><a href="/goals/">goals</a></li>
-    <li><a href="/about/">about</a></li>
-  </ul>
-</nav>
-<footer>
-  <div class="footer-content">
-    <a href="http://github.com/davidwparker">github</a> |
-    <a href="http://twitter.com/davidwparker">twitter</a> |
-    <a href="http://youtube.com/user/iamdavidwparker">youtube</a> |
-    <a href="/">davidwparker.com</a> |
-    <span>copyright 2008-Today</span>
-  </div>
-</footer>
 <script type="text/javascript">
  var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-3039643-2']);

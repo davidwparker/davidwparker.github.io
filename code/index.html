@@ -4,14 +4,14 @@ title: Code | david parker
 categories: code
 ---
 <h2 class="header">Code</h2>
-<ul>
+<ul class="posts">
   {% for post in site.categories.code %}
     <li><time datetime="{{ post.date | date_to_string_html5 }}">{{ post.date | date_to_string }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
 <h2 class="header">Ludum Dare Entries</h2>
-<ul>
+<ul class="posts">
   <li>
     Ludum Dare 29: Zits! |
     <a href="/ludumdare/ld29/">game</a> |

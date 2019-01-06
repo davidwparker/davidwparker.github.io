@@ -99,7 +99,7 @@ $(function() {
 	eventListeners();
 
 	// container
-	var $contents = $('#contents');
+	var $contents = $('.contents');
 	if ($contents.length > 0)
 	    $contents.remove();
 	container = document.createElement('div');
@@ -125,7 +125,7 @@ $(function() {
 	uniform = {
 	    time:{type:"f",value:1.0}
 	    , resolution:{type:"v2",value:new THREE.Vector2()}
-	}; 
+	};
 	for (var i = 0; i < 1000; i ++) {
 	    var rand = random(0,10);
 	    var material;

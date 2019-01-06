@@ -4,9 +4,9 @@ layout: default
 <article class="life">
   <a href="/">home</a> | <a href="/life/">life</a>
   <header>
-    <h1>
+    <h2>
       <a href="{{ page.url }}">{{ page.title }}</a>
-    </h1>
+    </h2>
     published on <time datetime="{{ page.date | date_to_string_html5 }}" pubdate>{{ page.date | date_to_string }}</time>
   </header>
 {{ content }}
