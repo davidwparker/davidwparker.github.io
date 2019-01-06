@@ -45,13 +45,13 @@ input.title {font-size:1.5em;}
 textarea {width:300px;height:200px;padding:5px;}
 
 /* application.css */
-.content{margin-bottom:60px;margin-left:20%;margin-right:20%;}
+.content{margin-bottom:60px;margin-left:30%;margin-right:30%;}
 h1 {font-size: 48px;font-weight: 700;}
 h2 {font-size: 36px;}
 h3 {font-size: 30px;}
 h4 {font-size: 26px;}
 nav{background-color:#3c9dd0;}
-nav ul{display:flex;justify-content:space-evenly;margin-left:20%;margin-right:20%;}
+nav ul{display:flex;justify-content:space-evenly;margin-left:30%;margin-right:30%;}
 nav ul li {padding:10px;}
 nav ul li a{color:#fff;padding:10px;}
 nav ul li a:focus, nav ul li a:hover{background-color:#c3d9ff;color:#024c68;}
@@ -59,7 +59,7 @@ h1.header{background-color:#3c9dd0;font-weight:700;text-align:center;}
 h1.header a{color:#fff;}
 h1.header a:focus, h1.header a:hover{background-color:#c3d9ff;color:#024c68;}
 footer{background-color:#3c9dd0;bottom:0px;color:#fff;height:50px;right:0px;position:fixed;width:100%;}
-.footer-content{display:flex;justify-content:space-evenly;height:100%;margin-left:20%;margin-right:20%;padding-top:3px;overflow:visible !important;}
+.footer-content{display:flex;justify-content:space-evenly;height:100%;margin-left:30%;margin-right:30%;padding-top:3px;overflow:visible !important;}
 .footer-content li{padding:10px;}
 .footer-content a,.footer-content span{color:#fff;padding:10px;}
 .footer-content a:focus, .footer-content a:hover{background-color:#c3d9ff;color:#024c68;}
@@ -76,8 +76,9 @@ table.cloned th{border-bottom:0px;}
 .content h1 a, .content h1 a:focus, .content h1 a:hover{text-decoration:none;}
 .content pre code{border:none;}
 .content pre {border:1px solid #DEDEDE !important;background-color:#F8F8FF !important;overflow:scroll;}
-.posts li{margin-bottom: 5px;}
-time{font-family:"Courier New",monospace;}
+.posts li{margin-bottom: 5px;display:flex;}
+.posts li time {flex: 1 0 0;font-style: italic;}
+.posts li a {flex: 3 0 0;}
 
 @media only screen and (max-width: 414px) {
   .content{margin:5px 5px 60px 5px;}
