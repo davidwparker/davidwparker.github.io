@@ -22,7 +22,7 @@
     title="david parker | software and web development"
     type="application/atom+xml"
   />
-  <link rel="stylesheet" href="/css/screen.css" />
+  <link rel="stylesheet" href="/css/screen.css?{{site.time | date: '%s%N'}}" />
   {% if page.categories contains "hascode" %}
   <link rel="stylesheet" href="/css/highlight.css" />
   {% endif %}
